@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="https://sakibulalikhan.github.io/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<url>
+<loc>https://sakibulalikhan.github.io/</loc>
+</url>
+<url>
+<loc>https://sakibulalikhan.github.io/aboutme.html</loc>
+<lastmod>2023-08-19T03:49:07+06:00</lastmod>
+<image:image>
+<image:loc>https://sakibulalikhan.github.io/media/posts/9/avatar.png</image:loc>
+<image:title><![CDATA[Sakibul Ali Khan Avatar]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://sakibulalikhan.github.io/bugged-tryhackme-ctf-writeup.html</loc>
+<lastmod>2023-08-19T03:10:42+06:00</lastmod>
+<image:image>
+<image:loc>https://sakibulalikhan.github.io/media/posts/5/Bugged.jpg</image:loc>
+<image:title><![CDATA[Bugged Tryhackme CTF Writeup]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://sakibulalikhan.github.io/how-to-limit-battery-charging-set-a-charge-threshold-for-asus-laptops-on-linux.html</loc>
+<lastmod>2023-08-19T03:06:48+06:00</lastmod>
+<image:image>
+<image:loc>https://sakibulalikhan.github.io/media/posts/3/Charge-Threshold.jpg</image:loc>
+<image:title><![CDATA[How To Limit Battery Charging (Set A Charge Threshold) For ASUS Laptops On Linux]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://sakibulalikhan.github.io/phonebook-htb-web-challenge-writeup.html</loc>
+<lastmod>2023-08-19T03:11:09+06:00</lastmod>
+<image:image>
+<image:loc>https://sakibulalikhan.github.io/media/posts/8/phonebook.jpg</image:loc>
+<image:title><![CDATA[Phonebook — HTB Web Challenge Writeup]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://sakibulalikhan.github.io/takeover-tryhackme-writeup.html</loc>
+<lastmod>2023-08-19T03:10:52+06:00</lastmod>
+<image:image>
+<image:loc>https://sakibulalikhan.github.io/media/posts/6/TakeOver.jpg</image:loc>
+<image:title><![CDATA[TakeOver TryHackMe Writeup]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://sakibulalikhan.github.io/templated-htb-web-challenge-writeup.html</loc>
+<lastmod>2023-08-19T03:11:00+06:00</lastmod>
+<image:image>
+<image:loc>https://sakibulalikhan.github.io/media/posts/7/Templated.jpg</image:loc>
+<image:title><![CDATA[Templated — HTB Web Challenge Writeup]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://sakibulalikhan.github.io/the-dirty-pipe-vulnerability-on-linux.html</loc>
+<lastmod>2023-08-19T03:14:55+06:00</lastmod>
+<image:image>
+<image:loc>https://sakibulalikhan.github.io/media/posts/2/The-Dirty-Pipe.jpg</image:loc>
+<image:title><![CDATA[The Dirty Pipe Vulnerability On Linux]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://sakibulalikhan.github.io/tryhackme-or-md2pdf-or-ctf-writeup.html</loc>
+<lastmod>2023-08-19T03:10:33+06:00</lastmod>
+<image:image>
+<image:loc>https://sakibulalikhan.github.io/media/posts/4/MD2PDF.jpg</image:loc>
+<image:title><![CDATA[TryHackMe MD2PDF CTF Writeup]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://sakibulalikhan.github.io/tryhackme-writeup-vulnnet-internal.html</loc>
+<lastmod>2023-08-19T03:10:01+06:00</lastmod>
+<image:image>
+<image:loc>https://sakibulalikhan.github.io/media/posts/1/vulnnetinternal.jpg</image:loc>
+<image:title><![CDATA[TryHackMe Writeup — VulnNet Internal]]></image:title>
+</image:image>
+</url>
+</urlset>
