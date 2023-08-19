@@ -1,6 +1,6 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Offensive Blogs",
+    "title": "Offens!ve Blogs",
     "description": "",
     "home_page_url": "https://sakibulalikhan.github.io",
     "feed_url": "https://sakibulalikhan.github.io/feed.json",
@@ -23,8 +23,7 @@
                    "Web Security",
                    "HackTheBox",
                    "HTB",
-                   "CTF Writeups",
-                   "CTF"
+                   "CTF Writeups"
             ],
             "date_published": "2023-08-19T02:19:19+06:00",
             "date_modified": "2023-08-19T03:11:09+06:00"
@@ -43,8 +42,7 @@
                    "Web Security",
                    "HackTheBox",
                    "HTB",
-                   "CTF Writeups",
-                   "CTF"
+                   "CTF Writeups"
             ],
             "date_published": "2023-08-19T02:18:10+06:00",
             "date_modified": "2023-08-19T03:11:00+06:00"
@@ -83,8 +81,7 @@
                    "Tryhackme",
                    "IoT Security",
                    "IoT",
-                   "CTF Writeups",
-                   "CTF"
+                   "CTF Writeups"
             ],
             "date_published": "2023-08-19T02:15:09+06:00",
             "date_modified": "2023-08-19T03:10:42+06:00"
@@ -102,8 +99,7 @@
             "tags": [
                    "Web Security",
                    "Tryhackme",
-                   "CTF Writeups",
-                   "CTF"
+                   "CTF Writeups"
             ],
             "date_published": "2023-08-19T02:04:46+06:00",
             "date_modified": "2023-08-19T03:10:33+06:00"
@@ -156,8 +152,7 @@
             },
             "tags": [
                    "Tryhackme",
-                   "CTF Writeups",
-                   "CTF"
+                   "CTF Writeups"
             ],
             "date_published": "2023-08-19T01:54:36+06:00",
             "date_modified": "2023-08-19T03:10:01+06:00"

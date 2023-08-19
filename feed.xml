@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>Offensive Blogs</title>
+    <title>Offens!ve Blogs</title>
     <link href="https://sakibulalikhan.github.io/feed.xml" rel="self" />
     <link href="https://sakibulalikhan.github.io" />
     <updated>2023-08-19T03:14:55+06:00</updated>
@@ -21,7 +21,6 @@
             <category term="HackTheBox"/>
             <category term="HTB"/>
             <category term="CTF Writeups"/>
-            <category term="CTF"/>
 
         <updated>2023-08-19T03:11:09+06:00</updated>
             <summary>
@@ -96,7 +95,6 @@
             <category term="HackTheBox"/>
             <category term="HTB"/>
             <category term="CTF Writeups"/>
-            <category term="CTF"/>
 
         <updated>2023-08-19T03:11:00+06:00</updated>
             <summary>
@@ -267,7 +265,6 @@
             <category term="IoT Security"/>
             <category term="IoT"/>
             <category term="CTF Writeups"/>
-            <category term="CTF"/>
 
         <updated>2023-08-19T03:10:42+06:00</updated>
             <summary>
@@ -357,7 +354,6 @@
             <category term="Web Security"/>
             <category term="Tryhackme"/>
             <category term="CTF Writeups"/>
-            <category term="CTF"/>
 
         <updated>2023-08-19T03:10:33+06:00</updated>
             <summary>
@@ -623,7 +619,6 @@
         <media:content url="https://sakibulalikhan.github.io/media/posts/1/vulnnetinternal.jpg" medium="image" />
             <category term="Tryhackme"/>
             <category term="CTF Writeups"/>
-            <category term="CTF"/>
 
         <updated>2023-08-19T03:10:01+06:00</updated>
             <summary>
