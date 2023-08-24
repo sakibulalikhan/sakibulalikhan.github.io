@@ -3,7 +3,7 @@
     <title>Offens!ve Blogs</title>
     <link href="https://sakibulalikhan.github.io/feed.xml" rel="self" />
     <link href="https://sakibulalikhan.github.io" />
-    <updated>2023-08-25T01:37:26+06:00</updated>
+    <updated>2023-08-25T01:41:52+06:00</updated>
     <author>
         <name>Sakibul Ali Khan</name>
     </author>
@@ -452,7 +452,7 @@
         <media:content url="https://sakibulalikhan.github.io/media/posts/3/Charge-Threshold.jpg" medium="image" />
             <category term="Linux"/>
 
-        <updated>2023-08-19T03:06:48+06:00</updated>
+        <updated>2023-08-25T01:41:52+06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sakibulalikhan.github.io/media/posts/3/Charge-Threshold.jpg" alt="How To Limit Battery Charging (Set A Charge Threshold) For ASUS Laptops On Linux" />
@@ -487,7 +487,7 @@
 </div>
 </figure>
 <p id="018c" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">We can change the value by simply running the following command in the terminal:</p>
-<p id="e832" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">For laptops with BAT0:</p>
+<h4 id="e832" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj">For laptops with BAT0:</h4>
 <pre class="yq yr ys yt yu abx abp aby abz ax gf bj"><span id="40a7" class="ze zf tu abp b fr aca acb l acc acd" data-selectable-paragraph="">echo 60 | sudo tee /sys/class/power_supply/BAT0/charge_control_end_threshold</span></pre>
 <figure class="yq yr ys yt yu yv kl km paragraph-image">
 <div class="acf acg dj ach bg aci" tabindex="0" role="button">
@@ -506,7 +506,7 @@
 </div>
 </figure>
 <p id="bcf7" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Now add the following lines at the end of the <strong class="ly kz">crontab</strong> file:</p>
-<p id="e99d" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">For BAT0:</p>
+<h4 id="e99d" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj"><strong>For BAT0:</strong></h4>
 <pre class="yq yr ys yt yu abx abp aby abz ax gf bj"><span id="ce27" class="ze zf tu abp b fr aca acb l acc acd" data-selectable-paragraph="">@reboot root echo 60 &gt; /sys/class/power_supply/BAT0/charge_control_end_threshold</span></pre>
 <figure class="yq yr ys yt yu yv kl km paragraph-image">
 <div class="acf acg dj ach bg aci" tabindex="0" role="button">
