@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>Offensive Blogs — Sakibul Ali Khan</title>
-    <link href="https://sakibulalikhan.github.io/feed.xml" rel="self" />
-    <link href="https://sakibulalikhan.github.io" />
+    <link href="https://sakibulalikhan.pages.dev/feed.xml" rel="self" />
+    <link href="https://sakibulalikhan.pages.dev" />
     <updated>2023-08-25T02:24:26+06:00</updated>
     <author>
         <name>Sakibul Ali Khan</name>
     </author>
-    <id>https://sakibulalikhan.github.io</id>
+    <id>https://sakibulalikhan.pages.dev</id>
 
     <entry>
         <title>Phonebook — HTB Web Challenge Writeup</title>
         <author>
             <name>Sakibul Ali Khan</name>
         </author>
-        <link href="https://sakibulalikhan.github.io/phonebook-htb-web-challenge-writeup.html"/>
-        <id>https://sakibulalikhan.github.io/phonebook-htb-web-challenge-writeup.html</id>
-        <media:content url="https://sakibulalikhan.github.io/media/posts/8/phonebook.jpg" medium="image" />
+        <link href="https://sakibulalikhan.pages.dev/phonebook-htb-web-challenge-writeup.html"/>
+        <id>https://sakibulalikhan.pages.dev/phonebook-htb-web-challenge-writeup.html</id>
+        <media:content url="https://sakibulalikhan.pages.dev/media/posts/8/phonebook.jpg" medium="image" />
             <category term="Web Security"/>
             <category term="HackTheBox"/>
             <category term="HTB"/>
@@ -25,13 +25,13 @@
         <updated>2023-08-25T02:24:26+06:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sakibulalikhan.github.io/media/posts/8/phonebook.jpg" alt="Phonebook — HTB Web Challenge Writeup" />
+                        <img src="https://sakibulalikhan.pages.dev/media/posts/8/phonebook.jpg" alt="Phonebook — HTB Web Challenge Writeup" />
                     CHALLENGE DESCRIPTION Who is lucky enough to be included&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://sakibulalikhan.github.io/media/posts/8/phonebook.jpg" class="type:primaryImage" alt="Phonebook — HTB Web Challenge Writeup" /></p>
+                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/8/phonebook.jpg" class="type:primaryImage" alt="Phonebook — HTB Web Challenge Writeup" /></p>
                 <p id="863c" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj aom msg--highlight  msg--info dropcap" data-selectable-paragraph=""><span class="l aon aoo aop bn aoq aor aos aot aou dj">C</span>HALLENGE DESCRIPTION</p>
 <p id="8ba0" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Who is lucky enough to be included in the phonebook?</p>
 <p id="2207" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">In the beginning, we first visit the web page and got a login page :))</p>
@@ -88,9 +88,9 @@
         <author>
             <name>Sakibul Ali Khan</name>
         </author>
-        <link href="https://sakibulalikhan.github.io/templated-htb-web-challenge-writeup.html"/>
-        <id>https://sakibulalikhan.github.io/templated-htb-web-challenge-writeup.html</id>
-        <media:content url="https://sakibulalikhan.github.io/media/posts/7/Templated.jpg" medium="image" />
+        <link href="https://sakibulalikhan.pages.dev/templated-htb-web-challenge-writeup.html"/>
+        <id>https://sakibulalikhan.pages.dev/templated-htb-web-challenge-writeup.html</id>
+        <media:content url="https://sakibulalikhan.pages.dev/media/posts/7/Templated.jpg" medium="image" />
             <category term="Web Security"/>
             <category term="HackTheBox"/>
             <category term="HTB"/>
@@ -99,13 +99,13 @@
         <updated>2023-08-25T01:01:47+06:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sakibulalikhan.github.io/media/posts/7/Templated.jpg" alt="Templated — HTB Web Challenge Writeup" />
+                        <img src="https://sakibulalikhan.pages.dev/media/posts/7/Templated.jpg" alt="Templated — HTB Web Challenge Writeup" />
                     CHALLENGE DESCRIPTION First Start Instance and then you are&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://sakibulalikhan.github.io/media/posts/7/Templated.jpg" class="type:primaryImage" alt="Templated — HTB Web Challenge Writeup" /></p>
+                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/7/Templated.jpg" class="type:primaryImage" alt="Templated — HTB Web Challenge Writeup" /></p>
                 <p id="7abf" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj aom dropcap" data-selectable-paragraph=""><span class="l aon aoo aop bn aoq aor aos aot aou dj">C</span>HALLENGE DESCRIPTION</p>
 <h2 id="8d9c" class="ze zf tu be zg la zh do ld le zi dq lh li zj lj lm ln zk lo lr ls zl lt lw zm bj" data-selectable-paragraph="">Can you exploit this simple mistake?</h2>
 <p id="e467" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">First Start Instance and then you are provided with an <code class="ff abm abn abo abp b">web address</code> in the form of <code class="ff abm abn abo abp b">&lt;ip&gt;:&lt;port&gt;</code>. Copy it and open it in another tab or browser. In my case it was <a class="af rn" href="http://134.209.18.1:30563/" rel="noopener ugc nofollow" target="_blank">http://134.209.18.1:30563</a></p>
@@ -153,9 +153,9 @@
         <author>
             <name>Sakibul Ali Khan</name>
         </author>
-        <link href="https://sakibulalikhan.github.io/takeover-tryhackme-writeup.html"/>
-        <id>https://sakibulalikhan.github.io/takeover-tryhackme-writeup.html</id>
-        <media:content url="https://sakibulalikhan.github.io/media/posts/6/TakeOver.jpg" medium="image" />
+        <link href="https://sakibulalikhan.pages.dev/takeover-tryhackme-writeup.html"/>
+        <id>https://sakibulalikhan.pages.dev/takeover-tryhackme-writeup.html</id>
+        <media:content url="https://sakibulalikhan.pages.dev/media/posts/6/TakeOver.jpg" medium="image" />
             <category term="Web Security"/>
             <category term="Tryhackme"/>
             <category term="Subdomain Enumerations"/>
@@ -165,13 +165,13 @@
         <updated>2023-08-24T23:56:08+06:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sakibulalikhan.github.io/media/posts/6/TakeOver.jpg" alt="TakeOver TryHackMe Writeup" />
+                        <img src="https://sakibulalikhan.pages.dev/media/posts/6/TakeOver.jpg" alt="TakeOver TryHackMe Writeup" />
                     Recently blackhat hackers approached us saying they could takeover&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://sakibulalikhan.github.io/media/posts/6/TakeOver.jpg" class="type:primaryImage" alt="TakeOver TryHackMe Writeup" /></p>
+                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/6/TakeOver.jpg" class="type:primaryImage" alt="TakeOver TryHackMe Writeup" /></p>
                 <p id="4842" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Recently blackhat hackers approached us saying they could takeover and are asking us for a big ransom. Please help us to find what they can takeover.</p>
 <p id="e010" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Our website is located at <a class="af rn" href="https://futurevera.thm/" rel="noopener ugc nofollow" target="_blank">https://futurevera.thm</a></p>
 <h1 id="649a" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj" data-selectable-paragraph="">Difficulty = Easy</h1>
@@ -256,9 +256,9 @@
         <author>
             <name>Sakibul Ali Khan</name>
         </author>
-        <link href="https://sakibulalikhan.github.io/bugged-tryhackme-ctf-writeup.html"/>
-        <id>https://sakibulalikhan.github.io/bugged-tryhackme-ctf-writeup.html</id>
-        <media:content url="https://sakibulalikhan.github.io/media/posts/5/Bugged.jpg" medium="image" />
+        <link href="https://sakibulalikhan.pages.dev/bugged-tryhackme-ctf-writeup.html"/>
+        <id>https://sakibulalikhan.pages.dev/bugged-tryhackme-ctf-writeup.html</id>
+        <media:content url="https://sakibulalikhan.pages.dev/media/posts/5/Bugged.jpg" medium="image" />
             <category term="Tryhackme"/>
             <category term="IoT Security"/>
             <category term="IoT"/>
@@ -267,13 +267,13 @@
         <updated>2023-08-25T01:37:26+06:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sakibulalikhan.github.io/media/posts/5/Bugged.jpg" alt="Bugged Tryhackme CTF Writeup" />
+                        <img src="https://sakibulalikhan.pages.dev/media/posts/5/Bugged.jpg" alt="Bugged Tryhackme CTF Writeup" />
                     John was working on his smart home appliances when he&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://sakibulalikhan.github.io/media/posts/5/Bugged.jpg" class="type:primaryImage" alt="Bugged Tryhackme CTF Writeup" /></p>
+                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/5/Bugged.jpg" class="type:primaryImage" alt="Bugged Tryhackme CTF Writeup" /></p>
                 <p id="ee57" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">John</strong> was working on his smart home appliances when he noticed weird traffic going across the network. Can you help him figure out what these weird network communications are?</p>
 <h1 id="a92b" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj" data-selectable-paragraph="">Difficulty = Easy</h1>
 <p id="c5ce" class="pw-post-body-paragraph xw xx tu ly b xy abh ya yb yc abi ye yf li abj yh yi ln abk yk yl ls abl yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Challenges: Network Analyze, IoT Hacking.</strong></p>
@@ -344,9 +344,9 @@
         <author>
             <name>Sakibul Ali Khan</name>
         </author>
-        <link href="https://sakibulalikhan.github.io/tryhackme-or-md2pdf-or-ctf-writeup.html"/>
-        <id>https://sakibulalikhan.github.io/tryhackme-or-md2pdf-or-ctf-writeup.html</id>
-        <media:content url="https://sakibulalikhan.github.io/media/posts/4/MD2PDF.jpg" medium="image" />
+        <link href="https://sakibulalikhan.pages.dev/tryhackme-or-md2pdf-or-ctf-writeup.html"/>
+        <id>https://sakibulalikhan.pages.dev/tryhackme-or-md2pdf-or-ctf-writeup.html</id>
+        <media:content url="https://sakibulalikhan.pages.dev/media/posts/4/MD2PDF.jpg" medium="image" />
             <category term="Web Security"/>
             <category term="Tryhackme"/>
             <category term="CTF Writeups"/>
@@ -354,13 +354,13 @@
         <updated>2023-08-19T03:10:33+06:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sakibulalikhan.github.io/media/posts/4/MD2PDF.jpg" alt="TryHackMe MD2PDF CTF Writeup" />
+                        <img src="https://sakibulalikhan.pages.dev/media/posts/4/MD2PDF.jpg" alt="TryHackMe MD2PDF CTF Writeup" />
                     MD2PDF 🚀 TopTierConversions LTD is proud to present its latest&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://sakibulalikhan.github.io/media/posts/4/MD2PDF.jpg" class="type:primaryImage" alt="TryHackMe MD2PDF CTF Writeup" /></p>
+                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/4/MD2PDF.jpg" class="type:primaryImage" alt="TryHackMe MD2PDF CTF Writeup" /></p>
                 <p id="1a74" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">MD2PDF</strong> 🚀 TopTierConversions LTD is proud to present its latest product launch. This easy-to-use utility converts markdown files to PDF and is totally secure! Right…?</p>
 <h1 id="838c" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj" data-selectable-paragraph="">Difficulty = Easy</h1>
 <p id="0d0c" class="pw-post-body-paragraph xw xx tu ly b xy abh ya yb yc abi ye yf li abj yh yi ln abk yk yl ls abl yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Challenges:</strong> PDF, Markdown, SSRF.</p>
@@ -447,21 +447,21 @@
         <author>
             <name>Sakibul Ali Khan</name>
         </author>
-        <link href="https://sakibulalikhan.github.io/how-to-limit-battery-charging-set-a-charge-threshold-for-asus-laptops-on-linux.html"/>
-        <id>https://sakibulalikhan.github.io/how-to-limit-battery-charging-set-a-charge-threshold-for-asus-laptops-on-linux.html</id>
-        <media:content url="https://sakibulalikhan.github.io/media/posts/3/Charge-Threshold.jpg" medium="image" />
+        <link href="https://sakibulalikhan.pages.dev/how-to-limit-battery-charging-set-a-charge-threshold-for-asus-laptops-on-linux.html"/>
+        <id>https://sakibulalikhan.pages.dev/how-to-limit-battery-charging-set-a-charge-threshold-for-asus-laptops-on-linux.html</id>
+        <media:content url="https://sakibulalikhan.pages.dev/media/posts/3/Charge-Threshold.jpg" medium="image" />
             <category term="Linux"/>
 
         <updated>2023-08-25T01:41:52+06:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sakibulalikhan.github.io/media/posts/3/Charge-Threshold.jpg" alt="How To Limit Battery Charging (Set A Charge Threshold) For ASUS Laptops On Linux" />
+                        <img src="https://sakibulalikhan.pages.dev/media/posts/3/Charge-Threshold.jpg" alt="How To Limit Battery Charging (Set A Charge Threshold) For ASUS Laptops On Linux" />
                     Nowadays Asus laptops have a preinstalled program called Asus Battery&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://sakibulalikhan.github.io/media/posts/3/Charge-Threshold.jpg" class="type:primaryImage" alt="How To Limit Battery Charging (Set A Charge Threshold) For ASUS Laptops On Linux" /></p>
+                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/3/Charge-Threshold.jpg" class="type:primaryImage" alt="How To Limit Battery Charging (Set A Charge Threshold) For ASUS Laptops On Linux" /></p>
                 <div class="fp tp tq tr ts">
 <div class="ab cm">
 <div class="gv bg gw gx gy gz">
@@ -537,9 +537,9 @@
         <author>
             <name>Sakibul Ali Khan</name>
         </author>
-        <link href="https://sakibulalikhan.github.io/the-dirty-pipe-vulnerability-on-linux.html"/>
-        <id>https://sakibulalikhan.github.io/the-dirty-pipe-vulnerability-on-linux.html</id>
-        <media:content url="https://sakibulalikhan.github.io/media/posts/2/The-Dirty-Pipe.jpg" medium="image" />
+        <link href="https://sakibulalikhan.pages.dev/the-dirty-pipe-vulnerability-on-linux.html"/>
+        <id>https://sakibulalikhan.pages.dev/the-dirty-pipe-vulnerability-on-linux.html</id>
+        <media:content url="https://sakibulalikhan.pages.dev/media/posts/2/The-Dirty-Pipe.jpg" medium="image" />
             <category term="Pentesting"/>
             <category term="Linux Privilege Escalation"/>
             <category term="Linux"/>
@@ -549,13 +549,13 @@
         <updated>2023-08-25T01:46:21+06:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sakibulalikhan.github.io/media/posts/2/The-Dirty-Pipe.jpg" alt="The Dirty Pipe Vulnerability On Linux" />
+                        <img src="https://sakibulalikhan.pages.dev/media/posts/2/The-Dirty-Pipe.jpg" alt="The Dirty Pipe Vulnerability On Linux" />
                     Hi, folks. I wanna talk about CVE-2022–0847. &amp; it's called&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://sakibulalikhan.github.io/media/posts/2/The-Dirty-Pipe.jpg" class="type:primaryImage" alt="The Dirty Pipe Vulnerability On Linux" /></p>
+                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/2/The-Dirty-Pipe.jpg" class="type:primaryImage" alt="The Dirty Pipe Vulnerability On Linux" /></p>
                 <p id="1fb8" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Hi, folks. I wanna talk about <a class="af rn" href="https://nvd.nist.gov/vuln/detail/cve-2022-0847" rel="noopener ugc nofollow" target="_blank">CVE-2022–0847</a>. &amp; it's called Dirty pipe vulnerability. This is a vulnerability in the Linux kernel since 5.8 which allows overwriting data in arbitrary read-only files. This leads to privilege escalation because unprivileged processes can inject code into root processes.</p>
 <p id="628e" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">The vulnerability was discovered by Max Kellermann in April 2021. The bug report, exploit, and patch was sent to the <a class="af rn" href="https://www.kernel.org/doc/html/latest/admin-guide/security-bugs.html" rel="noopener ugc nofollow" target="_blank">Linux kernel security team</a> by Kellermann on February 20. The bug was reproduced on Google Pixel 6 and a bug report was sent to the Android Security Team.</p>
 <p id="8352" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">He also sends mail to oss-security about the vulnerability he found.</p>
@@ -610,22 +610,22 @@
         <author>
             <name>Sakibul Ali Khan</name>
         </author>
-        <link href="https://sakibulalikhan.github.io/tryhackme-writeup-vulnnet-internal.html"/>
-        <id>https://sakibulalikhan.github.io/tryhackme-writeup-vulnnet-internal.html</id>
-        <media:content url="https://sakibulalikhan.github.io/media/posts/1/vulnnetinternal.jpg" medium="image" />
+        <link href="https://sakibulalikhan.pages.dev/tryhackme-writeup-vulnnet-internal.html"/>
+        <id>https://sakibulalikhan.pages.dev/tryhackme-writeup-vulnnet-internal.html</id>
+        <media:content url="https://sakibulalikhan.pages.dev/media/posts/1/vulnnetinternal.jpg" medium="image" />
             <category term="Tryhackme"/>
             <category term="CTF Writeups"/>
 
         <updated>2023-08-25T01:54:10+06:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sakibulalikhan.github.io/media/posts/1/vulnnetinternal.jpg" alt="TryHackMe Writeup — VulnNet Internal" />
+                        <img src="https://sakibulalikhan.pages.dev/media/posts/1/vulnnetinternal.jpg" alt="TryHackMe Writeup — VulnNet Internal" />
                     VulnNet: Internal is a Easy/Medium level Box. It includes enumerating&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://sakibulalikhan.github.io/media/posts/1/vulnnetinternal.jpg" class="type:primaryImage" alt="TryHackMe Writeup — VulnNet Internal" /></p>
+                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/1/vulnnetinternal.jpg" class="type:primaryImage" alt="TryHackMe Writeup — VulnNet Internal" /></p>
                 <p id="dc75" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">VulnNet: Internal</strong> is a Easy/Medium level Box. It includes enumerating different services and finding useful information to gain user access. For privilege escalation we have to use port forwarding to access TeamCity service and then we can run commands as root user.</p>
 <p id="7e0a" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">TryHackMe Room Link: <a class="af rn" href="https://tryhackme.com/room/vulnnetinternal" rel="noopener ugc nofollow" target="_blank">https://tryhackme.com/room/vulnnetinternal</a></p>
 <h4><strong>There are four flags that need to be submitted in order to complete the challenge:</strong></h4>
