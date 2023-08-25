@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
-    <title>Offens!ve Blogs</title>
+    <title>Offensive Blogs — Sakibul Ali Khan</title>
     <link href="https://sakibulalikhan.github.io/feed.xml" rel="self" />
     <link href="https://sakibulalikhan.github.io" />
-    <updated>2023-08-25T01:54:10+06:00</updated>
+    <updated>2023-08-25T02:24:26+06:00</updated>
     <author>
         <name>Sakibul Ali Khan</name>
     </author>
@@ -22,7 +22,7 @@
             <category term="HTB"/>
             <category term="CTF Writeups"/>
 
-        <updated>2023-08-19T03:11:09+06:00</updated>
+        <updated>2023-08-25T02:24:26+06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sakibulalikhan.github.io/media/posts/8/phonebook.jpg" alt="Phonebook — HTB Web Challenge Writeup" />
@@ -54,7 +54,7 @@
 </div>
 </figure>
 <p id="d641" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">After viewing the source code of the webpage, I guess there might be a DOM-based XSS vulnerability. So, let’s try.</p>
-<p id="f898" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">XSS Payload:</p>
+<p id="f898" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong>XSS Payload:</strong></p>
 <pre class="yq yr ys yt yu abx abp anr bo ans ba bj"><span id="690e" class="ant zf tu abp b bf anu anv l anw acd" data-selectable-paragraph="">http://206.189.121.131:30184/login?message=&lt;img src=<span class="hljs-string">'x'</span> onerror=<span class="hljs-string">'alert(1)'</span>&gt;</span></pre>
 <figure class="yq yr ys yt yu yv kl km paragraph-image">
 <div class="acf acg dj ach bg aci" tabindex="0" role="button">
