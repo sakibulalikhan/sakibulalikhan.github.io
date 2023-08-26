@@ -3,7 +3,7 @@
     <title>Offensive Blogs — Sakibul Ali Khan</title>
     <link href="https://sakibulalikhan.pages.dev/feed.xml" rel="self" />
     <link href="https://sakibulalikhan.pages.dev" />
-    <updated>2023-08-27T04:18:07+06:00</updated>
+    <updated>2023-08-27T04:50:41+06:00</updated>
     <author>
         <name>Sakibul Ali Khan</name>
     </author>
@@ -20,10 +20,10 @@
             <category term="Web Security"/>
             <category term="Tryhackme"/>
             <category term="Python"/>
-            <category term="Pentesting"/>
+            <category term="CTF Writeups"/>
             <category term="Brute Force"/>
 
-        <updated>2023-08-27T04:18:07+06:00</updated>
+        <updated>2023-08-27T04:50:41+06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sakibulalikhan.pages.dev/media/posts/12/thm-capture-hero.png" alt="Capture TryHackMe Writeup" />
