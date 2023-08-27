@@ -3,7 +3,7 @@
     <title>Offensive Blogs — Sakibul Ali Khan</title>
     <link href="https://sakibulalikhan.pages.dev/feed.xml" rel="self" />
     <link href="https://sakibulalikhan.pages.dev" />
-    <updated>2023-08-27T04:56:11+06:00</updated>
+    <updated>2023-08-27T12:57:53+06:00</updated>
     <author>
         <name>Sakibul Ali Khan</name>
     </author>
@@ -23,7 +23,7 @@
             <category term="CTF Writeups"/>
             <category term="Brute Force"/>
 
-        <updated>2023-08-27T04:56:11+06:00</updated>
+        <updated>2023-08-27T12:57:53+06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sakibulalikhan.pages.dev/media/posts/12/thm-capture-hero.png" alt="Capture TryHackMe Writeup" />
@@ -94,7 +94,7 @@
 <p data-selectable-paragraph="">You can check this links:</p>
 <ul>
 <li><a href="https://github.com/sakibulalikhan/thm-capture">https://github.com/sakibulalikhan/thm-capture</a></li>
-<li><a href="https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Authentication_Cheat_Sheet.md#authentication-and-error-messages">https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Authentication_Cheat_Sheet.md#authentication-and-error-messages</a></li>
+<li><a href="https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Authentication_Cheat_Sheet.md#authentication-and-error-messages" target="_blank" rel="noopener noreferrer">OWASP Authentication Cheat Sheet</a></li>
 <li><a class="af lk" href="https://requests.readthedocs.io/en/latest/user/quickstart/" rel="noopener ugc nofollow" target="_blank">https://requests.readthedocs.io/en/latest/user/quickstart/</a></li>
 <li><a href="https://pythex.org/">https://pythex.org/</a></li>
 </ul>
