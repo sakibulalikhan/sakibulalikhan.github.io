@@ -3,7 +3,7 @@
     <title>Offens!ve Blogs - Sakibul Ali Khan</title>
     <link href="https://sakibulalikhan.pages.dev/feed.xml" rel="self" />
     <link href="https://sakibulalikhan.pages.dev" />
-    <updated>2024-01-07T10:55:56+06:00</updated>
+    <updated>2024-01-29T16:56:52+06:00</updated>
     <author>
         <name>Sakibul Ali Khan</name>
     </author>
@@ -68,7 +68,7 @@
         </author>
         <link href="https://sakibulalikhan.pages.dev/capture-tryhackme-writeup.html"/>
         <id>https://sakibulalikhan.pages.dev/capture-tryhackme-writeup.html</id>
-        <media:content url="https://sakibulalikhan.pages.dev/media/posts/9/Capture-TryHackMe-Writeup.png" medium="image" />
+        <media:content url="https://sakibulalikhan.pages.dev/media/posts/9/Capture-TryHackMe-Writeup-2.png" medium="image" />
             <category term="Web Security"/>
             <category term="TryHackMe"/>
             <category term="Python"/>
@@ -77,16 +77,16 @@
             <category term="Hacking Tools"/>
             <category term="CTF Writeups"/>
 
-        <updated>2024-01-07T10:52:32+06:00</updated>
+        <updated>2024-01-29T16:26:18+06:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sakibulalikhan.pages.dev/media/posts/9/Capture-TryHackMe-Writeup.png" alt="Capture TryHackMe Writeup" />
+                        <img src="https://sakibulalikhan.pages.dev/media/posts/9/Capture-TryHackMe-Writeup-2.png" alt="Capture TryHackMe Writeup" />
                     SecureSolaCoders has once again developed a web application. They were tired of hackers enumerating and exploiting their previous login form. They thought a Web Application&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/9/Capture-TryHackMe-Writeup.png" class="type:primaryImage" alt="Capture TryHackMe Writeup" /></p>
+                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/9/Capture-TryHackMe-Writeup-2.png" class="type:primaryImage" alt="Capture TryHackMe Writeup" /></p>
                 <div class="post__entry">
 <p id="c45e" class="pw-post-body-paragraph li lj fo lk b ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma mb mc md me mf fh bj" data-selectable-paragraph="">SecureSolaCoders has once again developed a web application. They were tired of hackers enumerating and exploiting their previous login form. They thought a Web Application Firewall (WAF) was too overkill and unnecessary, so they developed their own rate limiter and modified the code slightly<strong class="lk fp">.</strong></p>
 <p id="5273" class="mg mh fo be mi mj mk ml mm mn mo mp mq mr ms mt mu mv mw mx my mz na nb nc nd bj"><strong>Difficulty = </strong>Easy</p>
@@ -179,22 +179,22 @@
         </author>
         <link href="https://sakibulalikhan.pages.dev/phonebook-htb-web-challenge-writeup.html"/>
         <id>https://sakibulalikhan.pages.dev/phonebook-htb-web-challenge-writeup.html</id>
-        <media:content url="https://sakibulalikhan.pages.dev/media/posts/8/phonebook-lg.jpg" medium="image" />
+        <media:content url="https://sakibulalikhan.pages.dev/media/posts/8/Phonebook-HTB-Web-Challenge-Writeup1.png" medium="image" />
             <category term="Web Security"/>
             <category term="Pentesting"/>
             <category term="HackTheBox"/>
             <category term="CTF Writeups"/>
 
-        <updated>2024-01-07T10:49:22+06:00</updated>
+        <updated>2024-01-29T16:56:52+06:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sakibulalikhan.pages.dev/media/posts/8/phonebook-lg.jpg" alt="Phonebook — HTB Web Challenge Writeup" />
+                        <img src="https://sakibulalikhan.pages.dev/media/posts/8/Phonebook-HTB-Web-Challenge-Writeup1.png" alt="Phonebook — HTB Web Challenge Writeup" />
                     CHALLENGE DESCRIPTION Who is lucky enough to be included in the phonebook? In the beginning, we first visit the web page and got a login&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/8/phonebook-lg.jpg" class="type:primaryImage" alt="Phonebook — HTB Web Challenge Writeup" /></p>
+                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/8/Phonebook-HTB-Web-Challenge-Writeup1.png" class="type:primaryImage" alt="Phonebook — HTB Web Challenge Writeup" /></p>
                 <div class="post__entry">
 <p id="863c" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj aom msg--highlight msg--info dropcap" data-selectable-paragraph=""><span class="l aon aoo aop bn aoq aor aos aot aou dj">C</span>HALLENGE DESCRIPTION</p>
 <p id="8ba0" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Who is lucky enough to be included in the phonebook?</p>
