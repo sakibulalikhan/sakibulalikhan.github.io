@@ -3,7 +3,7 @@
     <title>Offens!ve Blogs - Sakibul Ali Khan</title>
     <link href="https://sakibulalikhan.pages.dev/feed.xml" rel="self" />
     <link href="https://sakibulalikhan.pages.dev" />
-    <updated>2024-01-30T00:48:13+06:00</updated>
+    <updated>2024-01-30T01:13:15+06:00</updated>
     <author>
         <name>Sakibul Ali Khan</name>
     </author>
@@ -21,7 +21,7 @@
             <category term="Hacking Tools"/>
             <category term="Artificial Intelligence"/>
 
-        <updated>2024-01-30T00:48:13+06:00</updated>
+        <updated>2024-01-30T01:13:15+06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sakibulalikhan.pages.dev/media/posts/15/Unveiling-PentestGPT_-The-Ultimate-Weapon-For-Hacker-And-Penetration-Tester-2.jpg" alt="Unveiling PentestGPT: The Ultimate Weapon For Hacker And Penetration Tester" />
@@ -114,6 +114,11 @@ cd PentestGPT
 <p>Utilize the reasoning model recommended based on your access.</p>
 <pre><code>pentestgpt --reasoning_model=gpt-4-turbo
 </code></pre>
+<ul>
+<li>(recommended) - <code>pentestgpt --reasoning_model=gpt-4-turbo</code> to use the latest GPT-4-turbo API.</li>
+<li><code>pentestgpt --reasoning_model=gpt-4</code> if you have access to GPT-4 API.</li>
+<li><code>pentestgpt --reasoning_model=gpt-3.5-turbo-16k</code> if you only have access to GPT-3.5 API.</li>
+</ul>
 </li>
 </ul>
 </li>
