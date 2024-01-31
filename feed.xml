@@ -3,7 +3,7 @@
     <title>Offens!ve Blogs - Sakibul Ali Khan</title>
     <link href="https://sakibulalikhan.pages.dev/feed.xml" rel="self" />
     <link href="https://sakibulalikhan.pages.dev" />
-    <updated>2024-02-01T05:05:20+06:00</updated>
+    <updated>2024-02-01T05:15:43+06:00</updated>
     <author>
         <name>Sakibul Ali Khan</name>
     </author>
@@ -22,7 +22,7 @@
             <category term="Cyber Security"/>
             <category term="Cloud Security"/>
 
-        <updated>2024-02-01T05:05:20+06:00</updated>
+        <updated>2024-02-01T05:15:43+06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sakibulalikhan.pages.dev/media/posts/16/Docker-Zero-to-Hero-For-Hackers-A-Practical-Guide-for-Cybersecurity-Enthusiasts.png" alt="Docker Zero to Hero For Hackers: A Practical Guide for Cybersecurity Enthusiasts" />
@@ -160,7 +160,7 @@
 <h2 id="install-docker">INSTALL DOCKER</h2>
 </div>
 <div class="cl-preview-section">
-<figure class="post__image"><img loading="lazy"  src="https://www.clipartmax.com/png/middle/146-1469802_logo-logo-docker.png" alt="" width="520" height="243" data-is-external-image="true"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://cdn.freebiesupply.com/logos/large/2x/docker-logo-png-transparent.png" alt="" width="362" height="304" data-is-external-image="true"></figure>
 <p>For detailed instructions on installing Docker, visit <a href="https://docs.docker.com/get-docker/" target="_blank" rel="noopener noreferrer">Docker Installation Guide</a>.</p>
 </div>
 <div class="cl-preview-section">
