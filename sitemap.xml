@@ -6,7 +6,7 @@
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/about.html</loc>
-<lastmod>2024-01-29T15:07:00+06:00</lastmod>
+<lastmod>2024-01-30T04:44:56+06:00</lastmod>
 <image:image>
 <image:loc>https://sakibulalikhan.pages.dev/media/posts/11/mine3.png</image:loc>
 <image:title><![CDATA[Sakibul Ali Khan]]></image:title>
@@ -39,6 +39,22 @@
 <url>
 <loc>https://sakibulalikhan.pages.dev/contact.html</loc>
 <lastmod>2024-01-07T11:18:23+06:00</lastmod>
+</url>
+<url>
+<loc>https://sakibulalikhan.pages.dev/docker-zero-to-hero-for-hackers-a-practical-guide-for-cybersecurity-enthusiasts.html</loc>
+<lastmod>2024-02-01T05:05:20+06:00</lastmod>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/16/Docker-Zero-to-Hero-For-Hackers-A-Practical-Guide-for-Cybersecurity-Enthusiasts.png</image:loc>
+<image:title><![CDATA[Docker Zero to Hero For Hackers: A Practical Guide for Cybersecurity Enthusiasts]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/16/docker-architecture-diagram.png</image:loc>
+<image:title><![CDATA[Docker Architecture for Hackers/Pentester]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/16/docker-container-lifecycle-diagram.png</image:loc>
+<image:title><![CDATA[Docker Container Lifecycle Diagram]]></image:title>
+</image:image>
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/how-to-limit-battery-charging-set-a-charge-threshold-for-asus-laptops-on-linux.html</loc>
