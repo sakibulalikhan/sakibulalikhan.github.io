@@ -68,6 +68,9 @@
 <loc>https://sakibulalikhan.pages.dev/page/2/</loc>
 </url>
 <url>
+<loc>https://sakibulalikhan.pages.dev/page/3/</loc>
+</url>
+<url>
 <loc>https://sakibulalikhan.pages.dev/phonebook-htb-web-challenge-writeup.html</loc>
 <lastmod>2024-01-29T16:56:52+06:00</lastmod>
 <image:image>
@@ -125,6 +128,14 @@
 <image:image>
 <image:loc>https://sakibulalikhan.pages.dev/media/posts/15/Unveiling-PentestGPT_-The-Ultimate-Weapon-For-Hacker-And-Penetration-Tester-2.jpg</image:loc>
 <image:title><![CDATA[Unveiling PentestGPT: The Ultimate Weapon For Hacker And Penetration Tester]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://sakibulalikhan.pages.dev/unveiling-vulnerabilities-with-cvemap-navigating-the-cybersecurity-jungle.html</loc>
+<lastmod>2024-02-02T05:07:38+06:00</lastmod>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/17/Unveiling-Vulnerabilities-with-CVEMap-Navigating-the-Cybersecurity-Jungle-5.png</image:loc>
+<image:title><![CDATA[Unveiling Vulnerabilities with CVEMap: Navigating the Cybersecurity Jungle]]></image:title>
 </image:image>
 </url>
 </urlset>
