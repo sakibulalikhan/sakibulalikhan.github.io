@@ -3,7 +3,7 @@
     <title>Offens!ve Blogs - Sakibul Ali Khan</title>
     <link href="https://sakibulalikhan.pages.dev/feed.xml" rel="self" />
     <link href="https://sakibulalikhan.pages.dev" />
-    <updated>2024-02-02T05:07:38+06:00</updated>
+    <updated>2024-02-02T14:22:03+06:00</updated>
     <author>
         <name>Sakibul Ali Khan</name>
     </author>
@@ -17,8 +17,11 @@
         <link href="https://sakibulalikhan.pages.dev/unveiling-vulnerabilities-with-cvemap-navigating-the-cybersecurity-jungle.html"/>
         <id>https://sakibulalikhan.pages.dev/unveiling-vulnerabilities-with-cvemap-navigating-the-cybersecurity-jungle.html</id>
         <media:content url="https://sakibulalikhan.pages.dev/media/posts/17/Unveiling-Vulnerabilities-with-CVEMap-Navigating-the-Cybersecurity-Jungle-5.png" medium="image" />
+            <category term="Hacking Tools"/>
+            <category term="Cloud Security"/>
+            <category term="CVE"/>
 
-        <updated>2024-02-02T05:07:38+06:00</updated>
+        <updated>2024-02-02T14:22:03+06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sakibulalikhan.pages.dev/media/posts/17/Unveiling-Vulnerabilities-with-CVEMap-Navigating-the-Cybersecurity-Jungle-5.png" alt="Unveiling Vulnerabilities with CVEMap: Navigating the Cybersecurity Jungle" />
@@ -101,6 +104,7 @@
 </code></pre>
 </div>
 <div class="cl-preview-section">
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/17/cvemap-auth.png" alt="cvemap -auth" width="547" height="187" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-auth-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-auth-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-auth-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-auth-lg.png 1024w"></figure>
 <h3 id="running-cvemap">Running CVEMap:</h3>
 </div>
 <div class="cl-preview-section">
@@ -112,6 +116,7 @@
 </div>
 <div class="cl-preview-section">
 <div class="cl-preview-section">
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/17/cvemap-limit-10-2.png" alt="cvemap --limit 10" width="492" height="271" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-limit-10-2-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-limit-10-2-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-limit-10-2-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-limit-10-2-lg.png 1024w"></figure>
 <h2 id="usage-examples">Usage Examples</h2>
 </div>
 <div class="cl-preview-section">
@@ -138,13 +143,14 @@
 </code></pre>
 </div>
 <div class="cl-preview-section">
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/17/cvemap-product-apache-l-5-2.png" alt="cvemap -product apache -l 5" width="587" height="235" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-product-apache-l-5-2-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-product-apache-l-5-2-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-product-apache-l-5-2-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-product-apache-l-5-2-lg.png 1024w"></figure>
 <p>To extract more detailed information about the identified CVEs, customize the output to display crucial information:</p>
 </div>
 <div class="cl-preview-section">
-<pre class="language-bash line-numbers"><code>cvemap -product apache -field severity,kev,age -l 5
-</code></pre>
+<pre class="language-bash line-numbers"><code>cvemap -product wordpress -field epss, product, severity, kev, age -l 5</code></pre>
 </div>
 <div class="cl-preview-section">
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/17/cvemap-product-wordpress-field-epss-product-severity-kev-age-l-5.png" alt="cvemap -product wordpress -field epss, product, severity, kev, age -l 5" width="504" height="300" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-product-wordpress-field-epss-product-severity-kev-age-l-5-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-product-wordpress-field-epss-product-severity-kev-age-l-5-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-product-wordpress-field-epss-product-severity-kev-age-l-5-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-product-wordpress-field-epss-product-severity-kev-age-l-5-lg.png 1024w"></figure>
 <p>This example showcases the versatility of CVEMap in uncovering vulnerabilities specific to widely used web server software.</p>
 </div>
 <h2 id="conclusion">Conclusion</h2>

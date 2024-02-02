@@ -132,10 +132,26 @@
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/unveiling-vulnerabilities-with-cvemap-navigating-the-cybersecurity-jungle.html</loc>
-<lastmod>2024-02-02T05:07:38+06:00</lastmod>
+<lastmod>2024-02-02T14:22:03+06:00</lastmod>
 <image:image>
 <image:loc>https://sakibulalikhan.pages.dev/media/posts/17/Unveiling-Vulnerabilities-with-CVEMap-Navigating-the-Cybersecurity-Jungle-5.png</image:loc>
 <image:title><![CDATA[Unveiling Vulnerabilities with CVEMap: Navigating the Cybersecurity Jungle]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/17/cvemap-auth.png</image:loc>
+<image:title><![CDATA[cvemap -auth]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/17/cvemap-limit-10-2.png</image:loc>
+<image:title><![CDATA[cvemap --limit 10]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/17/cvemap-product-apache-l-5-2.png</image:loc>
+<image:title><![CDATA[cvemap -product apache -l 5]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/17/cvemap-product-wordpress-field-epss-product-severity-kev-age-l-5.png</image:loc>
+<image:title><![CDATA[cvemap -product wordpress -field epss, product, severity, kev, age -l 5]]></image:title>
 </image:image>
 </url>
 </urlset>
