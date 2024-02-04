@@ -3,7 +3,7 @@
     <title>Offens!ve Blogs - Sakibul Ali Khan</title>
     <link href="https://sakibulalikhan.pages.dev/feed.xml" rel="self" />
     <link href="https://sakibulalikhan.pages.dev" />
-    <updated>2024-02-02T14:22:03+06:00</updated>
+    <updated>2024-02-05T01:47:31+06:00</updated>
     <author>
         <name>Sakibul Ali Khan</name>
     </author>
@@ -16,21 +16,21 @@
         </author>
         <link href="https://sakibulalikhan.pages.dev/unveiling-vulnerabilities-with-cvemap-navigating-the-cybersecurity-jungle.html"/>
         <id>https://sakibulalikhan.pages.dev/unveiling-vulnerabilities-with-cvemap-navigating-the-cybersecurity-jungle.html</id>
-        <media:content url="https://sakibulalikhan.pages.dev/media/posts/17/Unveiling-Vulnerabilities-with-CVEMap-Navigating-the-Cybersecurity-Jungle-5.png" medium="image" />
+        <media:content url="https://sakibulalikhan.pages.dev/media/posts/17/Unveiling-Vulnerabilities-with-CVEMap-Navigating-the-Cybersecurity-Jungle.png" medium="image" />
             <category term="Hacking Tools"/>
             <category term="Cloud Security"/>
             <category term="CVE"/>
 
-        <updated>2024-02-02T14:22:03+06:00</updated>
+        <updated>2024-02-05T01:47:31+06:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sakibulalikhan.pages.dev/media/posts/17/Unveiling-Vulnerabilities-with-CVEMap-Navigating-the-Cybersecurity-Jungle-5.png" alt="Unveiling Vulnerabilities with CVEMap: Navigating the Cybersecurity Jungle" />
+                        <img src="https://sakibulalikhan.pages.dev/media/posts/17/Unveiling-Vulnerabilities-with-CVEMap-Navigating-the-Cybersecurity-Jungle.png" alt="Unveiling Vulnerabilities with CVEMap: Navigating the Cybersecurity Jungle" />
                     In the ever-evolving world of cybersecurity, the rise in reported Common Vulnerabilities and Exposures (CVEs) poses a significant challenge for security professionals. The sheer volume&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/17/Unveiling-Vulnerabilities-with-CVEMap-Navigating-the-Cybersecurity-Jungle-5.png" class="type:primaryImage" alt="Unveiling Vulnerabilities with CVEMap: Navigating the Cybersecurity Jungle" /></p>
+                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/17/Unveiling-Vulnerabilities-with-CVEMap-Navigating-the-Cybersecurity-Jungle.png" class="type:primaryImage" alt="Unveiling Vulnerabilities with CVEMap: Navigating the Cybersecurity Jungle" /></p>
                 <div class="cl-preview-section">
 <p>In the ever-evolving world of cybersecurity, the rise in reported Common Vulnerabilities and Exposures (CVEs) poses a significant challenge for security professionals. The sheer volume and occasionally exaggerated severity of these vulnerabilities can create a “noise” that distracts from critical security efforts. Enter CVEMap, a powerful and user-friendly tool designed by ProjectDiscovery to simplify the exploration of CVEs and enhance cybersecurity decision-making.</p>
 </div>
@@ -127,7 +127,57 @@
 </div>
 <div class="cl-preview-section">
 <pre class="language-bash line-numbers"><code>cvemap -h
-</code></pre>
+
+Navigate the CVE jungle with ease.
+
+Usage:
+  cvemap [flags]
+
+Flags:
+CONFIG:
+   -auth  configure projectdiscovery cloud (pdcp) api key
+
+OPTIONS:
+   -id string[]                    cve to list for given id
+   -cwe, -cwe-id string[]          cve to list for given cwe id
+   -v, -vendor string[]            cve to list for given vendor
+   -p, -product string[]           cve to list for given product
+   -eproduct string[]              cves to exclude based on products
+   -s, -severity string[]          cve to list for given severity
+   -cs, -cvss-score string[]       cve to list for given cvss score
+   -c, -cpe string                 cve to list for given cpe
+   -es, -epss-score string         cve to list for given epss score
+   -ep, -epss-percentile string[]  cve to list for given epss percentile
+   -age string                     cve to list published by given age in days
+   -a, -assignee string[]          cve to list for given publisher assignee
+   -vs, -vstatus value             cve to list for given vulnerability status in cli output. supported: modified, rejected, unknown, new, confirmed, unconfirmed
+
+UPDATE:
+   -up, -update                 update cvemap to latest version
+   -duc, -disable-update-check  disable automatic cvemap update check
+
+FILTER:
+   -q, -search string  search in cve data
+   -k, -kev            display cves marked as exploitable vulnerabilities by cisa (default true)
+   -t, -template       display cves that has public nuclei templates (default true)
+   -poc                display cves that has public published poc (default true)
+   -h1, -hackerone     display cves reported on hackerone (default true)
+   -re, -remote        display remotely exploitable cves (AV:N &amp; PR:N | PR:L) (default true)
+
+OUTPUT:
+   -f, -field value         fields to display in cli output. supported: product, vendor, vstatus, age, kev, template, poc, epss, cwe, assignee, 
+   -fe, -exclude value      fields to exclude from cli output. supported: product, vendor, vstatus, age, kev, template, poc, epss, cwe, assignee, 
+   -lsi, -list-id           list only the cve ids in the output
+   -l, -limit int           limit the number of results to display (default 50)
+   -offset int              offset the results to display
+   -j, -json                return output in json format
+   -epk, -enable-page-keys  enable page keys to navigate results
+
+DEBUG:
+   -version  Version
+   -silent   Silent
+   -verbose  Verbose
+   -debug    Debug</code></pre>
 </div>
 <div class="cl-preview-section">
 <p>This command provides an overview of all available switches and options.</p>
