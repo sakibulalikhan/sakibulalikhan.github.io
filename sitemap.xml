@@ -14,10 +14,18 @@
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/ansible-zero-to-hero-for-hackers-a-practical-guide-for-cybersecurity-enthusiasts.html</loc>
-<lastmod>2024-02-05T02:31:54+06:00</lastmod>
+<lastmod>2024-02-07T16:57:16+06:00</lastmod>
 <image:image>
 <image:loc>https://sakibulalikhan.pages.dev/media/posts/18/Ansible-Zero-to-Hero-For-Hackers-A-Practical-Guide-for-Cybersecurity-Enthusiasts.png</image:loc>
 <image:title><![CDATA[Ansible Zero to Hero For Hackers: A Practical Guide for Cybersecurity Enthusiasts]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/18/what-is-ansible-removebg-preview.png</image:loc>
+<image:title><![CDATA[what-is-ansible]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/18/Why-Ansible.png</image:loc>
+<image:title><![CDATA[Why Ansible]]></image:title>
 </image:image>
 </url>
 <url>
@@ -47,6 +55,74 @@
 <url>
 <loc>https://sakibulalikhan.pages.dev/contact.html</loc>
 <lastmod>2024-01-07T11:18:23+06:00</lastmod>
+</url>
+<url>
+<loc>https://sakibulalikhan.pages.dev/devvortex-htb-writeup.html</loc>
+<lastmod>2024-02-09T04:25:15+06:00</lastmod>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup1.png</image:loc>
+<image:title><![CDATA[Devvortex - HTB Writeup]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup.png</image:loc>
+<image:title><![CDATA[Devvortex - HTB Writeup]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup2.png</image:loc>
+<image:title><![CDATA[Devvortex - HTB Writeup]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup3.png</image:loc>
+<image:title><![CDATA[Devvortex - HTB Writeup]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup4.png</image:loc>
+<image:title><![CDATA[Devvortex - HTB Writeup]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup5.png</image:loc>
+<image:title><![CDATA[Devvortex - HTB Writeup]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup6.png</image:loc>
+<image:title><![CDATA[Devvortex - HTB Writeup]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup8.png</image:loc>
+<image:title><![CDATA[Devvortex - HTB Writeup]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup9.png</image:loc>
+<image:title><![CDATA[Devvortex - HTB Writeup]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup10-2.png</image:loc>
+<image:title><![CDATA[Devvortex - HTB Writeup]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup11.png</image:loc>
+<image:title><![CDATA[Devvortex - HTB Writeup]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup12.png</image:loc>
+<image:title><![CDATA[Devvortex - HTB Writeup]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup13.png</image:loc>
+<image:title><![CDATA[Devvortex - HTB Writeup]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup15.png</image:loc>
+<image:title><![CDATA[Devvortex - HTB Writeup]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup14.png</image:loc>
+<image:title><![CDATA[Devvortex - HTB Writeup]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup17.png</image:loc>
+<image:title><![CDATA[Devvortex - HTB Writeup]]></image:title>
+</image:image>
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/docker-zero-to-hero-for-hackers-a-practical-guide-for-cybersecurity-enthusiasts.html</loc>
