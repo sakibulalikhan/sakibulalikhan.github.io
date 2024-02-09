@@ -3,7 +3,7 @@
     <title>Offens!ve Blogs - Sakibul Ali Khan</title>
     <link href="https://sakibulalikhan.pages.dev/feed.xml" rel="self" />
     <link href="https://sakibulalikhan.pages.dev" />
-    <updated>2024-02-09T04:25:15+06:00</updated>
+    <updated>2024-02-09T15:22:39+06:00</updated>
     <author>
         <name>Sakibul Ali Khan</name>
     </author>
@@ -22,7 +22,7 @@
             <category term="CVE"/>
             <category term="CTF Writeups"/>
 
-        <updated>2024-02-09T04:25:15+06:00</updated>
+        <updated>2024-02-09T15:22:39+06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup1.png" alt="Devvortex - HTB Writeup" />
@@ -261,7 +261,7 @@ DB encryption 0</code></pre>
 <figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup6.png" alt="Devvortex - HTB Writeup" width="546" height="200" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup6-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup6-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup6-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup6-lg.png 1024w"></figure>
 <p>Click on 'New File' on the top and create 'rev.php' file. Then click on that file that you can find your left in the website.</p>
 <figure class="post__image"><img loading="lazy"  style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);" src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup8.png" alt="Devvortex - HTB Writeup" width="548" height="288" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup8-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup8-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup8-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup8-lg.png 1024w"></figure>
-<p>Start netcat listener on the host machine <code>nc -lvnp 1337</code>, visit <code>http://dev.devvortex.htb/templates/cassiopeia/rev.php</code> and wait for the sweet shell.</p>
+<p>Start netcat listener on the host machine <code>nc -lvnp 1337</code>, visit <a href="http://dev.devvortex.htb/templates/cassiopeia/rev.php&lt;code&gt;&lt;/code&gt;" target="_blank" rel="noopener noreferrer">http://dev.devvortex.htb/templates/cassiopeia/rev.php</a> and wait for the sweet shell.</p>
 <figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup9.png" alt="Devvortex - HTB Writeup" width="567" height="177" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup9-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup9-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup9-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup9-lg.png 1024w"></figure>
 <p><span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMmxldCdzJTIwdXBncmFkZSUyMG91ciUyMHNoZWxsJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlMkMlMjJzZWxlY3Rpb25zJTIyJTNBJTVCJTVEJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyWk9TS2pWWlo2WWN2JTIyJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyQ3Q4RmVuQnpmSEdSJTIyJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyYUlJaHlmZEhKczFEJTIyJTdE">Let's upgrade our shell with this command.</span></p>
 <pre class="language-python line-numbers"><code>python3 -c "import pty;pty.spawn('/bin/bash')"</code></pre>
@@ -335,7 +335,7 @@ Analyzing '$2y$10$6V52x.SD8Xc7hNlVwUTrI.ax4BIAYuhVBMVvnYWRceBmy8XdEzm1u'
 <p><span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMkxldHMlMjBzZWUlMjBpZiUyMHdlJTIwY2FuJTIwU1NIJTIwaW50byUyMHRoZSUyMG1hY2hpbmUlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCUyQyUyMnNlbGVjdGlvbnMlMjIlM0ElNUIlNUQlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJyQWZEbzV5UW1OMHUlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJaYXltVEJ2ZllxUHIlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjIxRUkzUThQM0tZVWglMjIlN0Q=">Let's see if we can SSH into the machine with this creds.</span></p>
 <pre class="language-bash line-numbers"><code>ssh logan@10.10.11.242</code></pre>
 <figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup13.png" alt="Devvortex - HTB Writeup" width="604" height="371" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup13-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup13-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup13-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup13-lg.png 1024w"></figure>
-<p>Yes, we could get access with SSH!</p>
+<p>Yes, we got the access with SSH!</p>
 <h3>User Flag</h3>
 <p>We can <code>ls</code> and <code>cat user.txt</code> to get our user flag.</p>
 <figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup15.png" alt="Devvortex - HTB Writeup" width="441" height="130" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup15-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup15-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup15-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup15-lg.png 1024w"></figure>
