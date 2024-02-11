@@ -3,163 +3,228 @@
     <title>Offens!ve Blogs - Sakibul Ali Khan</title>
     <link href="https://sakibulalikhan.pages.dev/feed.xml" rel="self" />
     <link href="https://sakibulalikhan.pages.dev" />
-    <updated>2024-02-10T05:29:47+06:00</updated>
+    <updated>2024-02-11T17:08:18+06:00</updated>
     <author>
         <name>Sakibul Ali Khan</name>
     </author>
     <id>https://sakibulalikhan.pages.dev</id>
 
     <entry>
-        <title>Navigating the Digital Highway: An Introduction to Computer Networking</title>
+        <title>Cybersecurity Playground: Installing OWASP Juice Shop on Ubuntu with Docker – A Step-by-Step Guide</title>
         <author>
             <name>Sakibul Ali Khan</name>
         </author>
-        <link href="https://sakibulalikhan.pages.dev/navigating-the-digital-highway-an-introduction-to-computer-networking.html"/>
-        <id>https://sakibulalikhan.pages.dev/navigating-the-digital-highway-an-introduction-to-computer-networking.html</id>
-        <media:content url="https://sakibulalikhan.pages.dev/media/posts/21/Navigating-the-Digital-Highway-An-Introduction-to-Computer-Networking.png" medium="image" />
-            <category term="Network Security"/>
-            <category term="Cyber Security"/>
-            <category term="Computer Network"/>
+        <link href="https://sakibulalikhan.pages.dev/cybersecurity-playground-installing-owasp-juice-shop-on-ubuntu-with-docker-a-step-by-step-guide.html"/>
+        <id>https://sakibulalikhan.pages.dev/cybersecurity-playground-installing-owasp-juice-shop-on-ubuntu-with-docker-a-step-by-step-guide.html</id>
+        <media:content url="https://sakibulalikhan.pages.dev/media/posts/22/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide1-2.png" medium="image" />
+            <category term="Web Security"/>
+            <category term="Pentesting"/>
+            <category term="Home Labs"/>
+            <category term="Docker"/>
+            <category term="CVE"/>
 
-        <updated>2024-02-10T05:29:47+06:00</updated>
+        <updated>2024-02-11T17:08:18+06:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://sakibulalikhan.pages.dev/media/posts/21/Navigating-the-Digital-Highway-An-Introduction-to-Computer-Networking.png" alt="Navigating the Digital Highway: An Introduction to Computer Networking" />
-                    In today’s interconnected world, computer networking forms the backbone of modern communication and information exchange. From sending an email to streaming videos, nearly every digital&hellip;
+                        <img src="https://sakibulalikhan.pages.dev/media/posts/22/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide1-2.png" alt="Cybersecurity Playground: Installing OWASP Juice Shop on Ubuntu with Docker – A Step-by-Step Guide" />
+                    In the realm of cybersecurity education and training, practical hands-on experience is invaluable. Recognizing this need, OWASP (Open Web Application Security Project) introduced the Juice&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/21/Navigating-the-Digital-Highway-An-Introduction-to-Computer-Networking.png" class="type:primaryImage" alt="Navigating the Digital Highway: An Introduction to Computer Networking" /></p>
+                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/22/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide1-2.png" class="type:primaryImage" alt="Cybersecurity Playground: Installing OWASP Juice Shop on Ubuntu with Docker – A Step-by-Step Guide" /></p>
                 <div class="cl-preview-section">
-<p>In today’s interconnected world, computer networking forms the backbone of modern communication and information exchange. From sending an email to streaming videos, nearly every digital interaction relies on networking infrastructure. Whether you’re a tech enthusiast, a budding IT professional, or simply curious about how the internet works, understanding the fundamentals of computer networking is essential. In this comprehensive guide, we’ll embark on a journey through the intricate web of connections that power our digital age.</p>
+<p>In the realm of cybersecurity education and training, practical hands-on experience is invaluable. Recognizing this need, OWASP (Open Web Application Security Project) introduced the Juice Shop – an intentionally vulnerable web application designed to simulate real-world security challenges. This blog post aims to provide a detailed walkthrough on installing OWASP Juice Shop on Ubuntu using Docker, allowing enthusiasts and professionals alike to delve into the intricacies of web security in a controlled environment.</p>
 </div>
 <div class="cl-preview-section">
-<h3 id="what-is-networking">What is Networking?</h3>
+<h2 id="what-is-owasp-juice-shop">What is OWASP Juice Shop?</h2>
 </div>
 <div class="cl-preview-section">
-<figure class="post__image"><img loading="lazy"  src="https://www.lifewire.com/thmb/FmeKYLjqWRfxgCFYbz1hDqnTAiE=/2202x1361/filters:fill(auto,1)/GettyImages-730133317-5b2b315dba61770054a1497f.jpg" alt="What is Networking?" width="393" height="243" data-is-external-image="true"></figure>
-<p>At its core, networking involves the exchange of data between multiple devices, enabling communication and collaboration. Just as roads and highways facilitate the movement of vehicles, computer networks serve as the pathways for transmitting information between computers, servers, and other devices.</p>
+<figure class="post__image"><img loading="lazy"  src="https://joshcgrossman.files.wordpress.com/2018/03/juiceshopctf_logo.png" alt="Cybersecurity Playground: Installing OWASP Juice Shop on Ubuntu with Docker – A Step-by-Step Guide" width="267" height="320" data-is-external-image="true"></figure>
+<p>The OWASP Juice Shop is not your typical online store; it serves as a playground for security enthusiasts and professionals to hone their skills in identifying and exploiting web application vulnerabilities. Concealed beneath its facade as a fruit and vegetable juice shop lie 102 deliberately planted challenges of varying difficulty levels, representing common security vulnerabilities encountered in modern web development.</p>
 </div>
 <div class="cl-preview-section">
-<p>Imagine you’re sending an email to a friend. When you hit the send button, your message doesn’t magically appear in their inbox. Instead, it travels through a series of interconnected devices, such as routers and switches, before reaching its destination. This process, known as data transmission, is made possible by networking protocols and infrastructure.</p>
+<p>The Juice Shop’s development commenced in September 2014, driven by the necessity for a contemporary security training environment that reflects the intricacies of current web technologies. Over the years, it has evolved into a sophisticated platform, leveraging modern frameworks such as Angular, JavaScript, Node.js, and SQLite for its database.</p>
 </div>
 <div class="cl-preview-section">
-<h3 id="importance-of-networking">Importance of Networking</h3>
+<h3 id="vulnerability-categories">Vulnerability Categories:</h3>
 </div>
 <div class="cl-preview-section">
-<p>Networking is the lifeline of modern society, underpinning various aspects of our personal and professional lives:</p>
+<p>In OWASP Juice Shop, vulnerabilities are meticulously categorized into various classes, covering a wide spectrum of risk and vulnerability types identified in well-known lists and documents such as <a href="https://owasp.org/www-project-top-ten/" title="Sakibul Ali Khan" target="_blank" rel="noopener noreferrer">OWASP Top 10</a>, <a href="https://owasp.org/www-project-application-security-verification-standard/" title="Sakibul Ali Khan" target="_blank" rel="noopener noreferrer">OWASP ASVS</a>, <a href="https://owasp.org/www-project-automated-threats-to-web-applications/" title="Sakibul Ali Khan" target="_blank" rel="noopener noreferrer">OWASP Automated Threat Handbook</a>, <a href="https://owasp.org/www-project-api-security/" title="Sakibul Ali Khan" target="_blank" rel="noopener noreferrer">OWASP API Security Top 10</a>, <a href="https://owasp.org/www-project-top-10-privacy-risks" title="Sakibul Ali Khan" target="_blank" rel="noopener noreferrer">OWASP Top 10 Privacy Risks</a>, and MITRE’s <a href="https://cwe.mitre.org/" title="Sakibul Ali Khan" target="_blank" rel="noopener noreferrer">Common Weakness Enumeration (CWE)</a>. This structured approach enables users to target specific areas of interest and gain comprehensive insights into web application security.</p>
 </div>
 <div class="cl-preview-section">
-<ol>
-<li>
-<p><span style="text-decoration: underline;"><strong>Communication</strong></span>: Networks enable seamless communication through email, instant messaging, voice calls, and video conferencing. Whether you’re chatting with a colleague halfway across the world or video calling a loved one, networks bridge the distance and facilitate real-time interactions.</p>
-</li>
-<li>
-<p><span style="text-decoration: underline;"><strong>Information Access</strong></span>: The internet, a vast network of networks, grants access to a wealth of information and resources. From educational materials and research papers to news articles and social media posts, the internet serves as a global repository of knowledge, accessible to anyone with an internet connection.</p>
-</li>
-<li>
-<p><span style="text-decoration: underline;"><strong>Collaboration</strong></span>: Businesses rely on networks to facilitate teamwork, file sharing, and collaborative projects. Cloud-based collaboration tools, such as Google Workspace and Microsoft Teams, allow employees to work together efficiently, regardless of their physical location.</p>
-</li>
-<li>
-<p><span style="text-decoration: underline;"><strong>E-commerce</strong></span>: Online shopping platforms leverage networks to connect buyers and sellers, enabling transactions worldwide. Whether you’re purchasing clothes from a fashion retailer or ordering groceries from an online supermarket, networks ensure a smooth shopping experience from browsing to checkout.</p>
-</li>
-<li>
-<p><span style="text-decoration: underline;"><strong>Entertainment</strong></span>: Streaming services deliver movies, music, and games over networks to entertainment-hungry audiences. Whether you’re binge-watching your favorite TV series on Netflix or listening to the latest hits on Spotify, networks deliver high-quality media content to your devices, keeping you entertained around the clock.</p>
-</li>
-</ol>
-</div>
-<div class="cl-preview-section">
-<h3 id="basics-of-computer-networking">Basics of Computer Networking</h3>
-</div>
-<div class="cl-preview-section">
-<figure class="post__image"><img loading="lazy"  src="https://www.codecrafttech.com/resources/wp-content/uploads/2021/08/Cloud-computing-and-multi-tenancy.jpg" alt="Basics of Computer Networking" width="504" height="252" data-is-external-image="true"></figure>
-<p>Understanding computer networking begins with familiarizing oneself with key concepts:</p>
-</div>
-<div class="cl-preview-section">
-<ol>
-<li>
-<p><span style="text-decoration: underline;"><strong>Protocols</strong></span>: Protocols are rules and standards that govern communication between devices. Common protocols include TCP/IP (Transmission Control Protocol/Internet Protocol), HTTP (Hypertext Transfer Protocol), and SMTP (Simple Mail Transfer Protocol). These protocols define how data is formatted, transmitted, and received across networks.</p>
-</li>
-<li>
-<p><span style="text-decoration: underline;"><strong>IP Addressing</strong></span>: IP (Internet Protocol) addresses uniquely identify devices on a network, facilitating data routing. IPv4 (Internet Protocol version 4) and IPv6 (Internet Protocol version 6) are the two primary versions of the IP protocol. IPv4 addresses are 32-bit numerical identifiers, while IPv6 addresses are 128-bit hexadecimal identifiers, capable of accommodating the growing number of internet-connected devices.</p>
-</li>
-<li>
-<p><span style="text-decoration: underline;"><strong>Data Transmission</strong></span>: Data is transmitted in the form of packets, small units of information, across network links. Each packet contains a portion of the original data, along with header information specifying the source and destination addresses. Packet switching, the process of routing packets through a network, enables efficient data transmission by dynamically selecting the best available routes.</p>
-</li>
-<li>
-<p><span style="text-decoration: underline;"><strong>Routing</strong></span>: Routing involves directing packets from the source to the destination through interconnected devices known as routers. Routers examine the destination address of incoming packets and make routing decisions based on routing tables, which contain information about network topology and optimal paths. Through dynamic routing protocols, routers exchange routing information to adapt to changes in network conditions and maintain optimal communication paths.</p>
-</li>
-<li>
-<p><span style="text-decoration: underline;"><strong>Networking Devices</strong></span>:</p>
-<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/21/Different-Types-of-Network-Devices-3.png" alt="Different Types of Network Devices" width="360" height="251" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/21/responsive/Different-Types-of-Network-Devices-3-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/21/responsive/Different-Types-of-Network-Devices-3-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/21/responsive/Different-Types-of-Network-Devices-3-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/21/responsive/Different-Types-of-Network-Devices-3-lg.png 1024w"></figure>
-<p>Routers, switches, hubs, and modems are essential networking devices that manage and control data flow within a network.</p>
 <ul>
-<li><span style="text-decoration: underline;"><strong>Routers</strong></span>: Routers connect multiple networks together and forward packets between them based on destination IP addresses. They operate at the network layer (Layer 3) of the OSI (Open Systems Interconnection) model and use routing algorithms to determine the best paths for packet delivery.</li>
-<li><span style="text-decoration: underline;"><strong>Switches</strong></span>: Switches connect devices within a single network and forward packets based on MAC (Media Access Control) addresses. They operate at the data link layer (Layer 2) of the OSI model and use MAC address tables to efficiently route packets to their intended destinations.</li>
-<li><span style="text-decoration: underline;"><strong>Hubs</strong></span>: Hubs are simple networking devices that connect multiple devices in a network, but unlike switches, they do not intelligently forward packets. Instead, they broadcast incoming packets to all connected devices, leading to increased network congestion and decreased performance.</li>
-<li><span style="text-decoration: underline;"><strong>Modems</strong></span>: Modems (Modulator-Demodulator) convert digital data from computers into analog signals for transmission over analog communication channels, such as telephone lines or cable systems. They also perform the reverse process of converting analog signals back into digital data for reception by computers.</li>
+<li>Category Breakdown:</li>
 </ul>
-</li>
-</ol>
 </div>
 <div class="cl-preview-section">
-<h3 id="components-of-a-computer-network">Components of a Computer Network</h3>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/22/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide.png" alt="Cybersecurity Playground: Installing OWASP Juice Shop on Ubuntu with Docker – A Step-by-Step Guide" width="538" height="357" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/22/responsive/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/22/responsive/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/22/responsive/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/22/responsive/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide-lg.png 1024w"></figure>
+<p><strong>Category Mappings:</strong></p>
 </div>
 <div class="cl-preview-section">
-<p>A typical computer network comprises several components:</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>OWASP</th>
+<th>CWE</th>
+<th>WASC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Broken Access Control</td>
+<td>A1:2021, API1:2019, API5:2019</td>
+<td>CWE-22, CWE-285, CWE-639, CWE-918</td>
+<td>WASC-02, WASC-09, WASC-16</td>
+</tr>
+<tr>
+<td>Broken Anti-Automation</td>
+<td>OWASP-AT-004, API4:2019, OWASP-AT-010, …</td>
+<td>CWE-362</td>
+<td>WASC-11, WASC-21</td>
+</tr>
+<tr>
+<td>Broken Authentication</td>
+<td>A7:2021, API2:2019, P6:2021</td>
+<td>CWE-287, CWE-352</td>
+<td>WASC-01, WASC-49</td>
+</tr>
+<tr>
+<td>Cross Site Scripting (XSS)</td>
+<td>A3:2021, A7:2017</td>
+<td>CWE-79</td>
+<td>WASC-8</td>
+</tr>
+<tr>
+<td>Cryptographic Issues</td>
+<td>A2:2021</td>
+<td>CWE-326, CWE-327, CWE-328, CWE-950</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Improper Input Validation</td>
+<td>ASVS V5, API6:2019</td>
+<td>CWE-20</td>
+<td>WASC-20</td>
+</tr>
+<tr>
+<td>Injection</td>
+<td>A3:2021, API8:2019, P1:2021</td>
+<td>CWE-74, CWE-89</td>
+<td>WASC-19, WASC-28, WASC-31</td>
+</tr>
+<tr>
+<td>Insecure Deserialization</td>
+<td>A8:2021, A8:2017</td>
+<td>CWE-502</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Miscellaneous</td>
+<td>P5:2021</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Security Misconfiguration</td>
+<td>A5:2021, A9:2021, API7:2019, API9:2019, …</td>
+<td>CWE-209</td>
+<td>WASC-14, WASC-15</td>
+</tr>
+<tr>
+<td>Security through Obscurity</td>
+<td>A4:2021, P5:2021</td>
+<td>CWE-656</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Sensitive Data Exposure</td>
+<td>A3:2017, API3:2019, OTG-CONFIG-004, P2:2021</td>
+<td>CWE-200, CWE-530, CWE-548</td>
+<td>WASC-13</td>
+</tr>
+<tr>
+<td>Unvalidated Redirects</td>
+<td>A10:2013</td>
+<td>CWE-601</td>
+<td>WASC-38</td>
+</tr>
+<tr>
+<td>Vulnerable Components</td>
+<td>A6:2021</td>
+<td>CWE-829, CWE-506, CWE-1104</td>
+<td>-</td>
+</tr>
+<tr>
+<td>XML External Entities (XXE)</td>
+<td>A5:2021, A4:2017</td>
+<td>CWE-611</td>
+<td>WASC-43</td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 <div class="cl-preview-section">
-<ol>
-<li>
-<p><span style="text-decoration: underline;"><strong>Nodes</strong></span>: Nodes, such as computers, servers, printers, and smartphones, are devices connected to the network. Each node has a unique identifier, such as an IP address or MAC address, which allows it to send and receive data within the network.</p>
-</li>
-<li>
-<p><span style="text-decoration: underline;"><strong>Links</strong></span>: Links refer to the physical or logical connections that enable communication between nodes. These connections can be wired (e.g., Ethernet cables, fiber optic cables) or wireless (e.g., Wi-Fi, Bluetooth, cellular networks). Wired connections offer higher bandwidth and reliability, while wireless connections provide greater flexibility and mobility.</p>
-</li>
-<li>
-<p><span style="text-decoration: underline;"><strong>Network Infrastructure</strong></span>: Network infrastructure includes devices like routers, switches, and access points that facilitate data transmission and connectivity. Routers serve as gateways between different networks, switches enable communication within a network, and access points provide wireless connectivity to devices.</p>
-</li>
-<li>
-<p><span style="text-decoration: underline;"><strong>Protocols and Software</strong></span>: Networking protocols and software applications enable communication and data exchange across the network. Protocols define the rules and standards for data transmission, while software applications, such as web browsers and email clients, utilize these protocols to interact with network services and resources.</p>
-</li>
-<li>
-<p><span style="text-decoration: underline;"><strong>Network Services</strong></span>: Services like DNS (Domain Name System), DHCP (Dynamic Host Configuration Protocol), and NAT (Network Address Translation) provide essential functions for network operation. DNS translates domain names into IP addresses, DHCP dynamically assigns IP addresses to devices, and NAT enables multiple devices to share a single public IP address.</p>
-</li>
-</ol>
+<p>Each category represents a distinct aspect of web application security, ranging from access control and authentication to cryptographic issues and injection vulnerabilities. By aligning Juice Shop’s challenges with these standardized categories, users can effectively address specific security concerns and enhance their understanding of prevalent threats in the digital landscape.</p>
 </div>
 <div class="cl-preview-section">
-<h3 id="types-of-networks">Types of Networks</h3>
+<h4 id="installing-owasp-juice-shop-on-ubuntu-with-docker">Installing OWASP Juice Shop on Ubuntu with Docker:</h4>
 </div>
 <div class="cl-preview-section">
-<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/21/Types-of-network.png" alt="Types of network" width="526" height="300" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/21/responsive/Types-of-network-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/21/responsive/Types-of-network-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/21/responsive/Types-of-network-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/21/responsive/Types-of-network-lg.png 1024w"></figure>
-<p>Computer networks come in various shapes and sizes, catering to different scales and purposes:</p>
+<p>Now, let’s dive into the installation process of OWASP Juice Shop on Ubuntu using Docker. While the initial instructions provided focused on Kali Linux, the procedure remains largely similar for Ubuntu.</p>
+</div>
+<div>
+<div> </div>
+<div class="cl-preview-section">1.<strong> Installing Docker on Ubuntu:</strong></div>
+<div class="cl-preview-section">
+<p>Begin by updating the package index and installing Docker using the following commands:</p>
+</div>
+<div>
+<pre class="language-bash line-numbers"><code>sudo apt update sudo apt install -y docker.io</code></pre>
 </div>
 <div class="cl-preview-section">
-<ol>
-<li>
-<p><span style="text-decoration: underline;"><strong>Local Area Network (LAN)</strong></span>: LANs connect devices within a limited geographical area, such as a home, office, or campus. They typically use Ethernet or Wi-Fi technology for communication and are characterized by high data transfer rates and low latency. LANs facilitate resource sharing, such as printers and file servers, and support applications like video conferencing and online gaming.</p>
-</li>
-<li>
-<p><span style="text-decoration: underline;"><strong>Wide Area Network (WAN)</strong></span>: WANs span large geographical distances, connecting LANs across cities, countries, or continents. The internet is the most extensive WAN, comprising interconnected networks worldwide. WANs rely on various communication technologies, including fiber optic cables, satellite</p>
-</li>
-</ol>
+<p>After installation, start the Docker service and enable it to launch automatically upon system reboot:</p>
+</div>
+<div>
+<pre class="language-bash line-numbers"><code>sudo systemctl enable docker --now</code></pre>
 </div>
 <div class="cl-preview-section">
-<p>links, and submarine cables, to transmit data over long distances. WANs provide global connectivity and enable services like web browsing, email, and cloud computing.</p>
+<p>To grant your user permission to use Docker, add it to the docker group:</p>
+</div>
+<div>
+<pre class="language-bash line-numbers"><code>sudo usermod -aG docker $USER</code></pre>
 </div>
 <div class="cl-preview-section">
-<ol start="3">
-<li>
-<p><span style="text-decoration: underline;"><strong>Metropolitan Area Network (MAN)</strong></span>: MANs cover a metropolitan area, linking multiple LANs within a city or town. They often utilize fiber optic cables for high-speed connectivity and are commonly deployed by businesses, universities, and government agencies. MANs support applications like video surveillance, telemedicine, and smart city initiatives, facilitating efficient communication and collaboration within urban areas.</p>
-</li>
-<li>
-<p><span style="text-decoration: underline;"><strong>Personal Area Network (PAN)</strong></span>: PANs involve interconnecting devices within an individual’s personal space, such as smartphones, tablets, and wearable gadgets. Bluetooth and NFC (Near Field Communication) are common PAN technologies used for short-range wireless communication. PANs enable device synchronization, file sharing, and peripheral connectivity, enhancing the user experience and productivity in personal computing environments.</p>
-</li>
-</ol>
+<p>Reload the group settings for the changes to take effect:</p>
+</div>
+<div>
+<pre class="language-bash line-numbers"><code>newgrp docker</code></pre>
+</div>
+<div> </div>
+<div class="cl-preview-section">2.<strong> Running OWASP Juice Shop with Docker:</strong></div>
+<div class="cl-preview-section">
+<p>With Docker installed, pulling and running OWASP Juice Shop is a breeze. Execute the following command to download and launch the Juice Shop container:</p>
 </div>
 <div class="cl-preview-section">
-<p>In conclusion, computer networking is the cornerstone of modern communication, enabling the seamless exchange of information across the globe. By grasping the fundamentals of networking, individuals can navigate the digital landscape with confidence and harness the power of connectivity to drive innovation and progress. As technology continues to evolve, a solid understanding of networking principles will remain invaluable in shaping the future of our interconnected world. Whether you’re a novice exploring the basics or a seasoned professional delving into advanced concepts, the world of computer networking offers endless opportunities for learning, discovery, and collaboration.</p>
+<pre class="language-bash line-numbers"><code>docker run --rm -p 3000:3000 bkimminich/juice-shop</code></pre>
+<p>If necessary, pull the Juice Shop image first using:</p>
+</div>
+<div>
+<pre class="language-bash line-numbers"><code>docker pull bkimminich/juice-shop</code></pre>
+</div>
+<div class="cl-preview-section">
+<p>Once the container is running, access OWASP Juice Shop via <a href="http://localhost:3000/">http://localhost:3000/</a> in your web browser.</p>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/22/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide2.png" alt="Cybersecurity Playground: Installing OWASP Juice Shop on Ubuntu with Docker – A Step-by-Step Guide" width="528" height="286" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/22/responsive/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide2-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/22/responsive/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide2-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/22/responsive/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide2-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/22/responsive/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide2-lg.png 1024w"></figure>
+</div>
+</div>
+<div class="cl-preview-section">
+<h3 id="conclusion">Conclusion:</h3>
+</div>
+<div class="cl-preview-section">
+<p>In conclusion, OWASP Juice Shop stands as a testament to the commitment towards enhancing web application security through hands-on learning and gamification. By leveraging Docker, enthusiasts and professionals can swiftly set up and explore the intricacies of web security in a controlled environment. Embrace the challenges, uncover vulnerabilities, and embark on a journey towards mastering the art of cybersecurity with OWASP Juice Shop.</p>
 </div>
             ]]>
         </content>
