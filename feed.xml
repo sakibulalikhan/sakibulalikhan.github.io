@@ -3,7 +3,7 @@
     <title>Offens!ve Blogs - Sakibul Ali Khan</title>
     <link href="https://sakibulalikhan.pages.dev/feed.xml" rel="self" />
     <link href="https://sakibulalikhan.pages.dev" />
-    <updated>2024-02-12T05:12:16+06:00</updated>
+    <updated>2024-02-12T05:16:35+06:00</updated>
     <author>
         <name>Sakibul Ali Khan</name>
     </author>
@@ -22,7 +22,7 @@
             <category term="OWASP 10"/>
             <category term="Command Injection"/>
 
-        <updated>2024-02-12T05:12:16+06:00</updated>
+        <updated>2024-02-12T05:16:35+06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" />
@@ -39,10 +39,10 @@
 <h2 id="part-1-understanding-os-command-injection">Part 1: Understanding OS Command Injection</h2>
 </div>
 <div class="cl-preview-section">
-<h3 id="what-is-os-command-injection">What is OS Command Injection?</h3>
+<h3 id="what-is-os-command-injection"><figure class="post__image"><img loading="lazy"  style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal); outline: 3px solid rgba(var(--color-primary-rgb), 0.55) !important;" src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice10.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="597" height="313" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice10-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice10-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice10-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice10-lg.png 1024w"></figure></h3>
+<h3>What is OS Command Injection?</h3>
 </div>
 <div class="cl-preview-section">
-<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice10.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="597" height="313" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice10-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice10-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice10-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice10-lg.png 1024w"></figure>
 <p>OS Command Injection is a type of vulnerability where attackers can execute arbitrary commands on the underlying operating system by manipulating user-supplied input that is passed to system shell commands. This vulnerability arises when web applications incorporate user input directly into command strings without proper validation or sanitization.</p>
 </div>
 <div class="cl-preview-section">
