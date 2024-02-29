@@ -6,7 +6,7 @@
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/about.html</loc>
-<lastmod>2024-02-16T23:12:45+06:00</lastmod>
+<lastmod>2024-02-29T12:48:46+06:00</lastmod>
 <image:image>
 <image:loc>https://sakibulalikhan.pages.dev/media/posts/11/my-about-img.png</image:loc>
 <image:title><![CDATA[Sakibul Ali Khan]]></image:title>
@@ -210,7 +210,7 @@
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/hackviser-basic-command-injection-writeup.html</loc>
-<lastmod>2024-02-22T04:48:27+06:00</lastmod>
+<lastmod>2024-02-29T17:13:47+06:00</lastmod>
 <image:image>
 <image:loc>https://sakibulalikhan.pages.dev/media/posts/24/Hackviser-Basic-Command-Injection-Writeup-2.png</image:loc>
 <image:title><![CDATA[Hackviser - Basic Command Injection Writeup]]></image:title>
@@ -229,6 +229,54 @@
 </image:image>
 </url>
 <url>
+<loc>https://sakibulalikhan.pages.dev/hackviser-command-injection-filter-bypass.html</loc>
+<lastmod>2024-02-29T17:13:36+06:00</lastmod>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/25/Hackviser-Command-Injection-Filter-Bypass.png</image:loc>
+<image:title><![CDATA[Hackviser - Command Injection Filter Bypass]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/25/hackviser_command_injection_filter_bypass.png</image:loc>
+<image:title><![CDATA[Hackviser - Command Injection Filter Bypass]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/25/hackviser_command_injection0.png</image:loc>
+<image:title><![CDATA[Hackviser - Command Injection Filter Bypass]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/25/hackviser_command_injection1.png</image:loc>
+<image:title><![CDATA[Hackviser - Command Injection Filter Bypass]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/25/hackviser_command_injection2.png</image:loc>
+<image:title><![CDATA[Hackviser - Command Injection Filter Bypass]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/25/hackviser_command_injection3-2.png</image:loc>
+<image:title><![CDATA[Hackviser - Command Injection Filter Bypass]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/25/hackviser_command_injection4.png</image:loc>
+<image:title><![CDATA[Hackviser - Command Injection Filter Bypass]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/25/hackviser_command_injection5.png</image:loc>
+<image:title><![CDATA[Hackviser - Command Injection Filter Bypass]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/25/hackviser_command_injection6.png</image:loc>
+<image:title><![CDATA[Hackviser - Command Injection Filter Bypass]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/25/hackviser_command_injection7.png</image:loc>
+<image:title><![CDATA[Hackviser - Command Injection Filter Bypass]]></image:title>
+</image:image>
+<image:image>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/25/hackviser_command_injection8.png</image:loc>
+<image:title><![CDATA[Hackviser - Command Injection Filter Bypass]]></image:title>
+</image:image>
+</url>
+<url>
 <loc>https://sakibulalikhan.pages.dev/how-to-limit-battery-charging-set-a-charge-threshold-for-asus-laptops-on-linux.html</loc>
 <lastmod>2024-01-07T10:34:41+06:00</lastmod>
 <image:image>
@@ -241,6 +289,9 @@
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/page/3/</loc>
+</url>
+<url>
+<loc>https://sakibulalikhan.pages.dev/page/4/</loc>
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/phonebook-htb-web-challenge-writeup.html</loc>

