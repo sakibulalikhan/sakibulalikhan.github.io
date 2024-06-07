@@ -3,12 +3,112 @@
     <title>Offens!ve Blogs - Sakibul Ali Khan</title>
     <link href="https://sakibulalikhan.pages.dev/feed.xml" rel="self" />
     <link href="https://sakibulalikhan.pages.dev" />
-    <updated>2024-04-07T23:35:32+06:00</updated>
+    <updated>2024-06-07T12:50:10+06:00</updated>
     <author>
         <name>Sakibul Ali Khan</name>
     </author>
     <id>https://sakibulalikhan.pages.dev</id>
 
+    <entry>
+        <title>Optimize Battery Health: How to Set Charge Thresholds for ASUS Laptops on Linux Made Easy</title>
+        <author>
+            <name>Sakibul Ali Khan</name>
+        </author>
+        <link href="https://sakibulalikhan.pages.dev/optimize-battery-health-how-to-set-charge-thresholds-for-asus-laptops-on-linux-made-easy.html"/>
+        <id>https://sakibulalikhan.pages.dev/optimize-battery-health-how-to-set-charge-thresholds-for-asus-laptops-on-linux-made-easy.html</id>
+        <media:content url="https://sakibulalikhan.pages.dev/media/posts/30/Optimize-Battery-Health-How-to-Set-Charge-Thresholds-for-ASUS-Laptops-on-Linux-Made-Easy.png" medium="image" />
+            <category term="Linux"/>
+            <category term="Bash Script"/>
+
+        <updated>2024-06-07T12:44:24+06:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://sakibulalikhan.pages.dev/media/posts/30/Optimize-Battery-Health-How-to-Set-Charge-Thresholds-for-ASUS-Laptops-on-Linux-Made-Easy.png" alt="Optimize Battery Health: How to Set Charge Thresholds for ASUS Laptops on Linux Made Easy" />
+                    Asus laptops come with a built-in feature known as Asus Battery Health Charging, which is often integrated into the MyAsus application. This feature enables users&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/30/Optimize-Battery-Health-How-to-Set-Charge-Thresholds-for-ASUS-Laptops-on-Linux-Made-Easy.png" class="type:primaryImage" alt="Optimize Battery Health: How to Set Charge Thresholds for ASUS Laptops on Linux Made Easy" /></p>
+                <p>Asus laptops come with a built-in feature known as Asus Battery Health Charging, which is often integrated into the MyAsus application. This feature enables users to set a charging threshold, typically at 60%, when the laptop is connected to AC power. Maintaining the battery charge at 60% helps mitigate heating issues, enhances performance, and significantly extends the overall lifespan of the laptop battery.</p><p>However, this feature is exclusively available for Windows operating systems, leaving Linux users, including those on Ubuntu, Linux Mint, Elementary OS, Pop OS, Fedora, Arch, and others, without official support. This void can deter users from transitioning to Linux for its performance benefits or other preferences.</p><p>Despite the absence of official support from Asus for Linux-based operating systems, this script provides a practical solution. It enables users to implement battery charging thresholds in Linux environments, ensuring the benefits of battery health charging are accessible across different platforms.</p><p>The script has undergone thorough testing on various Linux distributions, including Ubuntu, Linux Mint, PopOS, Elementary OS, Zorin OS, Fedora, AlmaLinux, Rocky Linux, Arch, Manjaro, and EndoverOS.</p><h2 id="usage">Usage:</h2>
+<p>To use the script, execute the following command in your terminal:</p><pre><code class="language-bash">abh [-t &lt;charge_threshold&gt;] [-r] [-v] [-h]
+</code></pre>
+<pre><code class="language-bash">┏┓      ┳┓            ┓┏    ┓ ┓
+┣┫┏┓┏┏  ┣┫┏┓╋╋┏┓┏┓┓┏  ┣┫┏┓┏┓┃╋┣┓
+┛┗┛┗┻┛  ┻┛┗┻┗┗┗ ┛ ┗┫  ┛┗┗ ┗┻┗┗┛┗
+                   ┛ @sakibulalikhan
+
+Usage: /usr/bin/abh [-t &lt;charge_threshold&gt;] [-r] [-v] [-h]
+Options:
+  -t &lt;charge_threshold&gt;  Set the charge threshold (default: 60)
+  -r                     Remove the charge threshold
+  -v                     Enable verbose mode
+  -h                     Display this help message
+</code></pre>
+<h2 id="options">Options:</h2>
+<ul>
+<li><code>-t &lt;charge_threshold&gt;</code>: Sets the charge threshold (default: 60). This option allows users to specify a custom charge threshold.</li>
+<li><code>-r</code>: Removes the charge threshold. Use this option to disable battery health charging.</li>
+<li><code>-v</code>: Enables verbose mode. This option provides additional output for troubleshooting purposes.</li>
+<li><code>-h</code>: Displays the help message. Use this option to view the script’s usage instructions.</li>
+</ul>
+<h2 id="installation">Installation</h2>
+<pre><code class="language-bash">wget clone https://raw.githubusercontent.com/sakibulalikhan/asus-battery-health/main/abh &amp;&amp; sudo mv abh /usr/bin/ &amp;&amp; sudo chmod +x /usr/bin/abh &amp;&amp; abh
+</code></pre>
+<h2 id="manual-installation">Manual Installation</h2>
+<h6 id="1-clone-this-repository">1. Clone this repository</h6>
+<pre><code class="language-bash">git clone https://github.com/sakibulalikhan/asus-battery-health.git
+</code></pre>
+<h6 id="2-navigate-to-the-cloned-directory">2. Navigate to the cloned directory</h6>
+<pre><code class="language-bash">cd asus-battery-health-script
+</code></pre>
+<h6 id="3-give-execution-permission">3. Give execution permission</h6>
+<pre><code class="language-bash">sudo chmod +x abh
+</code></pre>
+<h6 id="4-run-script">4. Run script</h6>
+<pre><code class="language-Bash">sh abh
+</code></pre>
+<h6 id="or">Or</h6>
+<pre><code class="language-bash">./abh
+</code></pre>
+<h2 id="how-to-use">How to Use:</h2>
+<h6 id="1-execute-the-script-with-default-options">1. Execute the script with default options</h6>
+<pre><code class="language-bash">abh -t # Sets charge threshold default to 60%
+</code></pre>
+<h6 id="2-execute-the-script-with-your-preferred-options">2. Execute the script with your preferred options</h6>
+<pre><code class="language-bash">abh -t 80  # Sets charge threshold to 80%
+</code></pre>
+<h6 id="3-execute-the-script-with-verbose-mode">3. Execute the script with Verbose mode</h6>
+<pre><code class="language-bash">abh -t -v
+</code></pre>
+<h6 id="4-help-command">4. Help command</h6>
+<pre><code class="language-bash">abh -h
+</code></pre>
+<h6 id="5-remove-charge-threshold">5. Remove charge threshold</h6>
+<pre><code class="language-bash">abh -r
+</code></pre>
+<h2 id="check-systemd-status">Check Systemd status</h2>
+<pre><code class="language-bash">➜  ~ systemctl status asus-battery-health.service  # Use this command on terminal.
+
+● asus-battery-health.service - Asus Battery Health Charging
+     Loaded: loaded (/etc/systemd/system/asus-battery-health.service; enabled; preset: disabled)
+     Active: active (running) since Thu 2024-06-06 22:37:32 +06; 13h ago
+   Main PID: 873 (bash)
+      Tasks: 2 (limit: 13918)
+     Memory: 608.0K (peak: 1.0M)
+        CPU: 257ms
+     CGroup: /system.slice/asus-battery-health.service
+             ├─  873 /bin/bash -c &quot;while true; do echo 80 &gt; /sys/class/power_supply/BAT0/charge_control_end_&gt;
+             └─24696 sleep 60
+
+Jun 06 22:37:32 arch systemd[1]: Started Asus Battery Health Charging.
+</code></pre>
+<h2 id="contributing">Contributing:</h2>
+<p>Contributions are welcome! If you have any suggestions, improvements, or bug fixes, please create an issue or submit a pull request.</p><h2 id="license">License:</h2>
+<p>This project is licensed under the <a href="https://github.com/sakibulalikhan/asus-battery-health/blob/main/LICENSE"  class="extlink extlink-icon-5 "  title="sakibulalikhan" >MIT License</a>.</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>denied - A Web Challenge Walkthrough from AmateursCTF 2024</title>
         <author>
@@ -706,7 +806,7 @@ if(isset($_POST['Submit'])) {
 <h3 id="vulnerability-categories">Vulnerability Categories:</h3>
 </div>
 <div class="cl-preview-section">
-<p>In OWASP Juice Shop, vulnerabilities are meticulously categorized into various classes, covering a wide spectrum of risk and vulnerability types identified in well-known lists and documents such as <a href="https://owasp.org/www-project-top-ten/" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" >OWASP Top 10</a>, <a href="https://owasp.org/www-project-application-security-verification-standard/" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" >OWASP ASVS</a>, <a href="https://owasp.org/www-project-automated-threats-to-web-applications/" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" >OWASP Automated Threat Handbook</a>, <a href="https://owasp.org/www-project-api-security/" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" >OWASP API Security Top 10</a>, <a href="https://owasp.org/www-project-top-10-privacy-risks" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" >OWASP Top 10 Privacy Risks</a>, and MITRE’s <a href="https://cwe.mitre.org/" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" >Common Weakness Enumeration (CWE)</a>. This structured approach enables users to target specific areas of interest and gain comprehensive insights into web application security.</p>
+<p>In OWASP Juice Shop, vulnerabilities are meticulously categorized into various classes, covering a wide spectrum of risk and vulnerability types identified in well-known lists and documents such as <a href="https://owasp.org/www-project-top-ten/" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" rel="noopener noreferrer">OWASP Top 10</a>, <a href="https://owasp.org/www-project-application-security-verification-standard/" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" rel="noopener noreferrer">OWASP ASVS</a>, <a href="https://owasp.org/www-project-automated-threats-to-web-applications/" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" rel="noopener noreferrer">OWASP Automated Threat Handbook</a>, <a href="https://owasp.org/www-project-api-security/" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" rel="noopener noreferrer">OWASP API Security Top 10</a>, <a href="https://owasp.org/www-project-top-10-privacy-risks" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" rel="noopener noreferrer">OWASP Top 10 Privacy Risks</a>, and MITRE’s <a href="https://cwe.mitre.org/" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" rel="noopener noreferrer">Common Weakness Enumeration (CWE)</a>. This structured approach enables users to target specific areas of interest and gain comprehensive insights into web application security.</p>
 </div>
 <div class="cl-preview-section">
 <ul>
@@ -1137,7 +1237,7 @@ DB encryption 0</code></pre>
 <figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup6.png" alt="Devvortex - HTB Writeup" width="546" height="200" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup6-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup6-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup6-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup6-lg.png 1024w"></figure>
 <p>Click on 'New File' on the top and create 'rev.php' file. Then click on that file that you can find your left in the website.</p>
 <figure class="post__image"><img decoding="async" loading="lazy"  style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);" src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup8.png" alt="Devvortex - HTB Writeup" width="548" height="288" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup8-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup8-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup8-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup8-lg.png 1024w"></figure>
-<p>Start netcat listener on the host machine <code>nc -lvnp 1337</code>, visit <a href="httpundefined://dev.devvortex.htb/templates/cassiopeia/rev.php&lt;code&gt;&lt;/code&gt;" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" >http://dev.devvortex.htb/templates/cassiopeia/rev.php</a> and wait for the sweet shell.</p>
+<p>Start netcat listener on the host machine <code>nc -lvnp 1337</code>, visit <a href="httpundefined://dev.devvortex.htb/templates/cassiopeia/rev.php&lt;code&gt;&lt;/code&gt;" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" rel="noopener noreferrer">http://dev.devvortex.htb/templates/cassiopeia/rev.php</a> and wait for the sweet shell.</p>
 <figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup9.png" alt="Devvortex - HTB Writeup" width="567" height="177" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup9-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup9-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup9-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup9-lg.png 1024w"></figure>
 <p><span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMmxldCdzJTIwdXBncmFkZSUyMG91ciUyMHNoZWxsJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlMkMlMjJzZWxlY3Rpb25zJTIyJTNBJTVCJTVEJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyWk9TS2pWWlo2WWN2JTIyJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyQ3Q4RmVuQnpmSEdSJTIyJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyYUlJaHlmZEhKczFEJTIyJTdE">Let's upgrade our shell with this command.</span></p>
 <pre class="language-python line-numbers"><code>python3 -c "import pty;pty.spawn('/bin/bash')"</code></pre>
@@ -1239,7 +1339,7 @@ Analyzing '$2y$10$6V52x.SD8Xc7hNlVwUTrI.ax4BIAYuhVBMVvnYWRceBmy8XdEzm1u'
 </div>
 </div>
 <p>Unveiling a privilege escalation vulnerability in apport-cli 2.26.0 and earlier, reminiscent of <a class="af pv" href="https://github.com/advisories/GHSA-8989-8fhv-vq42" rel="noopener ugc nofollow" target="_blank">CVE-2023–26604</a>. For the exploit to succeed, the system must be uniquely configured, allowing unprivileged users to execute sudo apport-cli. With less configured as the pager and adjustable terminal size, a local attacker gains the privilege escalator. While rare, the possibility underscores the importance of prudent sudo configurations. Stay vigilant!</p>
-<p><a href="https://github.com/diego-tella/CVE-2023-1326-PoC" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" >https://github.com/diego-tella/CVE-2023-1326-PoC</a></p>
+<p><a href="https://github.com/diego-tella/CVE-2023-1326-PoC" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" rel="noopener noreferrer">https://github.com/diego-tella/CVE-2023-1326-PoC</a></p>
 <p>Through this vuln, <span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMmVzc2VudGlhbGx5JTIwd2UlMjBoYXZlJTIwdGhlJTIwYWJpbGl0eSUyMHRvJTIwcmVhZCUyMGElMjBjcmFzaCUyMHJlcG9ydCUyMGluJTIwYSUyMHZpJTIwbGlrZSUyMHByb2dyYW0lMkMlMjBmcm9tJTIwaGVyZSUyMHdlJTIwY2FuJTIwZXhlY3V0ZSUyMGJhc2glMjBhbmQlMjBqdW1wJTIwc3RyYWlnaHQlMjBpbnRvJTIwYSUyMHJvb3QlMjBiYXNoJTIwc2hlbGwlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCUyQyUyMnNlbGVjdGlvbnMlMjIlM0ElNUIlNUQlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjI4VDZnR3pSQU5lVTYlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjIzd3dwaWZTMlh2Um4lMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjIwcjlLU1dacFI1ZUIlMjIlN0Q=">essentially we have the ability to read a crash report in a <code>vi</code> like program, from here we can execute bash and jump straight into a root bash shell.</span></p>
 <pre class="language-bash line-numbers"><code>logan@devvortex:~$ sudo /usr/bin/apport-cli -f
 
@@ -1582,214 +1682,6 @@ server2 ansible_host=your_server_ip
 </div>
 <div class="cl-preview-section">
 <p>Stay tuned for more Ansible adventures!</p>
-</div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Unveiling Vulnerabilities with CVEMap: Navigating the Cybersecurity Jungle</title>
-        <author>
-            <name>Sakibul Ali Khan</name>
-        </author>
-        <link href="https://sakibulalikhan.pages.dev/unveiling-vulnerabilities-with-cvemap-navigating-the-cybersecurity-jungle.html"/>
-        <id>https://sakibulalikhan.pages.dev/unveiling-vulnerabilities-with-cvemap-navigating-the-cybersecurity-jungle.html</id>
-        <media:content url="https://sakibulalikhan.pages.dev/media/posts/17/Unveiling-Vulnerabilities-with-CVEMap-Navigating-the-Cybersecurity-Jungle.png" medium="image" />
-            <category term="Hacking Tools"/>
-            <category term="Cloud Security"/>
-            <category term="CVE"/>
-
-        <updated>2024-02-02T05:07:38+06:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://sakibulalikhan.pages.dev/media/posts/17/Unveiling-Vulnerabilities-with-CVEMap-Navigating-the-Cybersecurity-Jungle.png" alt="Unveiling Vulnerabilities with CVEMap: Navigating the Cybersecurity Jungle" />
-                    In the ever-evolving world of cybersecurity, the rise in reported Common Vulnerabilities and Exposures (CVEs) poses a significant challenge for security professionals. The sheer volume&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/17/Unveiling-Vulnerabilities-with-CVEMap-Navigating-the-Cybersecurity-Jungle.png" class="type:primaryImage" alt="Unveiling Vulnerabilities with CVEMap: Navigating the Cybersecurity Jungle" /></p>
-                <div class="cl-preview-section">
-<p>In the ever-evolving world of cybersecurity, the rise in reported Common Vulnerabilities and Exposures (CVEs) poses a significant challenge for security professionals. The sheer volume and occasionally exaggerated severity of these vulnerabilities can create a “noise” that distracts from critical security efforts. Enter CVEMap, a powerful and user-friendly tool designed by ProjectDiscovery to simplify the exploration of CVEs and enhance cybersecurity decision-making.</p>
-</div>
-<div class="cl-preview-section">
-<h2 id="understanding-cvemap">Understanding CVEMap</h2>
-</div>
-<div class="cl-preview-section">
-<p>CVEMap is a command-line interface (CLI) tool developed to provide a structured and easily navigable way to explore CVEs. It addresses the challenges posed by the overwhelming number of vulnerabilities by consolidating data from various public sources, including the National Vulnerability Database (NVD), CISA’s Known Exploited Vulnerabilities Catalog (KEV), HackerOne’s CVE Discovery, and more.</p>
-</div>
-<div class="cl-preview-section"> </div>
-<div class="cl-preview-section">
-<div class="cl-preview-section">
-<h2 id="why-cvemap-matters-for-cybersecurity-professionals">Why CVEMap Matters for Cybersecurity Professionals</h2>
-</div>
-<div class="cl-preview-section">
-<h3 id="multidimensional-prioritization">1. Multidimensional Prioritization</h3>
-</div>
-<div class="cl-preview-section">
-<p>CVEMap transcends traditional vulnerability scoring systems. It adopts a multidimensional perspective, weighing factors like exploitability, critical due dates, and probabilistic assessments. This holistic approach ensures a comprehensive analysis, facilitating the effective prioritization of vulnerabilities.</p>
-</div>
-<div class="cl-preview-section">
-<h3 id="diverse-data-sources">2. Diverse Data Sources</h3>
-</div>
-<div class="cl-preview-section">
-<p>Harnessing the power of sources such as KEV (Known Exploited Vulnerabilities), EPSS (Exploit Prediction Scoring System), Proofs of Concept (POCs), and HackerOne CVE Discovery, CVEMap paints a vivid picture of the threat landscape. By considering actively exploited vulnerabilities, exploit prediction scores, and bug bounty reports, it provides cybersecurity professionals with a nuanced understanding of potential threats.</p>
-</div>
-<div class="cl-preview-section">
-<h3 id="user-friendly-interface">3. User-Friendly Interface</h3>
-</div>
-<div class="cl-preview-section">
-<p>CVEMap is purpose-built for practitioners and security engineers who prioritize genuine security measures over compliance checkboxes. Its structured format and customizable filters make it accessible for professionals at all levels. Navigating the tool is intuitive, enhancing the user experience for those deeply entrenched in the field.</p>
-</div>
-</div>
-<div class="cl-preview-section">
-<h2 id="key-features-of-cvemap">Key Features of CVEMap</h2>
-</div>
-<div class="cl-preview-section">
-<ol>
-<li>
-<p><strong>Mapping Capabilities:</strong><br>CVE to EPSS, KEV, CPE, GitHub POCs, Nuclei Template, and HackerOne report mapping functionalities enhance the understanding of vulnerabilities.</p>
-</li>
-<li>
-<p><strong>Customizable Filters:</strong><br>Users can tailor their queries based on various criteria such as vendor, product, severity, and more, allowing for personalized and targeted exploration.</p>
-</li>
-<li>
-<p><strong>User-Friendly Output:</strong><br>The tool supports JSON output and provides a clean, structured output format. It enables users to choose the fields they want to display and exclude, making the information easily digestible.</p>
-</li>
-</ol>
-</div>
-<div class="cl-preview-section">
-<h2 id="getting-started-with-cvemap">Getting Started with CVEMap</h2>
-</div>
-<div class="cl-preview-section">
-<h3 id="installation">Installation:</h3>
-</div>
-<div class="cl-preview-section">
-<p>Installing CVEMap is straightforward. With Go 1.21 or later, users can run a simple command or download pre-compiled binaries from the release page.</p>
-</div>
-<div class="cl-preview-section">
-<pre class="language-bash line-numbers"><code>go install github.com/projectdiscovery/cvemap/cmd/cvemap@latest
-</code></pre>
-</div>
-<div class="cl-preview-section">
-<h3 id="configuration">Configuration:</h3>
-</div>
-<div class="cl-preview-section">
-<p>To use CVEMap, users need a ProjectDiscovery Cloud Platform (PDCP) account and API key. Configuration is simple and can be done using environment variables or an interactive authentication option.</p>
-</div>
-<div class="cl-preview-section">
-<pre class="language-bash line-numbers"><code>cvemap -auth
-</code></pre>
-</div>
-<div class="cl-preview-section">
-<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/17/cvemap-auth.png" alt="cvemap -auth" width="547" height="187" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-auth-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-auth-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-auth-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-auth-lg.png 1024w"></figure>
-<h3 id="running-cvemap">Running CVEMap:</h3>
-</div>
-<div class="cl-preview-section">
-<p>The tool provides various options for searching and filtering CVE data. Users can explore known exploited vulnerabilities, filter by severity, vendor, or product, and even display results in JSON format.</p>
-</div>
-<div class="cl-preview-section">
-<pre class="language-bash line-numbers"><code>cvemap --limit 10
-</code></pre>
-</div>
-<div class="cl-preview-section">
-<div class="cl-preview-section">
-<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/17/cvemap-limit-10-2.png" alt="cvemap --limit 10" width="492" height="271" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-limit-10-2-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-limit-10-2-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-limit-10-2-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-limit-10-2-lg.png 1024w"></figure>
-<h2 id="usage-examples">Usage Examples</h2>
-</div>
-<div class="cl-preview-section">
-<h3 id="basic-usage">Basic Usage</h3>
-</div>
-<div class="cl-preview-section">
-<p>To get acquainted with CVEMap, run the following command to display the tool’s help information:</p>
-</div>
-<div class="cl-preview-section">
-<pre class="language-bash line-numbers"><code>cvemap -h
-
-Navigate the CVE jungle with ease.
-
-Usage:
-  cvemap [flags]
-
-Flags:
-CONFIG:
-   -auth  configure projectdiscovery cloud (pdcp) api key
-
-OPTIONS:
-   -id string[]                    cve to list for given id
-   -cwe, -cwe-id string[]          cve to list for given cwe id
-   -v, -vendor string[]            cve to list for given vendor
-   -p, -product string[]           cve to list for given product
-   -eproduct string[]              cves to exclude based on products
-   -s, -severity string[]          cve to list for given severity
-   -cs, -cvss-score string[]       cve to list for given cvss score
-   -c, -cpe string                 cve to list for given cpe
-   -es, -epss-score string         cve to list for given epss score
-   -ep, -epss-percentile string[]  cve to list for given epss percentile
-   -age string                     cve to list published by given age in days
-   -a, -assignee string[]          cve to list for given publisher assignee
-   -vs, -vstatus value             cve to list for given vulnerability status in cli output. supported: modified, rejected, unknown, new, confirmed, unconfirmed
-
-UPDATE:
-   -up, -update                 update cvemap to latest version
-   -duc, -disable-update-check  disable automatic cvemap update check
-
-FILTER:
-   -q, -search string  search in cve data
-   -k, -kev            display cves marked as exploitable vulnerabilities by cisa (default true)
-   -t, -template       display cves that has public nuclei templates (default true)
-   -poc                display cves that has public published poc (default true)
-   -h1, -hackerone     display cves reported on hackerone (default true)
-   -re, -remote        display remotely exploitable cves (AV:N &amp; PR:N | PR:L) (default true)
-
-OUTPUT:
-   -f, -field value         fields to display in cli output. supported: product, vendor, vstatus, age, kev, template, poc, epss, cwe, assignee, 
-   -fe, -exclude value      fields to exclude from cli output. supported: product, vendor, vstatus, age, kev, template, poc, epss, cwe, assignee, 
-   -lsi, -list-id           list only the cve ids in the output
-   -l, -limit int           limit the number of results to display (default 50)
-   -offset int              offset the results to display
-   -j, -json                return output in json format
-   -epk, -enable-page-keys  enable page keys to navigate results
-
-DEBUG:
-   -version  Version
-   -silent   Silent
-   -verbose  Verbose
-   -debug    Debug</code></pre>
-</div>
-<div class="cl-preview-section">
-<p>This command provides an overview of all available switches and options.</p>
-</div>
-<div class="cl-preview-section">
-<h3 id="example-finding-application-cves">Example: Finding Application CVEs</h3>
-</div>
-<div class="cl-preview-section">
-<p>Imagine you’re responsible for the security of a web application, and you want to quickly identify any known vulnerabilities that might affect its components. Let’s use CVEMap to find CVEs associated with the popular web server software, Apache HTTP Server:</p>
-</div>
-<div class="cl-preview-section">
-<pre class="language-bash line-numbers"><code>cvemap -product apache -l 5
-</code></pre>
-</div>
-<div class="cl-preview-section">
-<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/17/cvemap-product-apache-l-5-2.png" alt="cvemap -product apache -l 5" width="587" height="235" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-product-apache-l-5-2-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-product-apache-l-5-2-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-product-apache-l-5-2-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-product-apache-l-5-2-lg.png 1024w"></figure>
-<p>To extract more detailed information about the identified CVEs, customize the output to display crucial information:</p>
-</div>
-<div class="cl-preview-section">
-<pre class="language-bash line-numbers"><code>cvemap -product wordpress -field epss, product, severity, kev, age -l 5</code></pre>
-</div>
-<div class="cl-preview-section">
-<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/17/cvemap-product-wordpress-field-epss-product-severity-kev-age-l-5.png" alt="cvemap -product wordpress -field epss, product, severity, kev, age -l 5" width="504" height="300" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-product-wordpress-field-epss-product-severity-kev-age-l-5-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-product-wordpress-field-epss-product-severity-kev-age-l-5-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-product-wordpress-field-epss-product-severity-kev-age-l-5-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/17/responsive/cvemap-product-wordpress-field-epss-product-severity-kev-age-l-5-lg.png 1024w"></figure>
-<p>This example showcases the versatility of CVEMap in uncovering vulnerabilities specific to widely used web server software.</p>
-</div>
-<h2 id="conclusion">Conclusion</h2>
-</div>
-<div class="cl-preview-section">
-<p>CVEMap from ProjectDiscovery is a game-changer in the cybersecurity space. For professionals, it offers advanced capabilities for prioritizing and understanding vulnerabilities, while its user-friendly interface makes it accessible for individuals looking to gain insights into the world of cybersecurity. Whether you’re a seasoned cybersecurity expert or someone curious about online threats, CVEMap provides a valuable tool for navigating the complex landscape of CVEs.</p>
-</div>
-<div class="cl-preview-section">
-<p>For more information and to get started, visit the <a href="https://github.com/projectdiscovery/cvemap"  class="extlink extlink-icon-5 "  title="sakibulalikhan" >CVEMap GitHub repository</a> and explore the official <a href="https://docs.projectdiscovery.io/tools/cvemap/"  class="extlink extlink-icon-5 "  title="sakibulalikhan" >documentation</a>.</p>
-</div>
-<div class="cl-preview-section">
-<p>Remember, in the face of growing cyber threats, knowledge is the best defense. CVEMap empowers you to stay informed and take proactive measures in the ever-changing cybersecurity landscape. Stay secure, stay vigilant!</p>
 </div>
             ]]>
         </content>
