@@ -3,7 +3,7 @@
     <title>Offens!ve Blogs - Sakibul Ali Khan</title>
     <link href="https://sakibulalikhan.pages.dev/feed.xml" rel="self" />
     <link href="https://sakibulalikhan.pages.dev" />
-    <updated>2024-11-28T19:29:47+06:00</updated>
+    <updated>2024-11-29T22:31:47+06:00</updated>
     <author>
         <name>Sakibul Ali Khan</name>
     </author>
@@ -302,34 +302,34 @@ Options:
   -v                     Enable verbose mode
   -h                     Display this help message
 </code></pre>
-<h2 id="options">Options</h2>
-<p><strong>⚡ <code>-t &lt;charge_threshold&gt;</code></strong>: Sets the charge threshold (default: 60%). This option allows users to specify a custom charge threshold.</p><p>*<strong>�️ <code>-r</code></strong>: Removes the charge threshold. Use this option to disable battery health charging.</p><p>*<strong>� <code>-v</code></strong>: Enables verbose mode. This option provides additional output for troubleshooting.</p><p><strong>❓ <code>-h</code></strong>: Displays the help message. Use this option to view usage instructions.</p><h2 id="installation">Installation</h2>
+<h2 id="❓options">❓Options</h2>
+<p><strong><code>-t &lt;charge_threshold&gt;</code></strong>: Sets the charge threshold (default: 60%). This option allows users to specify a custom charge threshold.</p><p><strong><code>-r</code></strong>: Removes the charge threshold. Use this option to disable battery health charging.</p><p><strong><code>-v</code></strong>: Enables verbose mode. This option provides additional output for troubleshooting.</p><p>** <code>-h</code>**: Displays the help message. Use this option to view usage instructions.</p><h2 id="installation">Installation</h2>
 <p>You can install the script easily by running the following commands:</p><pre><code class="language-bash">wget https://raw.githubusercontent.com/sakibulalikhan/asus-battery-health/main/abh &amp;&amp; sudo mv abh /usr/bin/ &amp;&amp; sudo chmod +x /usr/bin/abh &amp;&amp; abh
 </code></pre>
 <h3 id="manual-installation">Manual Installation</h3>
-<p>*<strong>� Clone the repository</strong>:</p><pre><code class="language-bash">git clone https://github.com/sakibulalikhan/asus-battery-health.git
+<p><strong>Clone the repository</strong>:</p><pre><code class="language-bash">git clone https://github.com/sakibulalikhan/asus-battery-health.git
 </code></pre>
-<p>*<strong>�️ Navigate to the cloned directory</strong>:</p><pre><code class="language-bash">cd asus-battery-health-script
+<p><strong>Navigate to the cloned directory</strong>:</p><pre><code class="language-bash">cd asus-battery-health-script
 </code></pre>
-<p>*<strong>� Give execution permission to the script</strong>:</p><pre><code class="language-bash">sudo chmod +x abh
+<p><strong>Give execution permission to the script</strong>:</p><pre><code class="language-bash">sudo chmod +x abh
 </code></pre>
-<p>*<strong>� Run the script</strong>:</p><pre><code class="language-bash">sh abh
+<p><strong>Run the script</strong>:</p><pre><code class="language-bash">sh abh
 </code></pre>
-<p>Or</p><pre><code class="language-bash">./abh
+<p><em>Or</em></p><pre><code class="language-bash">./abh
 </code></pre>
-<h2 id="how-to-use">How to Use</h2>
-<p><strong>⚡ Set the charge threshold to 60% (default)</strong></p><pre><code class="language-bash">abh -t  # Sets the charge threshold to 60%
+<h2 id="⚡-how-to-use">⚡ How to Use</h2>
+<p><strong>Set the charge threshold to 60% (default)</strong></p><pre><code class="language-bash">abh -t  # Sets the charge threshold to 60%
 </code></pre>
-<p>*<strong>� Set the charge threshold to a custom value (e.g., 80%)</strong></p><pre><code class="language-bash">abh -t 80  # Sets the charge threshold to 80%
+<p><strong>Set the charge threshold to a custom value (e.g., 80%)</strong></p><pre><code class="language-bash">abh -t 80  # Sets the charge threshold to 80%
 </code></pre>
-<p>*<strong>� Run the script in verbose mode</strong></p><pre><code class="language-bash">abh -t 80 -v  # Sets the charge threshold to 80% and enables verbose mode
+<p><strong>Run the script in verbose mode</strong></p><pre><code class="language-bash">abh -t 80 -v  # Sets the charge threshold to 80% and enables verbose mode
 </code></pre>
-<p><strong>❓ View help message</strong></p><pre><code class="language-bash">abh -h  # Displays help information
+<p><strong>View help message</strong></p><pre><code class="language-bash">abh -h  # Displays help information
 </code></pre>
-<p>*<strong>�️ Remove the charge threshold</strong></p><pre><code class="language-bash">abh -r  # Removes the charge threshold
+<p><strong>Remove the charge threshold</strong></p><pre><code class="language-bash">abh -r  # Removes the charge threshold
 </code></pre>
 <h2 id="contributing">Contributing</h2>
-<p>*<strong>� Contributions are welcome!</strong> If you have any suggestions, improvements, or bug fixes, feel free to create an issue or submit a pull request.</p><h2 id="license">License</h2>
+<p><strong>Contributions are welcome!</strong> If you have any suggestions, improvements, or bug fixes, feel free to create an issue or submit a pull request.</p><h2 id="license">License</h2>
 <p>This project is licensed under the <a href="https://github.com/sakibulalikhan/asus-battery-health/blob/main/LICENSE"  class="extlink extlink-icon-5 "  title="sakibulalikhan" >MIT License</a>.</p><h4 id="follow-me-on-twitter-sakibulalikhan">Follow me on Twitter: <a href="https://twitter.com/sakibulalikhan"  class="extlink extlink-icon-5 "  title="sakibulalikhan" >@sakibulalikhan</a></h4>
 <h2 id="support-me">Support Me:</h2>
 <p><a href="https://www.buymeacoffee.com/sakibulalikhan" target="_blank"  title="sakibulalikhan" ><img decoding="async" loading="lazy" src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;"  data-is-external-image="true"></a></p>
