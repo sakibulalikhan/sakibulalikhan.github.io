@@ -3,7 +3,7 @@
     <title>Offens!ve Blogs - Sakibul Ali Khan</title>
     <link href="https://sakibulalikhan.pages.dev/feed.xml" rel="self" />
     <link href="https://sakibulalikhan.pages.dev" />
-    <updated>2024-11-29T22:31:47+06:00</updated>
+    <updated>2024-11-30T00:08:58+06:00</updated>
     <author>
         <name>Sakibul Ali Khan</name>
     </author>
@@ -303,7 +303,7 @@ Options:
   -h                     Display this help message
 </code></pre>
 <h2 id="❓options">❓Options</h2>
-<p><strong><code>-t &lt;charge_threshold&gt;</code></strong>: Sets the charge threshold (default: 60%). This option allows users to specify a custom charge threshold.</p><p><strong><code>-r</code></strong>: Removes the charge threshold. Use this option to disable battery health charging.</p><p><strong><code>-v</code></strong>: Enables verbose mode. This option provides additional output for troubleshooting.</p><p>** <code>-h</code>**: Displays the help message. Use this option to view usage instructions.</p><h2 id="installation">Installation</h2>
+<p><strong><code>-t &lt;charge_threshold&gt;</code></strong>: Sets the charge threshold (default: 60%). This option allows users to specify a custom charge threshold.</p><p><strong><code>-r</code></strong>: Removes the charge threshold. Use this option to disable battery health charging.</p><p><strong><code>-v</code></strong>: Enables verbose mode. This option provides additional output for troubleshooting.</p><p><strong><code>-h</code></strong>: Displays the help message. Use this option to view usage instructions.</p><h2 id="installation">Installation</h2>
 <p>You can install the script easily by running the following commands:</p><pre><code class="language-bash">wget https://raw.githubusercontent.com/sakibulalikhan/asus-battery-health/main/abh &amp;&amp; sudo mv abh /usr/bin/ &amp;&amp; sudo chmod +x /usr/bin/abh &amp;&amp; abh
 </code></pre>
 <h3 id="manual-installation">Manual Installation</h3>
