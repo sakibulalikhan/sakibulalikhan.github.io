@@ -6,11 +6,7 @@
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/about.html</loc>
-<lastmod>2024-06-06T10:49:23+06:00</lastmod>
-<image:image>
-<image:loc>https://sakibulalikhan.pages.dev/media/posts/11/my-about-img.png</image:loc>
-<image:title><![CDATA[Sakibul Ali Khan]]></image:title>
-</image:image>
+<lastmod>2024-11-28T18:34:40+06:00</lastmod>
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/ansible-zero-to-hero-for-hackers-a-practical-guide-for-cybersecurity-enthusiasts.html</loc>
@@ -54,7 +50,7 @@
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/contact.html</loc>
-<lastmod>2024-02-19T02:30:55+06:00</lastmod>
+<lastmod>2024-08-18T02:21:14+06:00</lastmod>
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/cybersecurity-playground-installing-owasp-juice-shop-on-ubuntu-with-docker-a-step-by-step-guide.html</loc>
@@ -242,9 +238,9 @@
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/file-upload-bypass-understanding-and-mitigating-risks-in-web-applications.html</loc>
-<lastmod>2024-08-10T14:46:53+06:00</lastmod>
+<lastmod>2024-08-18T01:52:18+06:00</lastmod>
 <image:image>
-<image:loc>https://sakibulalikhan.pages.dev/media/posts/31/File-Upload-Bypass-Understanding-and-Mitigating-Risks-in-Web-Applications-3.png</image:loc>
+<image:loc>https://sakibulalikhan.pages.dev/media/posts/31/File-Upload-Bypass-Understanding-and-Mitigating-Risks-in-Web-Applications-3-md.png</image:loc>
 <image:title><![CDATA[File Upload Bypass: Understanding and Mitigating Risks in Web Applications]]></image:title>
 </image:image>
 </url>
@@ -334,7 +330,7 @@
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/optimize-battery-health-how-to-set-charge-thresholds-for-asus-laptops-on-linux-made-easy.html</loc>
-<lastmod>2024-08-10T03:47:11+06:00</lastmod>
+<lastmod>2024-11-28T19:29:47+06:00</lastmod>
 <image:image>
 <image:loc>https://sakibulalikhan.pages.dev/media/posts/30/Optimize-Battery-Health-How-to-Set-Charge-Thresholds-for-ASUS-Laptops-on-Linux-Made-Easy.png</image:loc>
 <image:title><![CDATA[Optimize Battery Health: How to Set Charge Thresholds for ASUS Laptops on Linux Made Easy]]></image:title>
@@ -348,6 +344,9 @@
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/page/4/</loc>
+</url>
+<url>
+<loc>https://sakibulalikhan.pages.dev/page/5/</loc>
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/phonebook-htb-web-challenge-writeup.html</loc>
@@ -375,7 +374,7 @@
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/thank-you.html</loc>
-<lastmod>2024-01-29T14:25:01+06:00</lastmod>
+<lastmod>2024-08-18T02:18:36+06:00</lastmod>
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/the-dirty-pipe-vulnerability-on-linux.html</loc>
