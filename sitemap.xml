@@ -26,7 +26,7 @@
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/backdoorctf-2023-mini_rsa-challenge-writeup.html</loc>
-<lastmod>2024-11-30T01:00:05+06:00</lastmod>
+<lastmod>2024-12-01T00:23:20+06:00</lastmod>
 <image:image>
 <image:loc>https://sakibulalikhan.pages.dev/media/posts/10/BackdoorCTF-2023-mini_RSA-Challenge-Writeup.png</image:loc>
 <image:title><![CDATA[BackdoorCTF 2023 — mini_RSA Challenge Writeup]]></image:title>
@@ -34,7 +34,7 @@
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/bugged-tryhackme-ctf-writeup.html</loc>
-<lastmod>2024-11-30T00:46:56+06:00</lastmod>
+<lastmod>2024-11-30T23:48:41+06:00</lastmod>
 <image:image>
 <image:loc>https://sakibulalikhan.pages.dev/media/posts/5/Bugged-Tryhackme-CTF-Writeup.jpg</image:loc>
 <image:title><![CDATA[Bugged Tryhackme CTF Writeup]]></image:title>
@@ -42,7 +42,7 @@
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/capture-tryhackme-writeup.html</loc>
-<lastmod>2024-11-30T00:58:44+06:00</lastmod>
+<lastmod>2024-12-01T00:22:53+06:00</lastmod>
 <image:image>
 <image:loc>https://sakibulalikhan.pages.dev/media/posts/9/Capture-TryHackMe-Writeup-2.png</image:loc>
 <image:title><![CDATA[Capture TryHackMe Writeup]]></image:title>
@@ -51,6 +51,10 @@
 <url>
 <loc>https://sakibulalikhan.pages.dev/contact.html</loc>
 <lastmod>2024-08-18T02:21:14+06:00</lastmod>
+</url>
+<url>
+<loc>https://sakibulalikhan.pages.dev/cookie-policy.html</loc>
+<lastmod>2024-11-30T18:07:13+06:00</lastmod>
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/cybersecurity-playground-installing-owasp-juice-shop-on-ubuntu-with-docker-a-step-by-step-guide.html</loc>
@@ -322,7 +326,7 @@
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/how-to-limit-battery-charging-set-a-charge-threshold-for-asus-laptops-on-linux.html</loc>
-<lastmod>2024-11-30T00:36:33+06:00</lastmod>
+<lastmod>2024-11-30T23:45:44+06:00</lastmod>
 <image:image>
 <image:loc>https://sakibulalikhan.pages.dev/media/posts/3/Charge-Threshold-lg.jpg</image:loc>
 <image:title><![CDATA[How To Limit Battery Charging (Set A Charge Threshold) For ASUS Laptops On Linux]]></image:title>
@@ -355,15 +359,19 @@
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/phonebook-htb-web-challenge-writeup.html</loc>
-<lastmod>2024-11-30T00:56:14+06:00</lastmod>
+<lastmod>2024-11-30T23:49:03+06:00</lastmod>
 <image:image>
 <image:loc>https://sakibulalikhan.pages.dev/media/posts/8/Phonebook-HTB-Web-Challenge-Writeup1.png</image:loc>
 <image:title><![CDATA[Phonebook — HTB Web Challenge Writeup]]></image:title>
 </image:image>
 </url>
 <url>
+<loc>https://sakibulalikhan.pages.dev/privacy-policy.html</loc>
+<lastmod>2024-11-30T18:18:35+06:00</lastmod>
+</url>
+<url>
 <loc>https://sakibulalikhan.pages.dev/takeover-tryhackme-writeup.html</loc>
-<lastmod>2024-11-30T00:49:42+06:00</lastmod>
+<lastmod>2024-11-30T23:48:34+06:00</lastmod>
 <image:image>
 <image:loc>https://sakibulalikhan.pages.dev/media/posts/6/TakeOver-TryHackMe-Writeup.jpg</image:loc>
 <image:title><![CDATA[TakeOver TryHackMe Writeup]]></image:title>
@@ -371,7 +379,7 @@
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/templated-htb-web-challenge-writeup.html</loc>
-<lastmod>2024-11-30T00:55:06+06:00</lastmod>
+<lastmod>2024-11-30T23:48:12+06:00</lastmod>
 <image:image>
 <image:loc>https://sakibulalikhan.pages.dev/media/posts/7/Templated-lg.jpg</image:loc>
 <image:title><![CDATA[Templated — HTB Web Challenge Writeup]]></image:title>
@@ -383,7 +391,7 @@
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/the-dirty-pipe-vulnerability-on-linux.html</loc>
-<lastmod>2024-11-30T00:26:10+06:00</lastmod>
+<lastmod>2024-11-30T23:45:17+06:00</lastmod>
 <image:image>
 <image:loc>https://sakibulalikhan.pages.dev/media/posts/2/The-Dirty-Pipe-lg.jpg</image:loc>
 <image:title><![CDATA[The Dirty Pipe Vulnerability On Linux]]></image:title>
@@ -391,7 +399,7 @@
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/tryhackme-or-md2pdf-or-ctf-writeup.html</loc>
-<lastmod>2024-11-30T00:40:06+06:00</lastmod>
+<lastmod>2024-11-30T23:46:12+06:00</lastmod>
 <image:image>
 <image:loc>https://sakibulalikhan.pages.dev/media/posts/4/TryHackMe-MD2PDF.jpg</image:loc>
 <image:title><![CDATA[]]></image:title>
@@ -399,7 +407,7 @@
 </url>
 <url>
 <loc>https://sakibulalikhan.pages.dev/tryhackme-writeup-vulnnet-internal.html</loc>
-<lastmod>2024-11-30T00:33:42+06:00</lastmod>
+<lastmod>2024-11-30T23:44:46+06:00</lastmod>
 <image:image>
 <image:loc>https://sakibulalikhan.pages.dev/media/posts/1/maxresdefault-4012345193.jpg</image:loc>
 <image:title><![CDATA[TryHackMe Writeup — VulnNet Internal]]></image:title>
